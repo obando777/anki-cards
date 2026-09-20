@@ -79,6 +79,12 @@ corrige el YAML:
 - `geo-afrocolombianos-pct` — afrocolombianos 6,7 % ≈ 3 millones
 - `geo-rom-gitanos` — Rom/gitanos ≈ 2.000 personas
 
+## Lo que falta
+
+`LAGUNAS.md` lista las 22 lagunas abiertas del material. La más importante: lo
+escaneado es una guía-resumen de 19 páginas sobre una cartilla de ~145 páginas a
+la que remite 38 veces. Escanear esa cartilla cierra 16 de las 22.
+
 ## Regla que no debes romper
 
 El `id` de cada tarjeta y el `deck_id` de cada mazo son permanentes. Corrige
