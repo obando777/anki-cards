@@ -118,6 +118,26 @@ def deletions(text: str) -> list[str]:
     return [m.group(1) for m in CLOZE.finditer(str(text or ""))]
 
 
+def answer(text: str) -> str:
+    """Solo lo que las delaciones ocultan, encadenado en una frase.
+
+    El clip de respuesta ya no repite el enunciado: ese lo lleva el campo Text y
+    vuelve a sonar al revelar, así que aquí basta con lo que faltaba. Se obtiene
+    "Caribe, Andina, Pacífica, Orinoquía y Amazónica" en vez de la frase entera.
+    """
+    partes = [p.strip() for p in deletions(text) if p and p.strip()]
+    if not partes:
+        return ""
+    vistos, unicas = set(), []
+    for p in partes:                       # las listas repiten "región X, región Y"
+        if p.lower() not in vistos:
+            vistos.add(p.lower())
+            unicas.append(p)
+    if len(unicas) == 1:
+        return unicas[0] + "."
+    return ", ".join(unicas[:-1]) + " y " + unicas[-1] + "."
+
+
 def cloze_numbers(text: str) -> set[str]:
     """Números de deleción distintos presentes en el texto."""
     return set(re.findall(r"\{\{c(\d+)::", str(text or "")))
@@ -217,9 +237,12 @@ def _compress(src: Path, dest: Path) -> None:
 def sides_for_card(card) -> dict[str, str]:
     """Qué texto se lee en cada cara, según el modelo de la tarjeta.
 
-    - `text`     -> frase completa resuelta; va al campo Extra (solo `afmt`).
-    - `question` -> enunciado hasta el primer hueco; va a QAudio (solo `qfmt`).
-      Solo se genera si la nota tiene un único cN, es decir, una sola tarjeta.
+    - `text`     -> solo lo que ocultan las delaciones; va a Extra (solo `afmt`).
+    - `question` -> enunciado hasta el primer hueco; va a Text, que se renderiza
+      en ambas caras. No revela nada, así que puede sonar al preguntar, y al
+      revelar encadena con el clip de respuesta. Solo se genera si la nota tiene
+      un único cN; con varios, cada tarjeta esconde un hueco distinto y un clip
+      único no podría servir para todas.
     """
     if card.model != "cloze":
         return {
@@ -228,15 +251,19 @@ def sides_for_card(card) -> dict[str, str]:
         }
 
     texto = card.fields.get("text", "")
-    lados = {"text": texto}
-    # El clip de pregunta solo tiene sentido si la nota genera UNA tarjeta. Con
-    # varios cN, cada tarjeta esconde un hueco distinto y un único campo QAudio
-    # sonaría igual en todas, sin poder marcar el hueco correcto de cada una.
-    if len(cloze_numbers(texto)) <= 1:
-        enunciado = stem(texto)
-        if enunciado:
-            lados["question"] = enunciado
-    return lados
+
+    # El clip de pregunta solo sirve si la nota genera UNA tarjeta. Con varios
+    # cN cada tarjeta esconde un hueco distinto y un clip único no podría
+    # marcar el correcto en todas.
+    enunciado = stem(texto) if len(cloze_numbers(texto)) <= 1 else ""
+
+    if enunciado:
+        # Hay enunciado hablado: la respuesta solo necesita decir lo que faltaba,
+        # y al revelar se oye enunciado + respuesta encadenados.
+        return {"question": enunciado, "text": answer(texto) or texto}
+
+    # Sin enunciado hablado, la respuesta tiene que valerse sola: frase completa.
+    return {"text": texto}
 
 
 def audio_for_deck(

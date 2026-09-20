@@ -86,14 +86,19 @@ BASIC_REVERSED = genanki.Model(
 CLOZE = genanki.Model(
     1727384503,
     "anki-cards Cloze",
-    # QAudio existe para que el audio de la pregunta NO viaje en Text: cualquier
-    # cosa puesta en Text se renderiza también al preguntar, y un [sound:] ahí
-    # reproduce la frase resuelta, es decir, canta la respuesta.
-    fields=[{"name": "Text"}, {"name": "Extra"}, {"name": "QAudio"}],
+    # Dos campos, no tres: añadir uno rompe la importación de las notas cloze que
+    # ya existan en la colección, porque Anki rechaza las notas cuyo tipo no
+    # coincide con el que tiene registrado bajo ese mismo id.
+    #
+    # El audio se reparte aprovechando que Text se renderiza en ambas caras y
+    # Extra solo en la respuesta: Text lleva el clip del ENUNCIADO (nunca la
+    # respuesta, así que puede sonar al preguntar) y Extra el de lo OCULTO. Al
+    # revelar se encadenan enunciado + respuesta, como lo diría un examinador.
+    fields=[{"name": "Text"}, {"name": "Extra"}],
     templates=[
         {
             "name": "Cloze",
-            "qfmt": "{{cloze:Text}}{{QAudio}}",
+            "qfmt": "{{cloze:Text}}",
             "afmt": '{{cloze:Text}}<div class="notes">{{Extra}}</div>',
         },
     ],

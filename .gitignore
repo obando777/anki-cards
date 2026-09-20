@@ -32,3 +32,5 @@ venv/
 .idea/
 .vscode/
 mytasks/
+# Capturas y scratch temporal
+.tmp/

@@ -79,10 +79,14 @@ Set `ANKI_DECKS_DROP_DIR` in `.env` and every successful build also copies the
 `.apkg` files there — a Drive-synced folder, say — written atomically so a cloud
 sync never picks up a half-written file. `--no-drop` skips it.
 
-The cloze notetype carries three fields rather than two: audio in `Text` would
-render on the question side and speak the resolved sentence, so the question clip
-lives in `QAudio` (referenced only by `qfmt`) and the answer clip in `Extra`
-(only by `afmt`).
+Cloze audio splits across the two existing fields: `Text` renders on both sides
+so it carries only the stem clip, which reveals nothing, and `Extra` renders only
+on the answer so it carries a clip of what the deletions hid. On reveal the two
+play back to back and you hear the whole sentence.
+
+Do not add a field to a notetype that already exists in a collection — Anki
+rejects those notes on import ("47 notes could not be imported"). The notetype
+schemas are as fixed as their IDs.
 
 OpenAI's voices are fixed identities — the name does not select an accent. What
 does steer it is the `instructions` parameter on `gpt-4o-mini-tts`, so

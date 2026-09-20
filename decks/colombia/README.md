@@ -154,23 +154,32 @@ profesora. Está en `DEFAULT_INSTRUCTIONS` (`ankicards/tts.py`).
 |---|---|---|
 | `basic` | lee el `front` | lee el `back` |
 | `basic-reversed` | lee el campo mostrado | lee el campo revelado |
-| `cloze` (un solo `c1`) | lee el enunciado hasta el primer hueco | lee la frase **completa**, ya resuelta |
+| `cloze` (un solo `c1`) | lee el enunciado hasta el primer hueco | repite el enunciado y añade **lo que estaba oculto** |
 | `cloze` (varios `cN`) | sin audio | lee la frase completa |
 
-En las cloze el audio **nunca va en el campo `Text`**: ese campo se renderiza
-también al preguntar, así que un `[sound:]` ahí reproduciría la frase resuelta —
-o sea, cantaría la respuesta. Por eso el modelo cloze tiene tres campos:
+El reparto en las cloze aprovecha que `Text` se renderiza en **ambas** caras y
+`Extra` solo en la respuesta:
 
 ```
-Text    frase con {{cN::}}, sin audio   → qfmt y afmt
-QAudio  [sound:] del enunciado          → solo qfmt
-Extra   Fuente… + [sound:] de respuesta → solo afmt
+Text   frase + [sound:] del ENUNCIADO   → qfmt y afmt
+Extra  Fuente… + [sound:] de lo OCULTO  → solo afmt
 ```
 
-El clip de pregunta corta en el primer hueco y limpia el artículo colgante, así
-que se oye «Las 5 regiones biogeográficas son…» y no la lista. Las 12 notas con
-varios `cN` no llevan clip de pregunta: cada una de sus tarjetas esconde un hueco
-distinto y un único campo `QAudio` sonaría igual en todas.
+En `Text` solo puede ir el enunciado, que no revela nada. Al revelar suenan
+encadenados y se oye la frase entera, dicha como la diría un examinador:
+
+> **Pregunta:** «Las 5 regiones biogeográficas son…»
+> **Respuesta:** «Las 5 regiones biogeográficas son…» + «Caribe, Andina, Pacífica, Orinoquía y Amazónica»
+
+El clip de pregunta corta en el primer hueco y quita el artículo colgante pero
+conserva el verbo. Las 12 notas con varios `cN` no llevan clip de pregunta —cada
+tarjeta suya esconde un hueco distinto y un clip único no serviría para todas—
+así que su clip de respuesta lee la frase completa, para valerse sola.
+
+> **Por qué dos campos y no tres.** Un campo `QAudio` aparte sería más limpio,
+> pero añadir un campo a un tipo de nota que ya existe en tu colección hace que
+> Anki **rechace** esas notas al importar: «47 notas no pudieron ser importadas».
+> El esquema del modelo cloze no debe cambiar.
 
 El texto se normaliza antes de sintetizar para que la voz no lea barbaridades:
 `40,5 %` → «cuarenta coma cinco por ciento», `800.000 km²` → «kilómetros

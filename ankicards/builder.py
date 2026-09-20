@@ -22,15 +22,15 @@ def _note(deck: Deck, card, audio: dict[str, Path] | None = None) -> genanki.Not
     audio = audio or {}
 
     if card.model == "cloze":
-        # Nada de audio en Text: ese campo se renderiza también en la cara de
-        # pregunta, así que un [sound:] ahí reproduciría la frase resuelta, es
-        # decir, cantaría la respuesta. El clip de respuesta va a Extra (solo en
-        # `afmt`) y el de pregunta a QAudio (solo en `qfmt`).
+        # Text se renderiza en ambas caras, así que solo puede llevar el clip del
+        # ENUNCIADO, que no revela nada. El de la respuesta va a Extra, que la
+        # plantilla usa únicamente en `afmt`. Al revelar suenan encadenados.
+        if audio.get("question"):
+            values[0] += f' [sound:{audio["question"].name}]'
         extra = card.notes
         if audio.get("text"):
             extra += f' [sound:{audio["text"].name}]'
         values.append(extra)
-        values.append(f'[sound:{audio["question"].name}]' if audio.get("question") else "")
     else:
         for index, key in enumerate(keys):
             clip = audio.get(key)
