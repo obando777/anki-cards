@@ -270,7 +270,7 @@ cards:
 
   - id: con-participacion-ambitos
     model: cloze
-    text: 'Los mecanismos de participación permiten a los ciudadanos participar y decidir cambios en lo {{c1::judicial}}, lo {{c2::político}}, lo {{c3::legislativo}} y lo {{c4::ejecutivo}}.'
+    text: 'Los mecanismos de participación permiten a los ciudadanos participar y decidir cambios en lo {{c1::judicial}}, lo {{c1::político}}, lo {{c1::legislativo}} y lo {{c1::ejecutivo}}.'
     notes: 'Fuente: Módulo 4, p. 18 (Cap. 3)'
     tags: [participacion]
 
@@ -331,7 +331,7 @@ cards:
 
   - id: con-participacion-siete
     model: cloze
-    text: 'Los mecanismos de participación ciudadana son: el {{c1::voto}}, el {{c2::plebiscito}}, la {{c3::consulta popular}}, el {{c4::cabildo abierto}}, la {{c5::revocatoria del mandato}}, el {{c6::referendo}} y la {{c7::iniciativa legislativa}}.'
+    text: 'Los mecanismos de participación ciudadana son: el {{c1::voto}}, el {{c1::plebiscito}}, la {{c1::consulta popular}}, el {{c1::cabildo abierto}}, la {{c1::revocatoria del mandato}}, el {{c1::referendo}} y la {{c1::iniciativa legislativa}}.'
     notes: 'Fuente: Módulo 4, p. 18 (Cap. 3)'
     tags: [participacion]
 
@@ -344,7 +344,7 @@ cards:
 
   - id: con-estructura-completa
     model: cloze
-    text: 'El Estado colombiano está formado por 3 ramas del poder público -{{c1::legislativo}}, {{c2::ejecutivo}} y {{c3::judicial}}-, los {{c4::organismos de control}} y la {{c5::organización electoral}}.'
+    text: 'El Estado colombiano está formado por 3 ramas del poder público -{{c1::legislativo}}, {{c1::ejecutivo}} y {{c1::judicial}}-, los {{c1::organismos de control}} y la {{c1::organización electoral}}.'
     notes: 'Fuente: Módulo 4, p. 18 (Cap. 4)'
     tags: [estructura-estado]
 
@@ -386,7 +386,7 @@ cards:
 
   - id: con-jurisdiccion-contenciosa
     model: cloze
-    text: 'La Jurisdicción Contencioso Administrativa está conformada por el {{c1::Consejo de Estado}}, los {{c2::Tribunales Administrativos}} y los {{c3::Juzgados Administrativos}}.'
+    text: 'La Jurisdicción Contencioso Administrativa está conformada por el {{c1::Consejo de Estado}}, los {{c1::Tribunales Administrativos}} y los {{c1::Juzgados Administrativos}}.'
     notes: 'Fuente: Módulo 4, pp. 18-19 (§4.4)'
     tags: [ramas]
 
@@ -440,7 +440,7 @@ cards:
   # ─── 6. Organización electoral ───────────────────────────────────────
   - id: con-organizacion-electoral
     model: cloze
-    text: 'La organización electoral está conformada por el {{c1::Consejo Nacional Electoral}} (CNE) y la {{c2::Registraduría Nacional del Estado Civil}}.'
+    text: 'La organización electoral está conformada por el {{c1::Consejo Nacional Electoral}} (CNE) y la {{c1::Registraduría Nacional del Estado Civil}}.'
     notes: 'Fuente: Módulo 4, p. 19 (§6)'
     tags: [organizacion-electoral]
 
@@ -454,7 +454,7 @@ cards:
   # ─── 7. Organismos autónomos independientes ──────────────────────────
   - id: con-organismos-autonomos
     model: cloze
-    text: 'Los organismos autónomos independientes son el {{c1::Banco de la República}}, los {{c2::entes universitarios autónomos}}, las {{c3::Corporaciones Autónomas Regionales}} y la {{c4::Comisión Nacional del Servicio Civil}}.'
+    text: 'Los organismos autónomos independientes son el {{c1::Banco de la República}}, los {{c1::entes universitarios autónomos}}, las {{c1::Corporaciones Autónomas Regionales}} y la {{c1::Comisión Nacional del Servicio Civil}}.'
     notes: 'Tienen autonomía propia. Fuente: Módulo 4, p. 19 (§7)'
     tags: [organismos-autonomos]
 
@@ -473,7 +473,7 @@ cards:
 
   - id: con-ministerio-publico
     model: cloze
-    text: 'El Ministerio Público lo componen la {{c1::Procuraduría}}, la {{c2::Defensoría}} y las {{c3::Personerías}}.'
+    text: 'El Ministerio Público lo componen la {{c1::Procuraduría}}, la {{c1::Defensoría}} y las {{c1::Personerías}}.'
     notes: 'Anotación manuscrita del margen (p. 19). Fuente: Módulo 4, p. 19'
     tags: [defensoria, anotacion]
 
@@ -516,7 +516,7 @@ cards:
 
   - id: con-descentralizacion-tres-tipos
     model: cloze
-    text: 'La descentralización puede ser {{c1::territorial}}, por {{c2::servicios}} o por {{c3::colaboración}}.'
+    text: 'La descentralización puede ser {{c1::territorial}}, por {{c1::servicios}} o por {{c1::colaboración}}.'
     notes: 'Fuente: Guía oficial, p. 139 (§1.2)'
     tags: [principios, ampliacion]
 
@@ -616,7 +616,7 @@ cards:
 
   - id: con-voto-caracteristicas
     model: cloze
-    text: 'El sufragio en Colombia es {{c1::universal}}, {{c2::libre}}, {{c3::igual}}, {{c4::directo}} y {{c5::secreto}}.'
+    text: 'El sufragio en Colombia es {{c1::universal}}, {{c1::libre}}, {{c1::igual}}, {{c1::directo}} y {{c1::secreto}}.'
     notes: 'El voto es a la vez un derecho y un deber ciudadano. Fuente: Guía oficial, p. 149 (§3.1)'
     tags: [participacion, ampliacion]
 
@@ -628,7 +628,7 @@ cards:
 
   - id: con-plebiscito-prohibiciones
     model: cloze
-    text: 'El plebiscito no puede emplearse para asuntos de {{c1::tratados internacionales}}, {{c2::leyes de presupuesto}} ni materias {{c3::fiscales y tributarias}}.'
+    text: 'El plebiscito no puede emplearse para asuntos de {{c1::tratados internacionales}}, {{c1::leyes de presupuesto}} ni materias {{c1::fiscales y tributarias}}.'
     notes: 'Fuente: Guía oficial, p. 149 (§3.2)'
     tags: [participacion, ampliacion]
 
@@ -646,13 +646,13 @@ cards:
 
   - id: con-iniciativa-corporaciones
     model: cloze
-    text: 'La iniciativa legislativa se presenta ante el {{c1::Congreso de la República}}, las {{c2::Asambleas Departamentales}}, los {{c3::Concejos Municipales o Distritales}} o las {{c4::Juntas Administradoras Locales}}.'
+    text: 'La iniciativa legislativa se presenta ante el {{c1::Congreso de la República}}, las {{c1::Asambleas Departamentales}}, los {{c1::Concejos Municipales o Distritales}} o las {{c1::Juntas Administradoras Locales}}.'
     notes: 'Fuente: Guía oficial, p. 150 (§3.7)'
     tags: [participacion, ampliacion]
 
   - id: con-presidente-tres-calidades
     model: cloze
-    text: 'El presidente de la República simboliza la unidad nacional y actúa como jefe de {{c1::Estado}}, jefe de {{c2::Gobierno}} y suprema autoridad {{c3::administrativa}}.'
+    text: 'El presidente de la República simboliza la unidad nacional y actúa como jefe de {{c1::Estado}}, jefe de {{c1::Gobierno}} y suprema autoridad {{c1::administrativa}}.'
     notes: 'Fuente: Guía oficial, p. 154'
     tags: [ramas, ampliacion]
 
@@ -664,19 +664,19 @@ cards:
 
   - id: con-ejecutiva-tres-niveles
     model: cloze
-    text: 'La Rama Ejecutiva se organiza en tres niveles: {{c1::nacional}}, {{c2::departamental}} y {{c3::municipal}}.'
+    text: 'La Rama Ejecutiva se organiza en tres niveles: {{c1::nacional}}, {{c1::departamental}} y {{c1::municipal}}.'
     notes: 'Fuente: Guía oficial, p. 154'
     tags: [ramas, ampliacion]
 
   - id: con-altas-cortes
     model: cloze
-    text: 'Los órganos superiores de la Rama Judicial son la {{c1::Corte Constitucional}}, la {{c2::Corte Suprema de Justicia}}, el {{c3::Consejo de Estado}}, el {{c4::Consejo Superior de la Judicatura}} y la {{c5::Fiscalía General de la Nación}}.'
+    text: 'Los órganos superiores de la Rama Judicial son la {{c1::Corte Constitucional}}, la {{c1::Corte Suprema de Justicia}}, el {{c1::Consejo de Estado}}, el {{c1::Consejo Superior de la Judicatura}} y la {{c1::Fiscalía General de la Nación}}.'
     notes: 'Fuente: Guía oficial, p. 154'
     tags: [ramas, ampliacion]
 
   - id: con-jurisdiccion-ordinaria
     model: cloze
-    text: 'La jurisdicción ordinaria la componen la {{c1::Corte Suprema de Justicia}}, los {{c2::Tribunales Superiores de Distrito Judicial}} y los {{c3::juzgados}}.'
+    text: 'La jurisdicción ordinaria la componen la {{c1::Corte Suprema de Justicia}}, los {{c1::Tribunales Superiores de Distrito Judicial}} y los {{c1::juzgados}}.'
     notes: 'Fuente: Guía oficial, p. 152'
     tags: [ramas, ampliacion]
 
@@ -706,7 +706,7 @@ cards:
 
   - id: con-ministerio-publico-oficial
     model: cloze
-    text: 'El Ministerio Público lo integran la {{c1::Procuraduría General de la Nación}}, la {{c2::Defensoría del Pueblo}} y los {{c3::agentes del Ministerio Público}}.'
+    text: 'El Ministerio Público lo integran la {{c1::Procuraduría General de la Nación}}, la {{c1::Defensoría del Pueblo}} y los {{c1::agentes del Ministerio Público}}.'
     notes: 'Fuente: Guía oficial, p. 155'
     tags: [organismos-control, defensoria, ampliacion]
 
@@ -724,7 +724,7 @@ cards:
 
   - id: con-banco-republica-funciones
     model: cloze
-    text: 'Funciones del Banco de la República: regular la {{c1::moneda, los cambios internacionales y el crédito}}, {{c2::emitir la moneda legal}}, administrar las {{c3::reservas internacionales}}, ser {{c4::prestamista de última instancia}} y servir como {{c5::agente fiscal del gobierno}}.'
+    text: 'Funciones del Banco de la República: regular la {{c1::moneda, los cambios internacionales y el crédito}}, {{c1::emitir la moneda legal}}, administrar las {{c1::reservas internacionales}}, ser {{c1::prestamista de última instancia}} y servir como {{c1::agente fiscal del gobierno}}.'
     notes: 'Fuente: Guía oficial, p. 153 (§4.4.4)'
     tags: [organismos-autonomos, ampliacion]
 

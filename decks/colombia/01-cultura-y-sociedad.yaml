@@ -44,7 +44,7 @@ cards:
 
   - id: cul-gran-colombia-integrantes
     model: cloze
-    text: 'La Gran Colombia estuvo conformada por {{c1::Colombia}}, {{c2::Venezuela}}, {{c3::Ecuador}} y {{c4::Panamá}}.'
+    text: 'La Gran Colombia estuvo conformada por {{c1::Colombia}}, {{c1::Venezuela}}, {{c1::Ecuador}} y {{c1::Panamá}}.'
     notes: 'Fuente: Módulo 1, p. 1 (§1.1)'
     tags: [simbolos-patrios]
 
@@ -249,7 +249,7 @@ cards:
   # ─── Cap. II 2.1-2.2 Gastronomía ─────────────────────────────────────
   - id: cul-gastronomia-ingredientes
     model: cloze
-    text: 'Los principales ingredientes de la gastronomía colombiana son el {{c1::maíz}}, la {{c2::yuca}}, los {{c3::frijoles}}, los {{c4::tamales}} y las {{c5::frutas tropicales}}.'
+    text: 'Los principales ingredientes de la gastronomía colombiana son el {{c1::maíz}}, la {{c1::yuca}}, los {{c1::frijoles}}, los {{c1::tamales}} y las {{c1::frutas tropicales}}.'
     notes: 'Fuente: Módulo 1, p. 2 (§2.1)'
     tags: [gastronomia]
 
@@ -292,13 +292,13 @@ cards:
 
   - id: cul-gastronomia-andina-ingredientes
     model: cloze
-    text: 'Los ingredientes principales de la región Andina son la {{c1::papa}}, las {{c2::legumbres}} y las carnes de {{c3::res}}, {{c4::cerdo}} y {{c5::gallina}}.'
+    text: 'Los ingredientes principales de la región Andina son la {{c1::papa}}, las {{c1::legumbres}} y las carnes de {{c1::res}}, {{c1::cerdo}} y {{c1::gallina}}.'
     notes: 'Fuente: Módulo 1, p. 3 (§2.2 D)'
     tags: [gastronomia]
 
   - id: cul-region-andina-conforman
     model: cloze
-    text: 'La región Andina la conforman {{c1::Bogotá}}, {{c2::Cundinamarca}}, {{c3::Boyacá}}, {{c4::Antioquia}}, el {{c5::eje cafetero}}, {{c6::Tolima}} y los {{c7::Santanderes}}.'
+    text: 'La región Andina la conforman {{c1::Bogotá}}, {{c1::Cundinamarca}}, {{c1::Boyacá}}, {{c1::Antioquia}}, el {{c1::eje cafetero}}, {{c1::Tolima}} y los {{c1::Santanderes}}.'
     notes: 'Fuente: Módulo 1, p. 3 (§2.2 D)'
     tags: [gastronomia]
 
@@ -317,7 +317,7 @@ cards:
 
   - id: cul-fest-amazonica-lista
     model: cloze
-    text: 'Festivales de la región Amazónica: Festival {{c1::Diosa del Chaira}}, Festival Internacional de {{c2::Yurupari}} y de Oro, y el Festival de Culturas o encuentro de 3 culturas de {{c3::Inírida}}.'
+    text: 'Festivales de la región Amazónica: Festival {{c1::Diosa del Chaira}}, Festival Internacional de {{c1::Yurupari}} y de Oro, y el Festival de Culturas o encuentro de 3 culturas de {{c1::Inírida}}.'
     notes: 'Fuente: Módulo 1, p. 3 (§2.2 A)'
     tags: [festivales]
 
@@ -454,7 +454,7 @@ cards:
 
   - id: cul-fest-insular-lista
     model: cloze
-    text: 'Festivales de la región Insular (San Andrés Islas): Festival de {{c1::Luna Verde}}, Festival Folclórico Cultural y Deportivo de {{c2::Vieja Providencia}} y el Festival Internacional de Teatro {{c3::Ethnic-Roots}}.'
+    text: 'Festivales de la región Insular (San Andrés Islas): Festival de {{c1::Luna Verde}}, Festival Folclórico Cultural y Deportivo de {{c1::Vieja Providencia}} y el Festival Internacional de Teatro {{c1::Ethnic-Roots}}.'
     notes: 'Fuente: Módulo 1, p. 4 (§2.2 D)'
     tags: [festivales]
 
@@ -524,13 +524,13 @@ cards:
   # ─── 2.3 Artes escultóricas y plásticas ──────────────────────────────
   - id: cul-etnias-precolombinas
     model: cloze
-    text: 'Antes de la llegada de los españoles ya había diferentes etnias: {{c1::Quimbaya}}, {{c2::Zenú}}, {{c3::Tairona}}, {{c4::Muisca}}, {{c5::San Agustín}} y {{c6::Calima}}.'
+    text: 'Antes de la llegada de los españoles ya había diferentes etnias: {{c1::Quimbaya}}, {{c1::Zenú}}, {{c1::Tairona}}, {{c1::Muisca}}, {{c1::San Agustín}} y {{c1::Calima}}.'
     notes: 'Fuente: Módulo 1, p. 5 (§2.3)'
     tags: [artes]
 
   - id: cul-arte-contemporaneo
     model: cloze
-    text: 'Representantes del arte contemporáneo colombiano: {{c1::Alejandro Obregón}}, {{c2::Fernando Botero}}, {{c3::Omar Rayo}} y {{c4::Beatriz González}}.'
+    text: 'Representantes del arte contemporáneo colombiano: {{c1::Alejandro Obregón}}, {{c1::Fernando Botero}}, {{c1::Omar Rayo}} y {{c1::Beatriz González}}.'
     notes: 'Fuente: Módulo 1, p. 5 (§2.3)'
     tags: [artes]
 
@@ -646,7 +646,7 @@ cards:
 
   - id: cul-musicos-destacados
     model: cloze
-    text: 'Músicos colombianos destacados: {{c1::Shakira}}, {{c2::Juanes}}, {{c3::Carlos Vives}} y {{c4::Karol G}}.'
+    text: 'Músicos colombianos destacados: {{c1::Shakira}}, {{c1::Juanes}}, {{c1::Carlos Vives}} y {{c1::Karol G}}.'
     notes: 'Anotación manuscrita (p. 7); el cuarto nombre se lee "Karol G". Fuente: Módulo 1, p. 7'
     tags: [musica, anotacion]
 
@@ -788,13 +788,13 @@ cards:
 
   - id: cul-turismo-naturaleza-actividades
     model: cloze
-    text: 'En el turismo de naturaleza se realizan actividades de {{c1::senderismo}}, {{c2::avistamiento de aves}}, {{c3::buceo}} y {{c4::avistamiento de ballenas}}.'
+    text: 'En el turismo de naturaleza se realizan actividades de {{c1::senderismo}}, {{c1::avistamiento de aves}}, {{c1::buceo}} y {{c1::avistamiento de ballenas}}.'
     notes: 'Fuente: Módulo 1, p. 6 (§3.3)'
     tags: [turismo]
 
   - id: cul-turismo-naturaleza-lugares
     model: cloze
-    text: 'Lugares turísticos de naturaleza: la {{c1::Sierra Nevada de Santa Marta}}, el Parque Natural de los {{c2::Nevados}}, el Parque {{c3::Tayrona}} y el Nevado del {{c4::Cocuy}} en Boyacá.'
+    text: 'Lugares turísticos de naturaleza: la {{c1::Sierra Nevada de Santa Marta}}, el Parque Natural de los {{c1::Nevados}}, el Parque {{c1::Tayrona}} y el Nevado del {{c1::Cocuy}} en Boyacá.'
     notes: 'Fuente: Módulo 1, p. 6 (§3.3)'
     tags: [turismo]
 
@@ -818,7 +818,7 @@ cards:
 
   - id: cul-turismo-ciudades-principales
     model: cloze
-    text: 'Entre los lugares turísticos más visitados están las ciudades de {{c1::Bogotá}}, {{c2::Medellín}}, {{c3::Cali}} y {{c4::Bucaramanga}}.'
+    text: 'Entre los lugares turísticos más visitados están las ciudades de {{c1::Bogotá}}, {{c1::Medellín}}, {{c1::Cali}} y {{c1::Bucaramanga}}.'
     notes: 'Fuente: Módulo 1, p. 7 (§3.6)'
     tags: [turismo]
 

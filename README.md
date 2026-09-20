@@ -58,6 +58,29 @@ uv run --group extract scripts/render_pdf.py raw_input/<scan>.pdf -o /tmp/crops 
 `raw_input/` is gitignored — source scans stay local, the cards they produce get
 committed. See `decks/colombia/` for a worked example.
 
+## Audio
+
+Cards can carry text-to-speech, so a deck can be reviewed without looking at the
+screen. Audio never lives in the YAML — it is synthesized and injected at build
+time, the same way `build/` is derived from `decks/`.
+
+```bash
+uv sync --group audio
+uv run scripts/build.py decks/colombia --audio
+```
+
+Clips are cached in `.audio-cache/` (gitignored) under a name that hashes the
+text, the voice and the model, so editing one card regenerates only that clip.
+`ankicards/tts.py` normalizes Spanish abbreviations (`%`, `km²`, `°C`, `art.`,
+`C.P.C.`) before synthesis and re-encodes to 48 kbps mono, which cuts the media
+payload by roughly 60% with no audible loss on speech.
+
+OpenAI's voices are fixed identities — the name does not select an accent. What
+does steer it is the `instructions` parameter on `gpt-4o-mini-tts`, so
+`DEFAULT_INSTRUCTIONS` asks for neutral Colombian Spanish. Voice, model and those
+instructions all feed the cache hash: change any of them and every clip is
+regenerated.
+
 ## The one rule: ids are permanent
 
 Anki recognises a note by a GUID, which this repo derives from the deck name plus

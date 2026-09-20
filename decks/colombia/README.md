@@ -43,8 +43,15 @@ Tus notas al margen registraron los puntos de corte oficiales exactos (11/20,
 
 ## Qué hay en el mazo
 
-**478 notas → 946 tarjetas** en Anki (las `basic-reversed` generan dos; las
-`cloze`, una por cada `{{cN::}}`).
+**478 notas → 656 tarjetas** en Anki (las `basic-reversed` generan dos; las
+`cloze`, una por cada número de hueco distinto).
+
+En las cloze de enumeración todos los huecos comparten `c1`, así que se ocultan
+juntos. Antes cada elemento tenía su propio `cN` y la tarjeta te mostraba el
+resto de la lista: preguntar «La Gran Colombia estuvo compuesta por ___,
+Venezuela, Ecuador y Panamá» no evalúa nada. Solo 12 notas conservan huecos
+separados, y son aquellas donde cada hueco tiene su propia pista — por ejemplo
+`geo-fronteras`, donde el punto cardinal ya acota la respuesta.
 
 | Modelo | Notas | Para qué |
 |---|---:|---|
@@ -121,9 +128,55 @@ Santa Marta la fundó Rodrigo de Bastidas en 1525 y Heredia fundó Cartagena en
 guía** y la nota explica el hecho real. Si te preguntan esto, responde lo que
 dice la cartilla.
 
+## Audio
+
+Todas las tarjetas pueden llevar voz en español, para repasar sin mirar la
+pantalla. El audio **no está en el YAML**: se sintetiza y se inyecta al construir,
+igual que `build/` es derivado de `decks/`.
+
+```bash
+uv sync --group audio
+uv run scripts/build.py decks/colombia --audio
+```
+
+La primera vez genera ~860 clips (unos 4 minutos, ~1 USD con la API de OpenAI) y
+los guarda en `.audio-cache/`, que git ignora. A partir de ahí solo se regenera
+lo que cambie: el nombre de cada clip es el hash de su texto, su voz, su modelo y
+las instrucciones de acento. Si editas una tarjeta, se rehace solo ese clip.
+
+**La voz es `coral` con acento colombiano.** Las voces de OpenAI son identidades
+fijas y el nombre no elige el acento; lo que sí lo dirige es el parámetro
+`instructions` de `gpt-4o-mini-tts`, donde se le pide explícitamente español
+colombiano neutro con entonación bogotana, ese final sin aspirar, y tono de
+profesora. Está en `DEFAULT_INSTRUCTIONS` (`ankicards/tts.py`).
+
+| Modelo | Pregunta | Respuesta |
+|---|---|---|
+| `basic` | lee el `front` | lee el `back` |
+| `basic-reversed` | lee el campo mostrado | lee el campo revelado |
+| `cloze` | sin audio | lee la frase **completa**, ya resuelta |
+
+Las cloze no llevan audio de pregunta a propósito: una nota con varios huecos
+genera varias tarjetas, y una sola etiqueta `[sound:]` sonaría idéntica en todas,
+así que no podría marcar el hueco correcto de cada una. Al revelar oyes la frase
+entera bien dicha, que es lo que sirve.
+
+El texto se normaliza antes de sintetizar para que la voz no lea barbaridades:
+`40,5 %` → «cuarenta coma cinco por ciento», `800.000 km²` → «kilómetros
+cuadrados», `C.P.C.` → «Constitución Política de Colombia», `art. 4` → «artículo
+4», `$100.000` → «pesos». El HTML (`<br>`, `<img>`) se elimina.
+
+**Para silenciar el autoplay** cuando estudies leyendo: en Anki, engranaje del
+mazo → Opciones → Audio → *No reproducir audio automáticamente*. El botón de
+reproducir sigue ahí si lo quieres puntualmente.
+
+Otras voces: `--voice nova|shimmer|sage|alloy|echo|fable|onyx`. Ojo, **cambiar la
+voz o las instrucciones de acento invalida la caché entera** —ambas entran en el
+hash— y hay que regenerar, con su costo.
+
 ## Si te abruma
 
-Son 946 tarjetas. Para bajar la carga sin perder cobertura, suspende en Anki la
+Son 656 tarjetas. Para bajar la carga sin perder cobertura, suspende en Anki la
 etiqueta `ampliacion` (63 notas): vuelves al mazo que sale solo de tu resumen
 escaneado. Reactívala cuando Constitución y Geografía te salgan sueltas.
 

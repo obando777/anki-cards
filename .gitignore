@@ -2,6 +2,9 @@
 build/
 *.apkg
 
+# Generated TTS clips — derived, regenerable, ~25 MB
+.audio-cache/
+
 # Local credentials — never commit
 .env
 .env.*

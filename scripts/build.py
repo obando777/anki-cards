@@ -36,6 +36,15 @@ def main() -> int:
         default=BUILD_DIR,
         help=f"output directory (default: {BUILD_DIR.name}/)",
     )
+    parser.add_argument(
+        "--audio",
+        action="store_true",
+        help="synthesize speech for each card and embed it (needs --group audio)",
+    )
+    parser.add_argument("--voice", default="coral", help="TTS voice (default: coral)")
+    parser.add_argument(
+        "--tts-model", default="gpt-4o-mini-tts", help="TTS model (default: gpt-4o-mini-tts)"
+    )
     args = parser.parse_args()
 
     try:
@@ -46,9 +55,22 @@ def main() -> int:
             print(f"  - {problem}", file=sys.stderr)
         return 1
 
+    audio_by_deck = {}
+    if args.audio:
+        from ankicards import tts  # noqa: PLC0415 — optional `audio` dependency group
+
+        pending = tts.plan(decks, args.voice, args.tts_model)[2]
+        if pending:
+            print(f"  synthesizing {pending} new clip(s)…")
+        client = tts._client()
+        for deck in decks:
+            audio_by_deck[deck.name] = tts.audio_for_deck(
+                deck, args.voice, args.tts_model, client=client
+            )
+
     total = 0
     for deck in decks:
-        out_path = build_deck(deck, args.out)
+        out_path = build_deck(deck, args.out, audio_by_deck.get(deck.name))
         count = len(deck.cards)
         total += count
         print(f"  {deck.name:<40} {count:>4} card(s)  ->  {out_path.name}")

@@ -52,7 +52,7 @@ cards:
 
   - id: geo-cordilleras-nombre
     model: cloze
-    text: 'La cordillera de los Andes se divide en Colombia en 3 cordilleras: {{c1::Occidental}}, {{c2::Central}} y {{c3::Oriental}}.'
+    text: 'La cordillera de los Andes se divide en Colombia en 3 cordilleras: {{c1::Occidental}}, {{c1::Central}} y {{c1::Oriental}}.'
     notes: 'Fuente: Módulo 2, p. 8 (§1)'
     tags: [ubicacion]
 
@@ -71,7 +71,7 @@ cards:
 
   - id: geo-regiones-cloze
     model: cloze
-    text: 'Las 5 regiones biogeográficas son: región {{c1::Caribe}}, región {{c2::Andina}}, región {{c3::Pacífica}}, región {{c4::Orinoquía}} y región {{c5::Amazónica}}.'
+    text: 'Las 5 regiones biogeográficas son: región {{c1::Caribe}}, región {{c1::Andina}}, región {{c1::Pacífica}}, región {{c1::Orinoquía}} y región {{c1::Amazónica}}.'
     notes: 'Fuente: Módulo 2, p. 8 (§1.2)'
     tags: [regiones]
 
@@ -102,19 +102,19 @@ cards:
 
   - id: geo-amazonica-mamiferos
     model: cloze
-    text: 'Mamíferos de la región Amazónica: el {{c1::jaguar}}, los {{c2::pumas}} y los {{c3::monos}}.'
+    text: 'Mamíferos de la región Amazónica: el {{c1::jaguar}}, los {{c1::pumas}} y los {{c1::monos}}.'
     notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
     tags: [amazonica]
 
   - id: geo-amazonica-aves
     model: cloze
-    text: 'Aves de la región Amazónica: el {{c1::guacamayo}}, el {{c2::águila arpía}}, el {{c3::tucán}} y el {{c4::loro amazona}}.'
+    text: 'Aves de la región Amazónica: el {{c1::guacamayo}}, el {{c1::águila arpía}}, el {{c1::tucán}} y el {{c1::loro amazona}}.'
     notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
     tags: [amazonica]
 
   - id: geo-amazonica-flora
     model: cloze
-    text: 'Árboles de la región Amazónica: la {{c1::ceiba}}, el árbol de {{c2::caucho}}, el {{c3::cedro}} y la {{c4::canela}}; además, plantas medicinales.'
+    text: 'Árboles de la región Amazónica: la {{c1::ceiba}}, el árbol de {{c1::caucho}}, el {{c1::cedro}} y la {{c1::canela}}; además, plantas medicinales.'
     notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
     tags: [amazonica]
 
@@ -132,7 +132,7 @@ cards:
 
   - id: geo-amazonica-deptos
     model: cloze
-    text: 'Departamentos de la región Amazónica: {{c1::Putumayo}}, {{c2::Caquetá}}, {{c3::Guaviare}}, {{c4::Guainía}}, {{c5::Vaupés}} y {{c6::Amazonas}}.'
+    text: 'Departamentos de la región Amazónica: {{c1::Putumayo}}, {{c1::Caquetá}}, {{c1::Guaviare}}, {{c1::Guainía}}, {{c1::Vaupés}} y {{c1::Amazonas}}.'
     notes: 'El resumen escribe "Guainía (San José del Guaviare)"; la guía oficial (p. 63) lista Guaviare con capital San José del Guaviare. Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 63'
     tags: [amazonica, corregido]
 
@@ -187,31 +187,31 @@ cards:
 
   - id: geo-andina-hidrografia
     model: cloze
-    text: 'La hidrografía de la región Andina la conforman el río {{c1::Magdalena}}, el {{c2::Cauca}} y el {{c3::Caquetá}}.'
+    text: 'La hidrografía de la región Andina la conforman el río {{c1::Magdalena}}, el {{c1::Cauca}} y el {{c1::Caquetá}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§1.5.1)'
     tags: [andina]
 
   - id: geo-andina-relieve
     model: cloze
-    text: 'El relieve de la región Andina lo conforman 3 {{c1::cordilleras}}, {{c2::picos y nevados}}, {{c3::valles interandinos}}, {{c4::cañones y desfiladeros}} y {{c5::páramos}}.'
+    text: 'El relieve de la región Andina lo conforman 3 {{c1::cordilleras}}, {{c1::picos y nevados}}, {{c1::valles interandinos}}, {{c1::cañones y desfiladeros}} y {{c1::páramos}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
     tags: [andina]
 
   - id: geo-andina-aves
     model: cloze
-    text: 'Aves de la región Andina: el {{c1::cóndor de los Andes}}, el {{c2::águila arpía}} y el {{c3::colibrí}}.'
+    text: 'Aves de la región Andina: el {{c1::cóndor de los Andes}}, el {{c1::águila arpía}} y el {{c1::colibrí}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
     tags: [andina]
 
   - id: geo-andina-mamiferos
     model: cloze
-    text: 'Mamíferos de la región Andina: el {{c1::oso de anteojos}}, el {{c2::puma}}, el {{c3::venado cola blanca}} y el {{c4::mono aullador}}.'
+    text: 'Mamíferos de la región Andina: el {{c1::oso de anteojos}}, el {{c1::puma}}, el {{c1::venado cola blanca}} y el {{c1::mono aullador}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
     tags: [andina]
 
   - id: geo-andina-cultivos
     model: cloze
-    text: 'Cultivos agrícolas de la región Andina: el {{c1::café}}, el {{c2::maíz}}, la {{c3::papa}}, el {{c4::trigo}}, el {{c5::frijol}}, frutas y hortalizas.'
+    text: 'Cultivos agrícolas de la región Andina: el {{c1::café}}, el {{c1::maíz}}, la {{c1::papa}}, el {{c1::trigo}}, el {{c1::frijol}}, frutas y hortalizas.'
     notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
     tags: [andina]
 
@@ -223,13 +223,13 @@ cards:
 
   - id: geo-andina-ciudades
     model: cloze
-    text: 'Ciudades de la región Andina: {{c1::Bogotá}} (capital), {{c2::Medellín}}, {{c3::Cúcuta}}, {{c4::Bucaramanga}} y {{c5::Pereira}}.'
+    text: 'Ciudades de la región Andina: {{c1::Bogotá}} (capital), {{c1::Medellín}}, {{c1::Cúcuta}}, {{c1::Bucaramanga}} y {{c1::Pereira}}.'
     notes: 'El resumen pone Cali; la guía oficial (p. 68) lista Pereira — Cali pertenece a la región Pacífica. Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 68'
     tags: [andina]
 
   - id: geo-andina-deptos
     model: cloze
-    text: 'Departamentos de la región Andina: {{c1::Antioquia}}, {{c2::Norte de Santander}}, {{c3::Quindío}}, {{c4::Caldas}}, {{c5::Risaralda}}, {{c6::Tolima}}, {{c7::Boyacá}}, {{c8::Santander}}, {{c9::Cundinamarca}} y {{c10::Huila}}.'
+    text: 'Departamentos de la región Andina: {{c1::Antioquia}}, {{c1::Norte de Santander}}, {{c1::Quindío}}, {{c1::Caldas}}, {{c1::Risaralda}}, {{c1::Tolima}}, {{c1::Boyacá}}, {{c1::Santander}}, {{c1::Cundinamarca}} y {{c1::Huila}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§1.5.4) <br><img src="mapa-departamentos.png">'
     tags: [andina]
 
@@ -324,7 +324,7 @@ cards:
 
   - id: geo-caribe-rios
     model: cloze
-    text: 'Ríos de la región Caribe: {{c1::Magdalena}}, {{c2::Cauca}}, {{c3::Sinú}}, {{c4::San Jorge}} y {{c5::Ranchería}}.'
+    text: 'Ríos de la región Caribe: {{c1::Magdalena}}, {{c1::Cauca}}, {{c1::Sinú}}, {{c1::San Jorge}} y {{c1::Ranchería}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§3.2)'
     tags: [caribe]
 
@@ -336,7 +336,7 @@ cards:
 
   - id: geo-caribe-relieve
     model: cloze
-    text: 'El relieve de la región Caribe lo forman {{c1::llanuras costeras}}, la {{c2::Sierra Nevada de Santa Marta}}, la {{c3::Sierra de Perijá}} y los {{c4::Montes de María}}.'
+    text: 'El relieve de la región Caribe lo forman {{c1::llanuras costeras}}, la {{c1::Sierra Nevada de Santa Marta}}, la {{c1::Sierra de Perijá}} y los {{c1::Montes de María}}.'
     notes: 'Fuente: Módulo 2, p. 9 (§3.3)'
     tags: [caribe]
 
@@ -348,7 +348,7 @@ cards:
 
   - id: geo-caribe-aves
     model: cloze
-    text: 'Aves de la región Caribe: el {{c1::flamenco rosado}}, la {{c2::garza real}}, el {{c3::pelícano}}, el {{c4::colibrí}}, el {{c5::guacamayo}}, el {{c6::tucán}} y el {{c7::águila arpía}}.'
+    text: 'Aves de la región Caribe: el {{c1::flamenco rosado}}, la {{c1::garza real}}, el {{c1::pelícano}}, el {{c1::colibrí}}, el {{c1::guacamayo}}, el {{c1::tucán}} y el {{c1::águila arpía}}.'
     notes: 'Fuente: Módulo 2, p. 9'
     tags: [caribe]
 
@@ -360,13 +360,13 @@ cards:
 
   - id: geo-caribe-ciudades
     model: cloze
-    text: 'Ciudades de la región Caribe: {{c1::Barranquilla}}, {{c2::Cartagena}}, {{c3::Santa Marta}}, {{c4::Sincelejo}} y {{c5::Montería}}.'
+    text: 'Ciudades de la región Caribe: {{c1::Barranquilla}}, {{c1::Cartagena}}, {{c1::Santa Marta}}, {{c1::Sincelejo}} y {{c1::Montería}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§3.4)'
     tags: [caribe]
 
   - id: geo-caribe-deptos
     model: cloze
-    text: 'Departamentos de la región Caribe: {{c1::La Guajira}}, {{c2::Atlántico}}, {{c3::Magdalena}}, {{c4::Cesar}}, {{c5::Sucre}}, {{c6::Córdoba}} y {{c7::Bolívar}}.'
+    text: 'Departamentos de la región Caribe: {{c1::La Guajira}}, {{c1::Atlántico}}, {{c1::Magdalena}}, {{c1::Cesar}}, {{c1::Sucre}}, {{c1::Córdoba}} y {{c1::Bolívar}}.'
     notes: 'La cartilla escribe "diputados" donde quiere decir departamentos. Fuente: Módulo 2, p. 10 (§3.4)'
     tags: [caribe]
 
@@ -434,7 +434,7 @@ cards:
 
   - id: geo-pacifica-rios
     model: cloze
-    text: 'Ríos de la región Pacífica: {{c1::San Juan}}, {{c2::Atrato}}, {{c3::Baudó}}, {{c4::Mira}} y {{c5::Patía}}.'
+    text: 'Ríos de la región Pacífica: {{c1::San Juan}}, {{c1::Atrato}}, {{c1::Baudó}}, {{c1::Mira}} y {{c1::Patía}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§4.2)'
     tags: [pacifica]
 
@@ -446,25 +446,25 @@ cards:
 
   - id: geo-pacifica-fauna
     model: cloze
-    text: 'Fauna de la región Pacífica: el {{c1::jaguar}}, el {{c2::oso hormiguero}}, el {{c3::tapir}} y el {{c4::mono aullador}}.'
+    text: 'Fauna de la región Pacífica: el {{c1::jaguar}}, el {{c1::oso hormiguero}}, el {{c1::tapir}} y el {{c1::mono aullador}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§4.4)'
     tags: [pacifica]
 
   - id: geo-pacifica-flora
     model: cloze
-    text: 'Flora de la selva tropical del Pacífico: el árbol del {{c1::chontaduro}}, el {{c2::caucho}} y la {{c3::palma de cera}}.'
+    text: 'Flora de la selva tropical del Pacífico: el árbol del {{c1::chontaduro}}, el {{c1::caucho}} y la {{c1::palma de cera}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§4.5)'
     tags: [pacifica]
 
   - id: geo-pacifica-medicinales
     model: cloze
-    text: 'Plantas medicinales de la región Pacífica: el {{c1::cordoncillo}}, la {{c2::chirca}}, el {{c3::canelo}} y la {{c4::manzanilla de monte}}.'
+    text: 'Plantas medicinales de la región Pacífica: el {{c1::cordoncillo}}, la {{c1::chirca}}, el {{c1::canelo}} y la {{c1::manzanilla de monte}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§4.5)'
     tags: [pacifica]
 
   - id: geo-pacifica-aves
     model: cloze
-    text: 'Aves anotadas para la región Pacífica: el {{c1::cóndor de los Andes}}, el {{c2::guacamayo rojo}} y el {{c3::colibrí cola de espátula}}.'
+    text: 'Aves anotadas para la región Pacífica: el {{c1::cóndor de los Andes}}, el {{c1::guacamayo rojo}} y el {{c1::colibrí cola de espátula}}.'
     notes: 'Anotación manuscrita del margen (p. 10, §4.5). Fuente: Módulo 2, p. 10'
     tags: [pacifica, anotacion]
 
@@ -476,7 +476,7 @@ cards:
 
   - id: geo-pacifica-deptos
     model: cloze
-    text: 'Departamentos de la región Pacífica: {{c1::Chocó}}, {{c2::Valle del Cauca}}, {{c3::Cauca}} y {{c4::Nariño}}.'
+    text: 'Departamentos de la región Pacífica: {{c1::Chocó}}, {{c1::Valle del Cauca}}, {{c1::Cauca}} y {{c1::Nariño}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§4.6)'
     tags: [pacifica]
 
@@ -559,13 +559,13 @@ cards:
 
   - id: geo-orinoquia-fauna
     model: cloze
-    text: 'Fauna de la Orinoquía: el {{c1::capibara}}, el {{c2::delfín de río}}, el {{c3::venado cola blanca}}, el {{c4::oso hormiguero}} y los {{c5::jaguares}}.'
+    text: 'Fauna de la Orinoquía: el {{c1::capibara}}, el {{c1::delfín de río}}, el {{c1::venado cola blanca}}, el {{c1::oso hormiguero}} y los {{c1::jaguares}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§5.4)'
     tags: [orinoquia]
 
   - id: geo-orinoquia-aves-reptiles
     model: cloze
-    text: 'En la Orinoquía se encuentran el {{c1::águila arpía}}, la {{c2::guacamaya roja}}, la {{c3::garza real}}, el {{c4::caimán del Orinoco}}, la {{c5::rana venenosa}} y la {{c6::tortuga charapa}}.'
+    text: 'En la Orinoquía se encuentran el {{c1::águila arpía}}, la {{c1::guacamaya roja}}, la {{c1::garza real}}, el {{c1::caimán del Orinoco}}, la {{c1::rana venenosa}} y la {{c1::tortuga charapa}}.'
     notes: 'Fuente: Módulo 2, p. 10 (§5.4)'
     tags: [orinoquia]
 
@@ -584,7 +584,7 @@ cards:
 
   - id: geo-orinoquia-deptos
     model: cloze
-    text: 'Departamentos de la región Orinoquía: {{c1::Arauca}}, {{c2::Casanare}}, {{c3::Meta}} y {{c4::Vichada}}.'
+    text: 'Departamentos de la región Orinoquía: {{c1::Arauca}}, {{c1::Casanare}}, {{c1::Meta}} y {{c1::Vichada}}.'
     notes: 'Fuente: Módulo 2, p. 11 (§5.6)'
     tags: [orinoquia]
 
@@ -618,14 +618,14 @@ cards:
 
   - id: geo-orinoquia-economia
     model: cloze
-    text: 'La economía de la Orinoquía se basa en actividades {{c1::agropecuarias}}, {{c2::ganadería}}, extracción de {{c3::petróleo}}, {{c4::minería}} y {{c5::turismo}}.'
+    text: 'La economía de la Orinoquía se basa en actividades {{c1::agropecuarias}}, {{c1::ganadería}}, extracción de {{c1::petróleo}}, {{c1::minería}} y {{c1::turismo}}.'
     notes: 'Fuente: Módulo 2, p. 11 (§5.7)'
     tags: [orinoquia]
 
   # ─── Datos demográficos (anotación manuscrita, p. 11) ────────────────
   - id: geo-grupos-etnicos-cinco
     model: cloze
-    text: 'Los grupos étnicos de Colombia son: {{c1::indígenas}}, {{c2::raizales}}, {{c3::afrocolombianos}}, {{c4::palenqueros}} y {{c5::Rom o gitanos}}.'
+    text: 'Los grupos étnicos de Colombia son: {{c1::indígenas}}, {{c1::raizales}}, {{c1::afrocolombianos}}, {{c1::palenqueros}} y {{c1::Rom o gitanos}}.'
     notes: 'Anotación manuscrita de los márgenes (p. 11), "Datos demográficos básicos". Fuente: Módulo 2, p. 11'
     tags: [demografia, anotacion]
 
@@ -714,13 +714,13 @@ cards:
 
   - id: geo-valles-interandinos
     model: cloze
-    text: 'Los valles interandinos son: el valle del {{c1::Cauca}}, el valle de {{c2::Aburrá}}, el valle del {{c3::Magdalena}} y el valle del {{c4::Patía}}.'
+    text: 'Los valles interandinos son: el valle del {{c1::Cauca}}, el valle de {{c1::Aburrá}}, el valle del {{c1::Magdalena}} y el valle del {{c1::Patía}}.'
     notes: 'Anotación manuscrita (p. 11, §2.3); la cartilla impresa solo remite a la pág. 91. Fuente: Módulo 2, p. 11'
     tags: [geografia-fisica, anotacion]
 
   - id: geo-llanuras-tres
     model: cloze
-    text: 'Las llanuras de Colombia son: la llanura del {{c1::Caribe}}, la llanura del {{c2::Amazonas}} y las llanuras {{c3::Orientales}}.'
+    text: 'Las llanuras de Colombia son: la llanura del {{c1::Caribe}}, la llanura del {{c1::Amazonas}} y las llanuras {{c1::Orientales}}.'
     notes: 'Anotación manuscrita (p. 11, §2.4); la cartilla impresa solo remite a la pág. 92. Fuente: Módulo 2, p. 11'
     tags: [geografia-fisica, anotacion]
 
@@ -733,7 +733,7 @@ cards:
 
   - id: geo-archipielago-islas
     model: cloze
-    text: 'El archipiélago lo componen {{c1::San Andrés}}, {{c2::Providencia}}, {{c3::Santa Catalina}}, {{c4::Quitasueño}}, {{c5::Serrana}}, {{c6::Serranilla}}, {{c7::Bajo Nuevo}}, {{c8::Roncador}}, {{c9::Albuquerque}} y {{c10::Este-Sudeste}}.'
+    text: 'El archipiélago lo componen {{c1::San Andrés}}, {{c1::Providencia}}, {{c1::Santa Catalina}}, {{c1::Quitasueño}}, {{c1::Serrana}}, {{c1::Serranilla}}, {{c1::Bajo Nuevo}}, {{c1::Roncador}}, {{c1::Albuquerque}} y {{c1::Este-Sudeste}}.'
     notes: 'Son 10, como dice la cartilla; el resumen solo alcanzó a copiar 8 (faltaban Serranilla y Este-Sudeste). Es el único departamento sin territorio continental. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 93'
     tags: [insular, corregido]
 
@@ -788,14 +788,14 @@ cards:
 
   - id: geo-climas-cuatro
     model: cloze
-    text: 'Los climas de Colombia son: {{c1::ecuatorial}}, {{c2::subecuatorial}}, {{c3::templado}} y de {{c4::alta montaña}}.'
+    text: 'Los climas de Colombia son: {{c1::ecuatorial}}, {{c1::subecuatorial}}, {{c1::templado}} y de {{c1::alta montaña}}.'
     notes: 'Fuente: Módulo 2, p. 12 (§3)'
     tags: [clima]
 
   # ─── 3.1 Pisos térmicos ──────────────────────────────────────────────
   - id: geo-pisos-termicos-cuatro
     model: cloze
-    text: 'Los pisos térmicos son: tierras {{c1::calientes}}, tierra {{c2::templada}}, tierras {{c3::frías}} y tierras {{c4::heladas o páramos}}.'
+    text: 'Los pisos térmicos son: tierras {{c1::calientes}}, tierra {{c1::templada}}, tierras {{c1::frías}} y tierras {{c1::heladas o páramos}}.'
     notes: 'Fuente: Módulo 2, p. 12 (§3.1)'
     tags: [pisos-termicos]
 
@@ -826,7 +826,7 @@ cards:
   # ─── 3.2 Recursos naturales ──────────────────────────────────────────
   - id: geo-recursos-minerales
     model: cloze
-    text: 'Recursos minerales de Colombia: {{c1::carbón}}, {{c2::petróleo}}, {{c3::oro}}, {{c4::níquel}} y {{c5::esmeraldas}}.'
+    text: 'Recursos minerales de Colombia: {{c1::carbón}}, {{c1::petróleo}}, {{c1::oro}}, {{c1::níquel}} y {{c1::esmeraldas}}.'
     notes: 'Fuente: Módulo 2, p. 12 (§3.2)'
     tags: [recursos]
 
@@ -838,7 +838,7 @@ cards:
 
   - id: geo-recursos-energeticos
     model: cloze
-    text: 'Recursos energéticos de Colombia: {{c1::hidroeléctrica}}, {{c2::térmica}}, {{c3::solar}} y {{c4::eólica}}.'
+    text: 'Recursos energéticos de Colombia: {{c1::hidroeléctrica}}, {{c1::térmica}}, {{c1::solar}} y {{c1::eólica}}.'
     notes: 'Fuente: Módulo 2, p. 12 (§3.2)'
     tags: [recursos]
 
@@ -852,13 +852,13 @@ cards:
   # ─── 4. Geografía humana ─────────────────────────────────────────────
   - id: geo-grupos-etnicos-humana
     model: cloze
-    text: 'Grupos étnicos de Colombia: indígenas {{c1::Wayuu}}, {{c2::Emberá}}, {{c3::Kogui}}, {{c4::Arhuacos}} y {{c5::mestizos}}.'
+    text: 'Grupos étnicos de Colombia: indígenas {{c1::Wayuu}}, {{c1::Emberá}}, {{c1::Kogui}}, {{c1::Arhuacos}} y {{c1::mestizos}}.'
     notes: 'La cartilla escribe "Guayu". Fuente: Módulo 2, p. 12 (§4.1)'
     tags: [geografia-humana, demografia]
 
   - id: geo-centros-urbanos
     model: cloze
-    text: 'Los centros urbanos de Colombia son: {{c1::Bogotá}} (capital del país), {{c2::Medellín}}, {{c3::Cali}}, {{c4::Barranquilla}} y {{c5::Bucaramanga}}.'
+    text: 'Los centros urbanos de Colombia son: {{c1::Bogotá}} (capital del país), {{c1::Medellín}}, {{c1::Cali}}, {{c1::Barranquilla}} y {{c1::Bucaramanga}}.'
     notes: 'La lista numerada y Bucaramanga vienen de la anotación manuscrita (p. 12). Fuente: Módulo 2, p. 12 (§4.2)'
     tags: [geografia-humana, anotacion]
 
@@ -870,7 +870,7 @@ cards:
 
   - id: geo-economia-rural
     model: cloze
-    text: 'La economía rural se basa en la {{c1::agricultura}}, la {{c2::ganadería}}, el cultivo de {{c3::café}}, {{c4::papa}} y {{c5::plátano}}, y el {{c6::petróleo}}.'
+    text: 'La economía rural se basa en la {{c1::agricultura}}, la {{c1::ganadería}}, el cultivo de {{c1::café}}, {{c1::papa}} y {{c1::plátano}}, y el {{c1::petróleo}}.'
     notes: 'El petróleo viene de la anotación manuscrita (p. 12). Fuente: Módulo 2, p. 12 (§4.3)'
     tags: [geografia-humana, anotacion]
 
@@ -931,7 +931,7 @@ cards:
 
   - id: geo-pacifica-relieve-oficial
     model: cloze
-    text: 'El relieve de la región Pacífica incluye {{c1::llanuras y valles fluviales}}, {{c2::estuarios}}, {{c3::manglares}} y {{c4::playas}}, limitado por la cordillera Occidental.'
+    text: 'El relieve de la región Pacífica incluye {{c1::llanuras y valles fluviales}}, {{c1::estuarios}}, {{c1::manglares}} y {{c1::playas}}, limitado por la cordillera Occidental.'
     notes: 'Fuente: Guía oficial, p. 81'
     tags: [pacifica, ampliacion]
 
@@ -949,13 +949,13 @@ cards:
 
   - id: geo-orinoquia-relieve-oficial
     model: cloze
-    text: 'El relieve de la Orinoquía lo forman {{c1::mesetas y colinas}} y {{c2::llanuras}}, conocidas como los {{c3::Llanos Orientales}}.'
+    text: 'El relieve de la Orinoquía lo forman {{c1::mesetas y colinas}} y {{c1::llanuras}}, conocidas como los {{c1::Llanos Orientales}}.'
     notes: 'Fuente: Guía oficial, p. 86'
     tags: [orinoquia, ampliacion]
 
   - id: geo-caribe-relieve-oficial
     model: cloze
-    text: 'El relieve de la región Caribe lo forman {{c1::llanuras costeras}}, la {{c2::Sierra Nevada de Santa Marta}}, la {{c3::Serranía de Perijá}} y los {{c4::Montes de María}}.'
+    text: 'El relieve de la región Caribe lo forman {{c1::llanuras costeras}}, la {{c1::Sierra Nevada de Santa Marta}}, la {{c1::Serranía de Perijá}} y los {{c1::Montes de María}}.'
     notes: 'Fuente: Guía oficial, p. 75'
     tags: [caribe, ampliacion]
 
@@ -991,7 +991,7 @@ cards:
 
   - id: geo-indigenas-mas-numerosos
     model: cloze
-    text: 'Los grupos indígenas más numerosos de Colombia son los {{c1::Wayuu}}, los {{c2::Nasa}}, los {{c3::Arhuacos}} y los {{c4::Páez}}.'
+    text: 'Los grupos indígenas más numerosos de Colombia son los {{c1::Wayuu}}, los {{c1::Nasa}}, los {{c1::Arhuacos}} y los {{c1::Páez}}.'
     notes: 'Se distribuyen sobre todo en la Sierra Nevada de Santa Marta, la Amazonía y la región Andina. Fuente: Guía oficial, p. 87 (§1.3)'
     tags: [demografia, ampliacion]
 

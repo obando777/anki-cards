@@ -12,9 +12,18 @@ from ankicards.models import MODEL_FIELDS, MODELS
 BUILD_DIR = REPO_ROOT / "build"
 
 
-def _note(deck: Deck, card) -> genanki.Note:
+def _note(deck: Deck, card, audio: dict[str, Path] | None = None) -> genanki.Note:
     model = MODELS[card.model]
-    values = [card.fields[key] for key in MODEL_FIELDS[card.model]]
+    keys = MODEL_FIELDS[card.model]
+    values = [card.fields[key] for key in keys]
+
+    # El audio se inyecta aquí, no en el YAML: la fuente se queda con texto puro
+    # y los clips son derivados, como build/. Anki reproduce [sound:] solo.
+    if audio:
+        for index, key in enumerate(keys):
+            clip = audio.get(key)
+            if clip:
+                values[index] += f" [sound:{clip.name}]"
 
     if card.model == "cloze":
         values.append(card.notes)
@@ -31,14 +40,24 @@ def _note(deck: Deck, card) -> genanki.Note:
     )
 
 
-def build_deck(deck: Deck, out_dir: Path = BUILD_DIR) -> Path:
-    """Write deck to out_dir/<deck>.apkg and return the path."""
+def build_deck(
+    deck: Deck,
+    out_dir: Path = BUILD_DIR,
+    audio: dict[str, dict[str, Path]] | None = None,
+) -> Path:
+    """Write deck to out_dir/<deck>.apkg and return the path.
+
+    `audio` maps card id -> {field key: mp3 path}; when given, each clip is
+    referenced with [sound:] and bundled into the package.
+    """
+    audio = audio or {}
     anki_deck = genanki.Deck(deck.deck_id, deck.name)
     for card in deck.cards:
-        anki_deck.add_note(_note(deck, card))
+        anki_deck.add_note(_note(deck, card, audio.get(card.id)))
 
     package = genanki.Package(anki_deck)
-    package.media_files = [str(MEDIA_DIR / name) for name in sorted(deck.media())]
+    clips = sorted({str(p) for sides in audio.values() for p in sides.values()})
+    package.media_files = [str(MEDIA_DIR / name) for name in sorted(deck.media())] + clips
 
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
