@@ -3,9 +3,10 @@
 Estado tras conseguir la **guía oficial de 190 páginas** y el **instructivo
 oficial del examen**, ambos de la Cancillería y ambos en `raw_input/colombia/`.
 
-**De las 22 lagunas abiertas del inventario anterior, quedan 4.** La guía oficial
-cerró 18 de un golpe, porque casi todas eran la misma: contenido que vivía en el
-documento al que tu resumen remite 38 veces.
+**De las 22 lagunas abiertas del inventario anterior, quedan 3.** La guía oficial
+cerró 18 de un golpe —casi todas eran la misma: contenido que vivía en el
+documento al que tu resumen remite 38 veces— y una decimonovena se cerró al
+confirmar que el español es tu lengua materna.
 
 ---
 
@@ -53,6 +54,13 @@ oficial las trae en su §1.3 "Datos demográficos básicos" (p. 87):
 Dos de las cuatro las habías leído bien. De propina entraron los raizales
 (0,06 %, ~25.300) y los palenqueros (~6.650, San Basilio de Palenque, s. XVII).
 
+### Lengua Castellana — no te aplica ✅
+
+El español es tu lengua materna, así que presentas la **Forma 1**: 80 preguntas,
+3 horas, cuatro módulos. El módulo de Lengua Castellana (10 preguntas, pp.
+167-190 de la guía) solo se aplica *"cuando el español no fuere la lengua materna
+del solicitante"*. El mazo cubre los cuatro módulos que sí presentas.
+
 ### Los metadatos del examen ✅
 
 El módulo 1 no tenía número de preguntas anotado y su mínimo era ilegible. El
@@ -65,7 +73,6 @@ los puntos de corte **oficiales exactos**:
 | Geografía | 20 | 11 (55 %) |
 | Historia Patria | 20 | 8 (40 %) |
 | Cultura | 20 | **8 (40 %)** ← el dígito borroso |
-| Lengua Castellana\* | 10 | 4 (40 %) |
 
 Los "Preg 32/30/34" y los tiempos de 25'-35' eran del banco de práctica del
 curso, no del examen: el real son 80 preguntas de opción múltiple en 3 horas.
@@ -86,7 +93,7 @@ mapa de la pág. 110".
 
 ---
 
-## Abiertas — quedan 4
+## Abiertas — quedan 3
 
 ### 1. Profundidad: el mazo no agota la guía oficial
 
@@ -99,17 +106,7 @@ fundamental (la guía dedica media página a cada uno), la sección de Cultura d
 guía (48 páginas contra 7 de tu resumen) y el detalle de ciudades principales
 (pp. 100-105). Ninguno es urgente: Cultura pide 40 % y ya tiene 123 tarjetas.
 
-### 2. Lengua Castellana — sin cubrir
-
-La guía oficial le dedica 24 páginas (pp. 167-190: acentuación, esdrújulas,
-comprensión lectora). El mazo **no la cubre en absoluto**.
-
-Solo aplica *"cuando el español no fuere la lengua materna del solicitante"*. Si
-el español es tu lengua materna, esta laguna no existe y presentas la Forma 1
-(80 preguntas). Si no lo es, presentas la Forma 2 (90 preguntas, 4 horas) y hay
-que construir ese módulo. **Dime cuál es tu caso.**
-
-### 3. No hay simulacro ni clave de respuestas
+### 2. No hay simulacro ni clave de respuestas
 
 Ni la Cancillería ni el curso publican un examen de práctica con respuestas
 oficiales. El instructivo solo trae **una** pregunta de ejemplo (sobre el inicio
@@ -117,7 +114,7 @@ del proceso de independencia). El mazo entrena producción de respuestas, que es
 más exigente que el reconocimiento que pide el examen, pero no entrena el formato
 de opción múltiple ni el manejo del tiempo.
 
-### 4. Un error dentro de la guía oficial
+### 3. Un error dentro de la guía oficial
 
 La guía dice *"la fundación de Santa Marta por parte de Pedro de Heredia"*
 (p. 111) y se contradice con su propia cronología (p. 108: "1501 Rodrigo de

@@ -20,8 +20,8 @@ Fuente: instructivo oficial. Diseñado por la **Universidad de Antioquia** por
 encargo de la Cancillería (art. 13 de la Ley 2332 de 2023).
 
 - **Opción múltiple**, 4 opciones, una sola correcta. No hay preguntas abiertas.
-- **80 preguntas** (o 90 si debes presentar Lengua Castellana).
-- **3 horas** (4 con Lengua Castellana).
+- **80 preguntas en 3 horas** — presentas la **Forma 1**, sin módulo de Lengua
+  Castellana, porque el español es tu lengua materna.
 - Solo **lápiz negro N.º 2**. Nada de electrónicos.
 
 | Módulo del examen | Preguntas | Mínimo para aprobar | Mazo correspondiente | Tarjetas |
@@ -30,9 +30,9 @@ encargo de la Cancillería (art. 13 de la Ley 2332 de 2023).
 | Geografía | 20 | **11** (55 %) | `Colombia::2. Geografía` | 157 |
 | Historia Patria | 20 | **8** (40 %) | `Colombia::3. Historia Patria` | 83 |
 | Cultura | 20 | **8** (40 %) | `Colombia::1. Cultura y Sociedad` | 123 |
-| Lengua Castellana\* | 10 | **4** (40 %) | — no cubierto | — |
 
-\* Solo para quienes el español no sea lengua materna.
+Hay un quinto módulo, Lengua Castellana (10 preguntas), que **no te aplica**:
+solo lo presentan quienes no tengan el español como lengua materna.
 
 > **Hay que aprobar TODOS los módulos.** Basta fallar uno para quedar NO APROBADO,
 > por bien que vayan los otros. Los módulos aprobados **no se acumulan** para una
