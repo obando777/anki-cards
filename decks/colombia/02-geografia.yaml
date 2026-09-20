@@ -1,0 +1,881 @@
+# Colombia::2. Geografía
+#
+# Fuente: cartilla escaneada, Módulo 2 "Geografía", páginas 8-12.
+# Metadatos del examen anotados al margen: Tiempo 30', 32 preguntas, mínimo 11/20.
+#
+# deck_id y los `id` de las tarjetas son permanentes. Ver el encabezado de
+# 01-cultura-y-sociedad.yaml para la leyenda de etiquetas de control.
+
+deck: Colombia::2. Geografía
+deck_id: 1594406039
+model: basic
+tags: [colombia, modulo-2]
+
+cards:
+
+  # ─── 1. Ubicación geográfica y fronteras ─────────────────────────────
+  - id: geo-ubicacion
+    front: ¿Dónde se ubica Colombia?
+    back: En la parte noroccidente de América del Sur.
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-fronteras
+    model: cloze
+    text: 'Colombia limita al norte con el {{c1::mar Caribe}}, al oriente con {{c2::Venezuela y Brasil}}, al sur con {{c3::Perú y Ecuador}} y al occidente con {{c4::Panamá y el océano Pacífico}}.'
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-frontera-norte
+    front: ¿Con qué limita Colombia al norte?
+    back: Con el mar Caribe.
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-frontera-oriente
+    front: ¿Con qué países limita Colombia al oriente?
+    back: Con Venezuela y Brasil.
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-frontera-sur
+    front: ¿Con qué países limita Colombia al sur?
+    back: Con Perú y Ecuador.
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-frontera-occidente
+    front: ¿Con qué limita Colombia al occidente?
+    back: Con Panamá y el océano Pacífico.
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-cordilleras-nombre
+    model: cloze
+    text: 'La cordillera de los Andes se divide en Colombia en 3 cordilleras: {{c1::Occidental}}, {{c2::Central}} y {{c3::Oriental}}.'
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  - id: geo-llanuras-cuenta
+    front: Además de las cordilleras, ¿con qué llanuras cuenta Colombia?
+    back: Con los Llanos Orientales y la región Amazónica.
+    notes: 'Fuente: Módulo 2, p. 8 (§1)'
+    tags: [ubicacion]
+
+  # ─── 1.2 Regiones biogeográficas ─────────────────────────────────────
+  - id: geo-regiones-cuantas
+    front: ¿Cuántas regiones biogeográficas tiene Colombia y cuáles son?
+    back: 5 regiones - Caribe, Andina, Pacífica, Orinoquía y Amazónica. <br><img src="mapa-regiones-naturales.png">
+    notes: 'Fuente: Módulo 2, p. 8 (§1.2)'
+    tags: [regiones]
+
+  - id: geo-regiones-cloze
+    model: cloze
+    text: 'Las 5 regiones biogeográficas son: región {{c1::Caribe}}, región {{c2::Andina}}, región {{c3::Pacífica}}, región {{c4::Orinoquía}} y región {{c5::Amazónica}}.'
+    notes: 'Fuente: Módulo 2, p. 8 (§1.2)'
+    tags: [regiones]
+
+  - id: geo-regiones-diferencian
+    front: ¿Por qué se diferencian entre sí las regiones biogeográficas?
+    back: Por sus climas, relieve, biodiversidad y forma de vida de quienes las habitan.
+    notes: 'Fuente: Módulo 2, p. 8 (§1.2)'
+    tags: [regiones]
+
+  # ─── 1.3 Región Amazónica ────────────────────────────────────────────
+  - id: geo-amazonica-rios
+    front: ¿Cuáles son los principales ríos de la región Amazónica?
+    back: El río Amazonas y sus afluentes, el río Putumayo y el río Caquetá.
+    notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-relieve
+    front: ¿Cómo es el relieve de la región Amazónica?
+    back: Mesetas de Yapacaní y colinas de Mocoa.
+    notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-serrania
+    front: ¿Cuál es la serranía de la región Amazónica?
+    back: La serranía de La Macarena.
+    notes: 'Fuente: Módulo 2, p. 8 (§1.4.1)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-mamiferos
+    model: cloze
+    text: 'Mamíferos de la región Amazónica: el {{c1::jaguar}}, los {{c2::pumas}} y los {{c3::monos}}.'
+    notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-aves
+    model: cloze
+    text: 'Aves de la región Amazónica: el {{c1::guacamayo}}, el {{c2::águila arpía}}, el {{c3::tucán}} y el {{c4::loro amazona}}.'
+    notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-flora
+    model: cloze
+    text: 'Árboles de la región Amazónica: la {{c1::ceiba}}, el árbol de {{c2::caucho}}, el {{c3::cedro}} y la {{c4::canela}}; además, plantas medicinales.'
+    notes: 'Fuente: Módulo 2, p. 8 (§1.3)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-etnias
+    front: ¿Cuáles son los grupos étnicos más representativos de la región Amazónica?
+    back: Los Tikuna y los Huitoto.
+    notes: 'Fuente: Módulo 2, p. 8 (§1.4)'
+    tags: [amazonica, demografia]
+
+  - id: geo-amazonica-extension
+    front: ¿Cuál es la extensión territorial de la región Amazónica?
+    back: 403.000 km².
+    notes: 'Fuente: Módulo 2, p. 8 (§1.4.1)'
+    tags: [amazonica]
+
+  - id: geo-amazonica-deptos
+    model: cloze
+    text: 'Departamentos de la región Amazónica: {{c1::Putumayo}}, {{c2::Caquetá}}, {{c3::Guaviare}}, {{c4::Guainía}}, {{c5::Vaupés}} y {{c6::Amazonas}}.'
+    notes: 'La cartilla escribe "Guainía (San José del Guaviare)"; el departamento cuya capital es San José del Guaviare es Guaviare. <br>Fuente: Módulo 2, p. 9'
+    tags: [amazonica, discrepancia]
+
+  - id: geo-cap-putumayo
+    model: basic-reversed
+    front: Putumayo
+    back: Mocoa
+    notes: 'Departamento y capital, región Amazónica. Fuente: Módulo 2, p. 9'
+    tags: [amazonica]
+
+  - id: geo-cap-caqueta
+    model: basic-reversed
+    front: Caquetá
+    back: Florencia
+    notes: 'Departamento y capital, región Amazónica. Fuente: Módulo 2, p. 9'
+    tags: [amazonica]
+
+  - id: geo-cap-guaviare
+    model: basic-reversed
+    front: Guaviare
+    back: San José del Guaviare
+    notes: 'Departamento y capital, región Amazónica. Fuente: Módulo 2, p. 9'
+    tags: [amazonica]
+
+  - id: geo-cap-guainia
+    model: basic-reversed
+    front: Guainía
+    back: Puerto Inírida
+    notes: 'Departamento y capital, región Amazónica. Fuente: Módulo 2, p. 9'
+    tags: [amazonica]
+
+  - id: geo-cap-vaupes
+    model: basic-reversed
+    front: Vaupés
+    back: Mitú
+    notes: 'Departamento y capital, región Amazónica. Fuente: Módulo 2, p. 9'
+    tags: [amazonica]
+
+  - id: geo-cap-amazonas
+    model: basic-reversed
+    front: Amazonas
+    back: Leticia
+    notes: 'Departamento y capital, región Amazónica. Fuente: Módulo 2, p. 9'
+    tags: [amazonica]
+
+  # ─── 1.5 Región Andina ───────────────────────────────────────────────
+  - id: geo-andina-ubicacion
+    front: ¿Dónde se ubica la región Andina y qué la compone?
+    back: "En el centro occidente del país; la componen 3 cordilleras: Occidental, Central y Oriental."
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5)'
+    tags: [andina]
+
+  - id: geo-andina-hidrografia
+    model: cloze
+    text: 'La hidrografía de la región Andina la conforman el río {{c1::Magdalena}}, el {{c2::Cauca}} y el {{c3::Caquetá}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.1)'
+    tags: [andina]
+
+  - id: geo-andina-relieve
+    model: cloze
+    text: 'El relieve de la región Andina lo conforman 3 {{c1::cordilleras}}, {{c2::picos y nevados}}, {{c3::valles interandinos}}, {{c4::cañones y desfiladeros}} y {{c5::páramos}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
+    tags: [andina]
+
+  - id: geo-andina-aves
+    model: cloze
+    text: 'Aves de la región Andina: el {{c1::cóndor de los Andes}}, el {{c2::águila arpía}} y el {{c3::colibrí}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
+    tags: [andina]
+
+  - id: geo-andina-mamiferos
+    model: cloze
+    text: 'Mamíferos de la región Andina: el {{c1::oso de anteojos}}, el {{c2::puma}}, el {{c3::venado cola blanca}} y el {{c4::mono aullador}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
+    tags: [andina]
+
+  - id: geo-andina-cultivos
+    model: cloze
+    text: 'Cultivos agrícolas de la región Andina: el {{c1::café}}, el {{c2::maíz}}, la {{c3::papa}}, el {{c4::trigo}}, el {{c5::frijol}}, frutas y hortalizas.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.2)'
+    tags: [andina]
+
+  - id: geo-andina-poblacion
+    front: ¿Cuánta población habita la región Andina?
+    back: Aproximadamente 18 millones de habitantes, el 40 % de los pobladores del país.
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.3)'
+    tags: [andina, demografia]
+
+  - id: geo-andina-ciudades
+    model: cloze
+    text: 'Ciudades de la región Andina: {{c1::Bogotá}}, {{c2::Medellín}}, {{c3::Cali}}, {{c4::Cúcuta}} y {{c5::Bucaramanga}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.3)'
+    tags: [andina]
+
+  - id: geo-andina-deptos
+    model: cloze
+    text: 'Departamentos de la región Andina: {{c1::Antioquia}}, {{c2::Norte de Santander}}, {{c3::Quindío}}, {{c4::Caldas}}, {{c5::Risaralda}}, {{c6::Tolima}}, {{c7::Boyacá}}, {{c8::Santander}}, {{c9::Cundinamarca}} y {{c10::Huila}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.4) <br><img src="mapa-departamentos.png">'
+    tags: [andina]
+
+  - id: geo-cap-antioquia
+    model: basic-reversed
+    front: Antioquia
+    back: Medellín
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-norte-santander
+    model: basic-reversed
+    front: Norte de Santander
+    back: Cúcuta
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-quindio
+    model: basic-reversed
+    front: Quindío
+    back: Armenia
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-caldas
+    model: basic-reversed
+    front: Caldas
+    back: Manizales
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-risaralda
+    model: basic-reversed
+    front: Risaralda
+    back: Pereira
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-tolima
+    model: basic-reversed
+    front: Tolima
+    back: Ibagué
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-boyaca
+    model: basic-reversed
+    front: Boyacá
+    back: Tunja
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-santander
+    model: basic-reversed
+    front: Santander
+    back: Bucaramanga
+    notes: 'La cartilla escribe "Santander del Sur". Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-cundinamarca
+    model: basic-reversed
+    front: Cundinamarca
+    back: Bogotá D.C.
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  - id: geo-cap-huila
+    model: basic-reversed
+    front: Huila
+    back: Neiva
+    notes: 'Departamento y capital, región Andina. Fuente: Módulo 2, p. 9'
+    tags: [andina]
+
+  # ─── 1.6 Región Caribe ───────────────────────────────────────────────
+  - id: geo-caribe-ubicacion
+    front: ¿Dónde se ubica la región Caribe y de dónde viene su nombre?
+    back: En la costa norte del país; su nombre se debe a que limita con el mar Caribe.
+    notes: 'Fuente: Módulo 2, p. 9 (§1.6)'
+    tags: [caribe]
+
+  - id: geo-caribe-extension
+    front: ¿Desde dónde hasta dónde se extiende la región Caribe?
+    back: Desde el golfo de Urabá hasta el golfo de Venezuela.
+    notes: 'Fuente: Módulo 2, p. 9 (§3.1)'
+    tags: [caribe]
+
+  - id: geo-caribe-compuesta
+    front: ¿Por qué está compuesto el aspecto geográfico de la región Caribe?
+    back: Por llanura costera, deltas, ríos y la cadena montañosa de la Sierra Nevada de Santa Marta.
+    notes: 'Fuente: Módulo 2, p. 9 (§3.1)'
+    tags: [caribe]
+
+  - id: geo-caribe-rios
+    model: cloze
+    text: 'Ríos de la región Caribe: {{c1::Magdalena}}, {{c2::Cauca}}, {{c3::Sinú}}, {{c4::San Jorge}} y {{c5::Ranchería}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§3.2)'
+    tags: [caribe]
+
+  - id: geo-rio-mas-largo
+    front: ¿Cuál es el río más largo de Colombia?
+    back: El río Magdalena.
+    notes: 'Fuente: Módulo 2, p. 9 (§3.2)'
+    tags: [caribe]
+
+  - id: geo-caribe-relieve
+    model: cloze
+    text: 'El relieve de la región Caribe lo forman {{c1::llanuras costeras}}, la {{c2::Sierra Nevada de Santa Marta}}, la {{c3::Sierra de Perijá}} y los {{c4::Montes de María}}.'
+    notes: 'Fuente: Módulo 2, p. 9 (§3.3)'
+    tags: [caribe]
+
+  - id: geo-caribe-archipielago
+    front: ¿Qué archipiélago pertenece a la región Caribe?
+    back: El archipiélago de San Andrés, Providencia y Santa Catalina.
+    notes: 'Fuente: Módulo 2, p. 9'
+    tags: [caribe, insular]
+
+  - id: geo-caribe-aves
+    model: cloze
+    text: 'Aves de la región Caribe: el {{c1::flamenco rosado}}, la {{c2::garza real}}, el {{c3::pelícano}}, el {{c4::colibrí}}, el {{c5::guacamayo}}, el {{c6::tucán}} y el {{c7::águila arpía}}.'
+    notes: 'Fuente: Módulo 2, p. 9'
+    tags: [caribe]
+
+  - id: geo-caribe-poblacion-pct
+    front: ¿Qué porcentaje de la población del país alberga la región Caribe?
+    back: Cerca del 22,5 %.
+    notes: 'Fuente: Módulo 2, p. 10 (§3.4)'
+    tags: [caribe, demografia]
+
+  - id: geo-caribe-ciudades
+    model: cloze
+    text: 'Ciudades de la región Caribe: {{c1::Barranquilla}}, {{c2::Cartagena}}, {{c3::Santa Marta}}, {{c4::Sincelejo}} y {{c5::Montería}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§3.4)'
+    tags: [caribe]
+
+  - id: geo-caribe-deptos
+    model: cloze
+    text: 'Departamentos de la región Caribe: {{c1::La Guajira}}, {{c2::Atlántico}}, {{c3::Magdalena}}, {{c4::Cesar}}, {{c5::Sucre}}, {{c6::Córdoba}} y {{c7::Bolívar}}.'
+    notes: 'La cartilla escribe "diputados" donde quiere decir departamentos. Fuente: Módulo 2, p. 10 (§3.4)'
+    tags: [caribe]
+
+  - id: geo-cap-guajira
+    model: basic-reversed
+    front: La Guajira
+    back: Riohacha
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  - id: geo-cap-atlantico
+    model: basic-reversed
+    front: Atlántico
+    back: Barranquilla
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  - id: geo-cap-magdalena
+    model: basic-reversed
+    front: Magdalena
+    back: Santa Marta
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  - id: geo-cap-cesar
+    model: basic-reversed
+    front: Cesar
+    back: Valledupar
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  - id: geo-cap-sucre
+    model: basic-reversed
+    front: Sucre
+    back: Sincelejo
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  - id: geo-cap-cordoba
+    model: basic-reversed
+    front: Córdoba
+    back: Montería
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  - id: geo-cap-bolivar
+    model: basic-reversed
+    front: Bolívar
+    back: Cartagena
+    notes: 'Departamento y capital, región Caribe. Fuente: Módulo 2, p. 10'
+    tags: [caribe]
+
+  # ─── 1.7 Región Pacífica ─────────────────────────────────────────────
+  - id: geo-pacifica-ubicacion
+    front: ¿Dónde se ubica la región Pacífica?
+    back: Al suroccidente del país; limita al occidente con el océano Pacífico.
+    notes: 'Fuente: Módulo 2, p. 10 (§1.6)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-extension
+    front: ¿Desde dónde hasta dónde se extiende la región Pacífica?
+    back: Desde el departamento del Chocó hasta el departamento de Nariño en el sur.
+    notes: 'Fuente: Módulo 2, p. 10 (§4.1)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-rios
+    model: cloze
+    text: 'Ríos de la región Pacífica: {{c1::San Juan}}, {{c2::Atrato}}, {{c3::Baudó}}, {{c4::Mira}} y {{c5::Patía}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§4.2)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-relieve
+    front: ¿Cómo es el relieve de la región Pacífica?
+    back: Está limitado por la cordillera Occidental.
+    notes: 'Fuente: Módulo 2, p. 10 (§4.3)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-fauna
+    model: cloze
+    text: 'Fauna de la región Pacífica: el {{c1::jaguar}}, el {{c2::oso hormiguero}}, el {{c3::tapir}} y el {{c4::mono aullador}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§4.4)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-flora
+    model: cloze
+    text: 'Flora de la selva tropical del Pacífico: el árbol del {{c1::chontaduro}}, el {{c2::caucho}} y la {{c3::palma de cera}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§4.5)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-medicinales
+    model: cloze
+    text: 'Plantas medicinales de la región Pacífica: el {{c1::cordoncillo}}, la {{c2::chirca}}, el {{c3::canelo}} y la {{c4::manzanilla de monte}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§4.5)'
+    tags: [pacifica]
+
+  - id: geo-pacifica-aves
+    model: cloze
+    text: 'Aves anotadas para la región Pacífica: el {{c1::cóndor de los Andes}}, el {{c2::guacamayo rojo}} y el {{c3::colibrí cola de espátula}}.'
+    notes: 'Anotación manuscrita del margen (p. 10, §4.5). Fuente: Módulo 2, p. 10'
+    tags: [pacifica, anotacion]
+
+  - id: geo-pacifica-poblacion
+    front: ¿Cómo se compone la población de la región Pacífica?
+    back: Mayoría afrocolombianos y comunidades indígenas como los Emberá, Wounaan y Awá.
+    notes: 'Fuente: Módulo 2, p. 10 (§4.6)'
+    tags: [pacifica, demografia]
+
+  - id: geo-pacifica-deptos
+    model: cloze
+    text: 'Departamentos de la región Pacífica: {{c1::Chocó}}, {{c2::Valle del Cauca}}, {{c3::Cauca}} y {{c4::Nariño}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§4.6)'
+    tags: [pacifica]
+
+  - id: geo-cap-choco
+    model: basic-reversed
+    front: Chocó
+    back: Quibdó
+    notes: 'Departamento y capital, región Pacífica. Fuente: Módulo 2, p. 10'
+    tags: [pacifica]
+
+  - id: geo-cap-valle
+    model: basic-reversed
+    front: Valle del Cauca
+    back: Cali
+    notes: 'Departamento y capital, región Pacífica. Fuente: Módulo 2, p. 10'
+    tags: [pacifica]
+
+  - id: geo-cap-cauca
+    model: basic-reversed
+    front: Cauca
+    back: Popayán
+    notes: 'Departamento y capital, región Pacífica. Fuente: Módulo 2, p. 10'
+    tags: [pacifica]
+
+  - id: geo-cap-narino
+    model: basic-reversed
+    front: Nariño
+    back: Pasto
+    notes: 'Departamento y capital, región Pacífica. Fuente: Módulo 2, p. 10'
+    tags: [pacifica]
+
+  - id: geo-pacifica-ciudades
+    front: ¿Qué ciudades menciona la cartilla para la región Pacífica?
+    back: Quibdó, Buenaventura, Cali y Tumaco.
+    notes: 'Fuente: Módulo 2, p. 10 (§4.6)'
+    tags: [pacifica]
+
+  # ─── 1.8 Región Orinoquía ────────────────────────────────────────────
+  - id: geo-orinoquia-extension
+    front: ¿Qué porcentaje del territorio colombiano ocupa la región Orinoquía?
+    back: El 28 % del territorio; se extiende por una vasta llanura.
+    notes: 'Fuente: Módulo 2, p. 10 (§5.1)'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-limites
+    model: cloze
+    text: 'La Orinoquía limita al norte con {{c1::Venezuela}}, al este con {{c2::Brasil}}, al sur con la {{c3::Amazonia}} y al oeste con la {{c4::región Andina}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§5.1)'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-rios
+    front: ¿Cuáles son los 2 ríos importantes de la región Orinoquía?
+    back: El Meta y el Orinoco.
+    notes: 'Fuente: Módulo 2, p. 10 (§5.2)'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-relieve
+    front: ¿Cómo es el relieve de la región Orinoquía?
+    back: Tierras planas o llano con muchas llanuras y sabanas, llamadas Llanos Orientales, cubiertas por pasto y vegetación de sabana.
+    notes: 'Fuente: Módulo 2, p. 10 (§5.3)'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-serranias
+    front: ¿Qué serranías se encuentran en la región Orinoquía?
+    back: La serranía de La Macarena y la serranía de La Lindosa.
+    notes: 'Fuente: Módulo 2, p. 10 (§5.3)'
+    tags: [orinoquia]
+
+  - id: geo-capibara
+    front: ¿Cuál es el roedor más grande del mundo, habitante de la Orinoquía?
+    back: El capibara.
+    notes: 'La cartilla lo escribe "capibora". Fuente: Módulo 2, p. 10 (§5.4)'
+    tags: [orinoquia]
+
+  - id: geo-delfin-rio
+    front: ¿En qué ríos se ubica el delfín de río?
+    back: En los ríos Orinoco y Meta.
+    notes: 'Fuente: Módulo 2, p. 10 (§5.4)'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-fauna
+    model: cloze
+    text: 'Fauna de la Orinoquía: el {{c1::capibara}}, el {{c2::delfín de río}}, el {{c3::venado cola blanca}}, el {{c4::oso hormiguero}} y los {{c5::jaguares}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§5.4)'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-aves-reptiles
+    model: cloze
+    text: 'En la Orinoquía se encuentran el {{c1::águila arpía}}, la {{c2::guacamaya roja}}, la {{c3::garza real}}, el {{c4::caimán del Orinoco}}, la {{c5::rana venenosa}} y la {{c6::tortuga charapa}}.'
+    notes: 'Fuente: Módulo 2, p. 10 (§5.4)'
+    tags: [orinoquia]
+
+  - id: geo-cano-cristales
+    model: basic-reversed
+    front: Caño Cristales
+    back: Río de la serranía de La Macarena (Orinoquía); su belleza son sus varios colores, por sus algas coloradas
+    notes: 'Anotación manuscrita del margen (p. 10), marcada "ojo". Fuente: Módulo 2, p. 10'
+    tags: [orinoquia, anotacion]
+
+  - id: geo-orinoquia-poblacion
+    front: ¿Por quiénes está conformada la población de la región Orinoquía?
+    back: Por comunidades indígenas y afrodescendientes; indígenas Sikuani, Guahibo y Curripaco.
+    notes: 'Fuente: Módulo 2, p. 11 (§5.5)'
+    tags: [orinoquia, demografia]
+
+  - id: geo-orinoquia-deptos
+    model: cloze
+    text: 'Departamentos de la región Orinoquía: {{c1::Arauca}}, {{c2::Casanare}}, {{c3::Meta}} y {{c4::Vichada}}.'
+    notes: 'Fuente: Módulo 2, p. 11 (§5.6)'
+    tags: [orinoquia]
+
+  - id: geo-cap-arauca
+    model: basic-reversed
+    front: Arauca (departamento)
+    back: Arauca (capital)
+    notes: 'Departamento y capital, región Orinoquía. Fuente: Módulo 2, p. 11'
+    tags: [orinoquia]
+
+  - id: geo-cap-casanare
+    model: basic-reversed
+    front: Casanare
+    back: Yopal
+    notes: 'Departamento y capital, región Orinoquía. Fuente: Módulo 2, p. 11'
+    tags: [orinoquia]
+
+  - id: geo-cap-meta
+    model: basic-reversed
+    front: Meta
+    back: Villavicencio
+    notes: 'Departamento y capital, región Orinoquía. Fuente: Módulo 2, p. 11'
+    tags: [orinoquia]
+
+  - id: geo-cap-vichada
+    model: basic-reversed
+    front: Vichada
+    back: Puerto Carreño
+    notes: 'Departamento y capital, región Orinoquía. Fuente: Módulo 2, p. 11'
+    tags: [orinoquia]
+
+  - id: geo-orinoquia-economia
+    model: cloze
+    text: 'La economía de la Orinoquía se basa en actividades {{c1::agropecuarias}}, {{c2::ganadería}}, extracción de {{c3::petróleo}}, {{c4::minería}} y {{c5::turismo}}.'
+    notes: 'Fuente: Módulo 2, p. 11 (§5.7)'
+    tags: [orinoquia]
+
+  # ─── Datos demográficos (anotación manuscrita, p. 11) ────────────────
+  - id: geo-grupos-etnicos-cinco
+    model: cloze
+    text: 'Los grupos étnicos de Colombia son: {{c1::indígenas}}, {{c2::raizales}}, {{c3::afrocolombianos}}, {{c4::palenqueros}} y {{c5::Rom o gitanos}}.'
+    notes: 'Anotación manuscrita de los márgenes (p. 11), "Datos demográficos básicos". Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion]
+
+  - id: geo-poblacion-total
+    front: Según la anotación de la cartilla, ¿cuál es la población de Colombia?
+    back: Entre 44 y 50 millones de habitantes.
+    notes: 'Anotación manuscrita (p. 11). Confirma la cifra que usa tu curso. Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion, revisar]
+
+  - id: geo-indigenas-pct
+    front: Según la anotación de la cartilla, ¿qué porcentaje de la población son indígenas?
+    back: El 4,3 % de la población.
+    notes: 'Anotación manuscrita (p. 11); menciona los Wayuu y los Arhuacos. Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion, revisar]
+
+  - id: geo-raizales-definicion
+    model: basic-reversed
+    front: Raizales
+    back: Grupo étnico que habita las islas de San Andrés
+    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion]
+
+  - id: geo-afrocolombianos-pct
+    front: Según la anotación de la cartilla, ¿qué porcentaje de la población son afrocolombianos?
+    back: El 6,7 % de la población, aproximadamente 3 millones.
+    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion, revisar]
+
+  - id: geo-palenqueros-definicion
+    model: basic-reversed
+    front: Palenqueros
+    back: Descendientes de africanos
+    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion]
+
+  - id: geo-rom-gitanos
+    model: basic-reversed
+    front: Rom o gitanos
+    back: Grupo étnico de aproximadamente 2.000 personas
+    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
+    tags: [demografia, anotacion, revisar]
+
+  # ─── 2. Geografía física ─────────────────────────────────────────────
+  - id: geo-cordillera-occidental
+    front: ¿Dónde se ubica la cordillera Occidental?
+    back: Cerca al océano Pacífico.
+    notes: 'Fuente: Módulo 2, p. 11 (§2.1)'
+    tags: [geografia-fisica]
+
+  - id: geo-cordillera-central
+    front: ¿Dónde se ubica la cordillera Central y qué volcán contiene?
+    back: En el centro del país; contiene el volcán del Nevado del Huila.
+    notes: 'La anotación manuscrita añade el Nevado del Ruiz. Fuente: Módulo 2, p. 11 (§2.1)'
+    tags: [geografia-fisica]
+
+  - id: geo-cordillera-oriental
+    front: ¿Dónde se ubica la cordillera Oriental y hasta dónde llega?
+    back: Al este del país; va hasta el territorio venezolano.
+    notes: 'Fuente: Módulo 2, p. 11 (§2.1)'
+    tags: [geografia-fisica]
+
+  - id: geo-sierra-nevada-altura
+    front: ¿Dónde está la Sierra Nevada de Santa Marta y qué altura alcanza?
+    back: Al norte del país, región Caribe, a una altura de 5.700 metros; allí está el pico Cristóbal Colón.
+    notes: 'Fuente: Módulo 2, p. 11 (§2.2)'
+    tags: [geografia-fisica]
+
+  - id: geo-pico-cristobal-colon
+    model: basic-reversed
+    front: Pico Cristóbal Colón
+    back: Pico de la Sierra Nevada de Santa Marta, a 5.700 m
+    notes: 'Fuente: Módulo 2, p. 11 (§2.2)'
+    tags: [geografia-fisica]
+
+  - id: geo-serrania-baudo
+    front: ¿Dónde está situada la serranía del Baudó?
+    back: En la costa del Pacífico, departamento del Chocó.
+    notes: 'Fuente: Módulo 2, p. 11 (§2.2)'
+    tags: [geografia-fisica]
+
+  - id: geo-macizo-colombiano
+    front: ¿Dónde está el Macizo Colombiano y de qué se compone?
+    back: Al sureste del país; se compone de las tres cordilleras (Occidental, Central y Oriental) y alberga los nevados del Huila y el Nevado del Cumbal.
+    notes: 'La cartilla dice "sureste"; el Macizo Colombiano está en realidad al suroeste del país, en el departamento del Cauca. Fuente: Módulo 2, p. 11 (§2.2)'
+    tags: [geografia-fisica, discrepancia]
+
+  - id: geo-valles-interandinos
+    model: cloze
+    text: 'Los valles interandinos son: el valle del {{c1::Cauca}}, el valle de {{c2::Aburrá}}, el valle del {{c3::Magdalena}} y el valle del {{c4::Patía}}.'
+    notes: 'Anotación manuscrita (p. 11, §2.3); la cartilla impresa solo remite a la pág. 91. Fuente: Módulo 2, p. 11'
+    tags: [geografia-fisica, anotacion]
+
+  - id: geo-llanuras-tres
+    model: cloze
+    text: 'Las llanuras de Colombia son: la llanura del {{c1::Caribe}}, la llanura del {{c2::Amazonas}} y las llanuras {{c3::Orientales}}.'
+    notes: 'Anotación manuscrita (p. 11, §2.4); la cartilla impresa solo remite a la pág. 92. Fuente: Módulo 2, p. 11'
+    tags: [geografia-fisica, anotacion]
+
+  # ─── 2.5 Territorio insular ──────────────────────────────────────────
+  - id: geo-territorio-insular
+    front: ¿De qué se compone el territorio insular de Colombia?
+    back: De varias islas ubicadas en el océano Atlántico y el mar Caribe.
+    notes: 'Fuente: Módulo 2, p. 11 (§2.5)'
+    tags: [insular]
+
+  - id: geo-archipielago-islas
+    model: cloze
+    text: 'El archipiélago de San Andrés lo componen {{c1::San Andrés}}, {{c2::Providencia}}, {{c3::Santa Catalina}}, {{c4::Quitasueño}}, {{c5::Serrana}}, {{c6::Roncador}}, {{c7::Albuquerque}} y {{c8::Bajo Nuevo}}.'
+    notes: 'La cartilla dice "10 islas" pero enumera 8. Fuente: Módulo 2, p. 11 (§2.5)'
+    tags: [insular, discrepancia]
+
+  - id: geo-islas-rosario
+    model: basic-reversed
+    front: Islas del Rosario
+    back: Islas del mar Caribe, cerca a Cartagena
+    notes: 'Fuente: Módulo 2, p. 11 (§2.5)'
+    tags: [insular]
+
+  - id: geo-isla-gorgona
+    model: basic-reversed
+    front: Isla Gorgona
+    back: Isla del océano Pacífico; parque nacional natural declarado patrimonio de la humanidad
+    notes: 'Fuente: Módulo 2, p. 11 (§2.5)'
+    tags: [insular]
+
+  - id: geo-isla-malpelo
+    front: ¿Dónde se ubica la isla Malpelo?
+    back: En el océano Pacífico, al sureste del país.
+    notes: 'La cartilla dice "sureste"; Malpelo está mar adentro al suroeste, y pertenece al Valle del Cauca (jurisdicción de Buenaventura). Fuente: Módulo 2, p. 11 (§2.5)'
+    tags: [insular, discrepancia]
+
+  # ─── 3. El clima ─────────────────────────────────────────────────────
+  - id: geo-clima-ecuatorial
+    model: basic-reversed
+    front: Clima ecuatorial
+    back: Comprende las regiones costeras del Caribe y del Pacífico
+    notes: 'Fuente: Módulo 2, p. 12 (§3)'
+    tags: [clima]
+
+  - id: geo-clima-subecuatorial
+    model: basic-reversed
+    front: Clima subecuatorial
+    back: Comprende los valles interandinos, que varían según la altitud
+    notes: 'Fuente: Módulo 2, p. 12 (§3)'
+    tags: [clima]
+
+  - id: geo-clima-templado
+    model: basic-reversed
+    front: Clima templado
+    back: Comprende las regiones montañosas del centro del país
+    notes: 'Fuente: Módulo 2, p. 12 (§3)'
+    tags: [clima]
+
+  - id: geo-clima-alta-montana
+    model: basic-reversed
+    front: Clima de alta montaña
+    back: Comprende las cumbres más altas de las cordilleras
+    notes: 'Fuente: Módulo 2, p. 12 (§3)'
+    tags: [clima]
+
+  - id: geo-climas-cuatro
+    model: cloze
+    text: 'Los climas de Colombia son: {{c1::ecuatorial}}, {{c2::subecuatorial}}, {{c3::templado}} y de {{c4::alta montaña}}.'
+    notes: 'Fuente: Módulo 2, p. 12 (§3)'
+    tags: [clima]
+
+  # ─── 3.1 Pisos térmicos ──────────────────────────────────────────────
+  - id: geo-pisos-termicos-cuatro
+    model: cloze
+    text: 'Los pisos térmicos son: tierras {{c1::calientes}}, tierra {{c2::templada}}, tierras {{c3::frías}} y tierras {{c4::heladas o páramos}}.'
+    notes: 'Fuente: Módulo 2, p. 12 (§3.1)'
+    tags: [pisos-termicos]
+
+  - id: geo-tierra-caliente-altitud
+    front: ¿Qué altitud y temperatura tienen las tierras calientes?
+    back: Altitud inferior a 1.000 m sobre el nivel del mar; temperaturas de 24 a 28 °C.
+    notes: 'Fuente: Módulo 2, p. 12 (§3.1)'
+    tags: [pisos-termicos]
+
+  - id: geo-tierra-templada-altitud
+    front: ¿Qué altitud y temperatura tiene la tierra templada?
+    back: Altitud entre 1.000 y 2.000 m sobre el nivel del mar; temperaturas entre 18 y 24 °C.
+    notes: 'Fuente: Módulo 2, p. 12 (§3.1)'
+    tags: [pisos-termicos]
+
+  - id: geo-tierra-fria-altitud
+    front: ¿Qué altitud y temperatura tienen las tierras frías?
+    back: Altitud entre 2.000 y 3.000 m sobre el nivel del mar; temperaturas entre 10 y 18 °C.
+    notes: 'Fuente: Módulo 2, p. 12 (§3.1)'
+    tags: [pisos-termicos]
+
+  - id: geo-paramo-altitud
+    front: ¿Qué altitud y temperatura tienen las tierras heladas o páramos?
+    back: Altitud superior a los 3.000 m sobre el nivel del mar; temperaturas por debajo de 10 °C.
+    notes: 'Fuente: Módulo 2, p. 12 (§3.1)'
+    tags: [pisos-termicos]
+
+  # ─── 3.2 Recursos naturales ──────────────────────────────────────────
+  - id: geo-recursos-minerales
+    model: cloze
+    text: 'Recursos minerales de Colombia: {{c1::carbón}}, {{c2::petróleo}}, {{c3::oro}}, {{c4::níquel}} y {{c5::esmeraldas}}.'
+    notes: 'Fuente: Módulo 2, p. 12 (§3.2)'
+    tags: [recursos]
+
+  - id: geo-recursos-hidricos
+    front: ¿Cuáles son los recursos hídricos de Colombia?
+    back: Los ríos Magdalena y Cauca, lagos y embalses, como el embalse de Guatapé en Antioquia.
+    notes: 'Fuente: Módulo 2, p. 12 (§3.2)'
+    tags: [recursos]
+
+  - id: geo-recursos-energeticos
+    model: cloze
+    text: 'Recursos energéticos de Colombia: {{c1::hidroeléctrica}}, {{c2::térmica}}, {{c3::solar}} y {{c4::eólica}}.'
+    notes: 'Fuente: Módulo 2, p. 12 (§3.2)'
+    tags: [recursos]
+
+  - id: geo-embalse-guatape
+    model: basic-reversed
+    front: Embalse de Guatapé
+    back: Principal embalse de Colombia, en Antioquia
+    notes: 'Fuente: Módulo 2, p. 12 (§3.2)'
+    tags: [recursos]
+
+  # ─── 4. Geografía humana ─────────────────────────────────────────────
+  - id: geo-grupos-etnicos-humana
+    model: cloze
+    text: 'Grupos étnicos de Colombia: indígenas {{c1::Wayuu}}, {{c2::Emberá}}, {{c3::Kogui}}, {{c4::Arhuacos}} y {{c5::mestizos}}.'
+    notes: 'La cartilla escribe "Guayu". Fuente: Módulo 2, p. 12 (§4.1)'
+    tags: [geografia-humana, demografia]
+
+  - id: geo-centros-urbanos
+    model: cloze
+    text: 'Los centros urbanos de Colombia son: {{c1::Bogotá}} (capital del país), {{c2::Medellín}}, {{c3::Cali}}, {{c4::Barranquilla}} y {{c5::Bucaramanga}}.'
+    notes: 'La lista numerada y Bucaramanga vienen de la anotación manuscrita (p. 12). Fuente: Módulo 2, p. 12 (§4.2)'
+    tags: [geografia-humana, anotacion]
+
+  - id: geo-zonas-rurales
+    front: ¿Qué son las zonas rurales?
+    back: Zonas de baja densidad de población con actividades agrícolas y ganaderas.
+    notes: 'Fuente: Módulo 2, p. 12 (§4.3)'
+    tags: [geografia-humana]
+
+  - id: geo-economia-rural
+    model: cloze
+    text: 'La economía rural se basa en la {{c1::agricultura}}, la {{c2::ganadería}}, el cultivo de {{c3::café}}, {{c4::papa}} y {{c5::plátano}}, y el {{c6::petróleo}}.'
+    notes: 'El petróleo viene de la anotación manuscrita (p. 12). Fuente: Módulo 2, p. 12 (§4.3)'
+    tags: [geografia-humana, anotacion]
+
+  - id: geo-cultura-rural
+    front: ¿Cómo es la cultura de las zonas rurales de Colombia?
+    back: Campesina, indígena y afrocolombiana.
+    notes: 'Fuente: Módulo 2, p. 12 (§4.3)'
+    tags: [geografia-humana]

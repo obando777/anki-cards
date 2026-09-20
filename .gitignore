@@ -2,6 +2,14 @@
 build/
 *.apkg
 
+# Local credentials — never commit
+.env
+.env.*
+!.env.example
+
+# Source material you drop in to make cards from — not tracked
+raw_input/
+
 # Agent session scratch
 mytasks/
 

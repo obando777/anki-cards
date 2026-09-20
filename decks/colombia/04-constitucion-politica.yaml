@@ -1,0 +1,502 @@
+# Colombia::4. Constitución Política
+#
+# Fuente: cartilla escaneada, Módulo 4 "Constitución Política de Colombia",
+# páginas 17-19. Metadatos del examen anotados al margen: Tiempo 35',
+# 34 preguntas, mínimo 12/20. La C.P.C. tiene 380 artículos.
+#
+# deck_id y los `id` de las tarjetas son permanentes. Ver el encabezado de
+# 01-cultura-y-sociedad.yaml para la leyenda de etiquetas de control.
+
+deck: Colombia::4. Constitución Política
+deck_id: 1148369932
+model: basic
+tags: [colombia, modulo-4]
+
+cards:
+
+  # ─── Cap. I Principios, derechos y garantías ─────────────────────────
+  - id: con-articulos-total
+    front: ¿Cuántos artículos tiene la Constitución Política de Colombia?
+    back: 380 artículos.
+    notes: 'Anotación manuscrita del encabezado (p. 17). Fuente: Módulo 4, p. 17'
+    tags: [principios, anotacion]
+
+  - id: con-articulo-1
+    front: ¿Qué consagra el artículo 1 de la Constitución?
+    back: "COLOMBIA ESTADO SOCIAL DE DERECHO."
+    notes: 'Fuente: Módulo 4, p. 17 (§1)'
+    tags: [principios]
+
+  - id: con-articulo-3
+    front: ¿Qué consagra el artículo 3 de la Constitución?
+    back: "LA SOBERANÍA RESIDE EXCLUSIVAMENTE EN EL PUEBLO."
+    notes: 'Fuente: Módulo 4, p. 17 (§1)'
+    tags: [principios]
+
+  - id: con-estado-social-derecho
+    front: ¿Qué garantiza el principio del Estado Social de Derecho?
+    back: Que el Estado protege los derechos humanos y castiga la violación al derecho internacional humanitario.
+    notes: 'La anotación manuscrita lo sitúa del artículo 1 al 10. Fuente: Módulo 4, p. 17 (§1.1)'
+    tags: [principios, anotacion]
+
+  - id: con-descentralizacion
+    model: basic-reversed
+    front: Descentralización
+    back: Principio que distribuye las funciones administrativas y públicas entre la administración central y sus territorios
+    notes: 'Fuente: Módulo 4, p. 17 (§1.2)'
+    tags: [principios]
+
+  - id: con-soberania-popular
+    model: basic-reversed
+    front: Soberanía popular
+    back: La autoridad en Colombia reside en el pueblo, expresada a través del voto (art. 3)
+    notes: 'El artículo lo añade la anotación manuscrita. Fuente: Módulo 4, p. 17 (§1.3)'
+    tags: [principios, anotacion]
+
+  - id: con-supremacia-cpc
+    model: basic-reversed
+    front: Supremacía de la C.P.C.
+    back: La Constitución Política de Colombia es norma de normas o norma suprema (art. 4)
+    notes: 'El artículo lo añade la anotación manuscrita. Fuente: Módulo 4, p. 17 (§1.4)'
+    tags: [principios, anotacion]
+
+  # ─── 1.5 Derechos fundamentales ──────────────────────────────────────
+  - id: con-derechos-fundamentales-rango
+    front: ¿En qué artículos están consagrados los derechos fundamentales?
+    back: Desde el artículo 11 al 44.
+    notes: 'Protegen a toda persona desde el mismo momento de su existencia. Fuente: Módulo 4, p. 17 (§1.5)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-11
+    model: basic-reversed
+    front: Artículo 11
+    back: Derecho a la vida
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-13
+    model: basic-reversed
+    front: Artículo 13
+    back: Derecho a la igualdad
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-16
+    model: basic-reversed
+    front: Artículo 16
+    back: Derecho al libre desarrollo de la personalidad
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-17
+    model: basic-reversed
+    front: Artículo 17
+    back: Prohibición a la esclavitud
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-18
+    model: basic-reversed
+    front: Artículo 18
+    back: Derecho de conciencia
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-19
+    model: basic-reversed
+    front: Artículo 19
+    back: Derecho a libertad de cultos
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-20
+    model: basic-reversed
+    front: Artículo 20
+    back: Derecho a la libertad de opinión
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-21
+    model: basic-reversed
+    front: Artículo 21
+    back: Derecho a la honra
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-22
+    model: basic-reversed
+    front: Artículo 22
+    back: Derecho a la paz
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-24
+    model: basic-reversed
+    front: Artículo 24
+    back: Derecho a la libre locomoción
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-53
+    model: basic-reversed
+    front: Artículo 53
+    back: Derecho al trabajo
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-38-39
+    model: basic-reversed
+    front: Artículos 38 y 39
+    back: Derecho de asociación
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-libertad
+    front: ¿Qué artículos consagran el derecho a la libertad según la cartilla?
+    back: Los artículos 16, 18 y 19.
+    notes: 'Fuente: Módulo 4, p. 17 (§1.6)'
+    tags: [derechos-fundamentales]
+
+  - id: con-art-96
+    model: basic-reversed
+    front: Artículo 96
+    back: Derecho fundamental a tener una nacionalidad
+    notes: 'Anotación manuscrita del margen (p. 17). Fuente: Módulo 4, p. 17'
+    tags: [derechos-fundamentales, anotacion]
+
+  # ─── Cap. II Mecanismos de protección ────────────────────────────────
+  - id: con-mecanismos-proteccion-cuando
+    front: ¿Cuándo aplican los mecanismos de protección de los derechos?
+    back: A todo ciudadano cuando sus derechos han sido vulnerados por el Estado u otra persona.
+    notes: 'La anotación manuscrita los sitúa entre los artículos 83 y 94. Fuente: Módulo 4, p. 17 (Cap. 2)'
+    tags: [mecanismos-proteccion, anotacion]
+
+  - id: con-tutela-articulo
+    model: basic-reversed
+    front: Acción de Tutela
+    back: Artículo 86
+    notes: 'Fuente: Módulo 4, p. 17 (§2.1)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-tutela-definicion
+    front: ¿En qué consiste la Acción de Tutela?
+    back: Toda persona, en forma escrita, puede solicitar ante el juez la protección de sus derechos cuando estos han sido vulnerados.
+    notes: 'Fuente: Módulo 4, p. 17 (§2.1)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-tutela-plazo
+    front: ¿En cuántos días debe resolverse una Acción de Tutela?
+    back: En 10 días.
+    notes: 'Anotación manuscrita del margen (p. 17, §2.1). Fuente: Módulo 4, p. 17'
+    tags: [mecanismos-proteccion, anotacion]
+
+  - id: con-accion-popular-articulo
+    model: basic-reversed
+    front: Acción Popular
+    back: Artículo 88
+    notes: 'Fuente: Módulo 4, p. 17 (§2.2)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-accion-popular-definicion
+    front: ¿En qué consiste la Acción Popular?
+    back: Es el mecanismo judicial para la protección de derechos colectivos.
+    notes: 'Fuente: Módulo 4, p. 17 (§2.2)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-accion-grupo-articulo
+    model: basic-reversed
+    front: Acción de Grupo
+    back: Artículo 90
+    notes: 'Fuente: Módulo 4, p. 17 (§2.3)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-accion-grupo-definicion
+    front: ¿Cuál es la finalidad de la Acción de Grupo?
+    back: La reparación de los daños producidos a un grupo de personas por acción u omisión de autoridad pública o particular.
+    notes: 'Fuente: Módulo 4, p. 17 (§2.3)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-accion-cumplimiento-articulo
+    model: basic-reversed
+    front: Acción de Cumplimiento
+    back: Artículo 87
+    notes: 'Fuente: Módulo 4, p. 17 (§2.4)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-accion-cumplimiento-definicion
+    front: ¿En qué consiste la Acción de Cumplimiento?
+    back: Cualquier persona puede acudir a la autoridad para hacer efectivo el cumplimiento de una ley o acto administrativo.
+    notes: 'Fuente: Módulo 4, p. 17 (§2.4)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-habeas-corpus-articulo
+    model: basic-reversed
+    front: Habeas Corpus
+    back: Artículo 30
+    notes: 'Fuente: Módulo 4, p. 18 (§2.5)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-habeas-corpus-definicion
+    front: ¿En qué consiste el Habeas Corpus?
+    back: Cuando alguien es privado de la libertad creyendo estar ilegalmente, puede invocar este derecho.
+    notes: 'Fuente: Módulo 4, p. 18 (§2.5)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-habeas-corpus-plazo
+    front: ¿En qué término debe resolverse el Habeas Corpus?
+    back: En el término de 36 horas.
+    notes: 'Fuente: Módulo 4, p. 18 (§2.5)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-derecho-peticion-articulo
+    model: basic-reversed
+    front: Derecho de Petición
+    back: Artículo 23
+    notes: 'Fuente: Módulo 4, p. 18 (§2.6)'
+    tags: [mecanismos-proteccion]
+
+  - id: con-derecho-peticion-definicion
+    front: ¿En qué consiste el Derecho de Petición?
+    back: Toda persona tiene derecho a presentar peticiones respetuosas a las autoridades, para obtener pronta resolución.
+    notes: 'Fuente: Módulo 4, p. 18 (§2.6)'
+    tags: [mecanismos-proteccion]
+
+  # ─── Cap. III Mecanismos de participación ciudadana ──────────────────
+  - id: con-participacion-articulo
+    front: ¿Con qué artículo se relacionan los mecanismos de participación ciudadana?
+    back: Con el artículo 103 de la C.P.C.
+    notes: 'La anotación manuscrita amplía el rango a los artículos 103-106. Fuente: Módulo 4, p. 18 (Cap. 3)'
+    tags: [participacion, anotacion]
+
+  - id: con-participacion-ambitos
+    model: cloze
+    text: 'Los mecanismos de participación permiten a los ciudadanos participar y decidir cambios en lo {{c1::judicial}}, lo {{c2::político}}, lo {{c3::legislativo}} y lo {{c4::ejecutivo}}.'
+    notes: 'Fuente: Módulo 4, p. 18 (Cap. 3)'
+    tags: [participacion]
+
+  - id: con-voto
+    model: basic-reversed
+    front: El voto
+    back: Derecho de todo ciudadano para participar en democracia, a fin de elegir y ser elegido
+    notes: 'Fuente: Módulo 4, p. 18 (§3.1)'
+    tags: [participacion]
+
+  - id: con-plebiscito
+    model: basic-reversed
+    front: El plebiscito
+    back: Pronunciamiento del pueblo, convocado por el presidente de la República, para apoyar o rechazar una determinación o propuesta del poder ejecutivo
+    notes: 'Fuente: Módulo 4, p. 18 (§3.2)'
+    tags: [participacion]
+
+  - id: con-consulta-popular
+    model: basic-reversed
+    front: La consulta popular
+    back: Pronunciamiento de la ciudadanía sobre una decisión; una vez aprobada es de obligatorio cumplimiento para el poder ejecutivo
+    notes: 'Fuente: Módulo 4, p. 18 (§3.3)'
+    tags: [participacion]
+
+  - id: con-cabildo-abierto
+    model: basic-reversed
+    front: El cabildo abierto
+    back: Reunión de carácter público para tomar decisiones que afectan los intereses de una comunidad
+    notes: 'Fuente: Módulo 4, p. 18 (§3.4)'
+    tags: [participacion]
+
+  - id: con-revocatoria-mandato
+    model: basic-reversed
+    front: La revocatoria del mandato
+    back: Cuando los ciudadanos expresan su voluntad para dar por terminado el mandato de un gobernador o alcalde elegido popularmente
+    notes: 'Fuente: Módulo 4, p. 18 (§3.5)'
+    tags: [participacion]
+
+  - id: con-referendo
+    model: basic-reversed
+    front: El referendo
+    back: Cuando se convoca al pueblo para aprobar o rechazar un proyecto o norma jurídica vigente
+    notes: 'Puede ser de origen ciudadano o de autoridad pública, y puede ser nacional, regional o local. Fuente: Módulo 4, p. 18 (§3.6)'
+    tags: [participacion]
+
+  - id: con-referendo-alcance
+    front: ¿De qué origen y de qué alcance puede ser el referendo?
+    back: De origen ciudadano o de autoridad pública; puede ser nacional, regional o local.
+    notes: 'Fuente: Módulo 4, p. 18 (§3.6)'
+    tags: [participacion]
+
+  - id: con-iniciativa-legislativa
+    model: basic-reversed
+    front: La iniciativa legislativa
+    back: Cuando los ciudadanos tienen derecho a presentar un proyecto normativo ante corporación pública
+    notes: 'Fuente: Módulo 4, p. 18 (§3.7)'
+    tags: [participacion]
+
+  - id: con-participacion-siete
+    model: cloze
+    text: 'Los mecanismos de participación ciudadana son: el {{c1::voto}}, el {{c2::plebiscito}}, la {{c3::consulta popular}}, el {{c4::cabildo abierto}}, la {{c5::revocatoria del mandato}}, el {{c6::referendo}} y la {{c7::iniciativa legislativa}}.'
+    notes: 'Fuente: Módulo 4, p. 18 (Cap. 3)'
+    tags: [participacion]
+
+  # ─── Cap. IV Estructura del Estado ───────────────────────────────────
+  - id: con-forma-estado
+    front: ¿Cómo está organizado el Estado colombiano?
+    back: En forma de república unitaria.
+    notes: 'La anotación manuscrita remite al artículo 113. Fuente: Módulo 4, p. 18 (Cap. 4)'
+    tags: [estructura-estado, anotacion]
+
+  - id: con-estructura-completa
+    model: cloze
+    text: 'El Estado colombiano está formado por 3 ramas del poder público -{{c1::legislativo}}, {{c2::ejecutivo}} y {{c3::judicial}}-, los {{c4::organismos de control}} y la {{c5::organización electoral}}.'
+    notes: 'Fuente: Módulo 4, p. 18 (Cap. 4)'
+    tags: [estructura-estado]
+
+  - id: con-rama-ejecutiva
+    front: ¿Cuál es la función de la rama ejecutiva y quién la encabeza?
+    back: Coordinar todas las actividades administrativas del Estado; en cabeza del Presidente de la República.
+    notes: 'Fuente: Módulo 4, p. 18 (§4.1)'
+    tags: [ramas]
+
+  - id: con-rama-legislativa
+    front: ¿Cuáles son las funciones de la rama legislativa?
+    back: Hacer las leyes, ejercer el control político sobre el gobierno y reformar la Constitución.
+    notes: 'Fuente: Módulo 4, p. 18 (§4.2)'
+    tags: [ramas]
+
+  - id: con-congreso-composicion
+    front: ¿Por quiénes está conformada la rama legislativa?
+    back: Por el Senado y la Cámara de Representantes.
+    notes: 'Fuente: Módulo 4, p. 18 (§4.2)'
+    tags: [ramas]
+
+  - id: con-bicameral
+    front: ¿Qué sistema tiene Colombia y cómo se compone?
+    back: "El sistema bicameral: Cámara Alta (el Senado) y Cámara Baja (la Cámara de Representantes)."
+    notes: 'Fuente: Módulo 4, p. 18 (§4.2)'
+    tags: [ramas]
+
+  - id: con-congreso-republica
+    front: ¿Cómo se llama el conjunto del Senado y la Cámara de Representantes?
+    back: El Congreso de la República.
+    notes: 'Fuente: Módulo 4, p. 18 (§4.2)'
+    tags: [ramas]
+
+  - id: con-rama-judicial
+    front: ¿Cuál es la función de la rama judicial y por quiénes está conformada?
+    back: Administrar justicia; la conforman la Corte Suprema de Justicia, los Tribunales Judiciales y los juzgados civiles, penales y laborales.
+    notes: 'Fuente: Módulo 4, p. 18 (§4.3)'
+    tags: [ramas]
+
+  - id: con-jurisdiccion-contenciosa
+    model: cloze
+    text: 'La Jurisdicción Contencioso Administrativa está conformada por el {{c1::Consejo de Estado}}, los {{c2::Tribunales Administrativos}} y los {{c3::Juzgados Administrativos}}.'
+    notes: 'Fuente: Módulo 4, pp. 18-19 (§4.4)'
+    tags: [ramas]
+
+  - id: con-jurisdiccion-constitucional
+    front: ¿Por quién está conformada la Jurisdicción Constitucional?
+    back: Por la Corte Constitucional.
+    notes: 'Fuente: Módulo 4, p. 19 (§4.5)'
+    tags: [ramas]
+
+  - id: con-jurisdiccion-paz
+    front: ¿Por quiénes está conformada la Jurisdicción de Paz?
+    back: Por los jueces de paz.
+    notes: 'Fuente: Módulo 4, p. 19 (§4.6)'
+    tags: [ramas]
+
+  - id: con-fiscalia
+    model: basic-reversed
+    front: Fiscalía General de la Nación
+    back: Acusa ante los jueces e investiga
+    notes: 'La función viene de la anotación manuscrita (p. 19, §4.7). Fuente: Módulo 4, p. 19'
+    tags: [ramas, anotacion]
+
+  - id: con-consejo-judicatura
+    model: basic-reversed
+    front: Consejo Superior de la Judicatura
+    back: Nombra jueces
+    notes: 'La función viene de la anotación manuscrita (p. 19, §4.8). Fuente: Módulo 4, p. 19'
+    tags: [ramas, anotacion]
+
+  # ─── 5. Organismos de control ────────────────────────────────────────
+  - id: con-organismos-control-funcion
+    front: ¿Qué ejercen los organismos de control?
+    back: El control disciplinario y fiscal.
+    notes: 'Fuente: Módulo 4, p. 19 (§5)'
+    tags: [organismos-control]
+
+  - id: con-contraloria
+    model: basic-reversed
+    front: Contraloría General de la República
+    back: Ejerce el control fiscal (dineros) del Estado, el buen uso y ejecución de los dineros públicos
+    notes: 'Fuente: Módulo 4, p. 19 (§5)'
+    tags: [organismos-control]
+
+  - id: con-procuraduria
+    model: basic-reversed
+    front: Procuraduría General de la Nación
+    back: Realiza las investigaciones disciplinarias a los servidores públicos y particulares con funciones públicas
+    notes: 'Fuente: Módulo 4, p. 19 (§5)'
+    tags: [organismos-control]
+
+  # ─── 6. Organización electoral ───────────────────────────────────────
+  - id: con-organizacion-electoral
+    model: cloze
+    text: 'La organización electoral está conformada por el {{c1::Consejo Nacional Electoral}} (CNE) y la {{c2::Registraduría Nacional del Estado Civil}}.'
+    notes: 'Fuente: Módulo 4, p. 19 (§6)'
+    tags: [organizacion-electoral]
+
+  - id: con-cne
+    model: basic-reversed
+    front: CNE
+    back: Consejo Nacional Electoral
+    notes: 'La sigla viene de la anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [organizacion-electoral, anotacion]
+
+  # ─── 7. Organismos autónomos independientes ──────────────────────────
+  - id: con-organismos-autonomos
+    model: cloze
+    text: 'Los organismos autónomos independientes son el {{c1::Banco de la República}}, los {{c2::entes universitarios autónomos}}, las {{c3::Corporaciones Autónomas Regionales}} y la {{c4::Comisión Nacional del Servicio Civil}}.'
+    notes: 'Tienen autonomía propia. Fuente: Módulo 4, p. 19 (§7)'
+    tags: [organismos-autonomos]
+
+  # ─── Defensoría del Pueblo (anotación manuscrita, p. 19) ─────────────
+  - id: con-defensoria-ley
+    front: ¿Por qué ley fue creada la Defensoría del Pueblo y en aplicación de qué artículo?
+    back: Por la Ley 24 de 1992, en aplicación del artículo 283 de la C.P.C.
+    notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]
+
+  - id: con-defensoria-naturaleza
+    front: ¿Qué tipo de organismo es la Defensoría del Pueblo?
+    back: Un organismo autónomo vinculado al Ministerio Público; actúa bajo la dirección del Procurador General.
+    notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]
+
+  - id: con-ministerio-publico
+    model: cloze
+    text: 'El Ministerio Público lo componen la {{c1::Procuraduría}}, la {{c2::Defensoría}} y las {{c3::Personerías}}.'
+    notes: 'Anotación manuscrita del margen (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]
+
+  - id: con-defensoria-enfoque
+    front: ¿En qué se enfoca la Defensoría del Pueblo?
+    back: En la protección de los derechos humanos en el país.
+    notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]
+
+  - id: con-defensoria-autonomia
+    front: ¿Qué autonomía tiene la Defensoría del Pueblo?
+    back: Autonomía administrativa y presupuestal.
+    notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]
+
+  - id: con-defensoria-garantia
+    front: ¿Qué garantiza la Defensoría del Pueblo como entidad?
+    back: El "estado social de derecho".
+    notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]
+
+  - id: con-defensor-eleccion
+    front: ¿Quién elige al Defensor del Pueblo, de qué terna y por cuánto tiempo?
+    back: Lo elige la Cámara de Representantes, de terna presentada por el Presidente de la República, por 4 años.
+    notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
+    tags: [defensoria, anotacion]

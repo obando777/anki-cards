@@ -43,6 +43,21 @@ uv run scripts/build.py decks/spanish       # or just one folder / file
 
 Then double-click the `.apkg` in `build/`, or use **File → Import** in Anki.
 
+## Working from a scan in `raw_input/`
+
+Scanned PDFs have no text layer, so there is nothing to extract automatically —
+the pages get rendered to images, read, and transcribed into `decks/`.
+
+```bash
+uv sync --group extract
+uv run --group extract scripts/render_pdf.py raw_input/<scan>.pdf -o /tmp/pages
+uv run --group extract scripts/render_pdf.py raw_input/<scan>.pdf -o /tmp/crops \
+    --pages 11 --dpi 220 --crop 0.0,0.02,0.18,0.30      # zoom a handwritten margin
+```
+
+`raw_input/` is gitignored — source scans stay local, the cards they produce get
+committed. See `decks/colombia/` for a worked example.
+
 ## The one rule: ids are permanent
 
 Anki recognises a note by a GUID, which this repo derives from the deck name plus

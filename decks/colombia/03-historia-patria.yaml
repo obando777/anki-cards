@@ -1,0 +1,543 @@
+# Colombia::3. Historia Patria
+#
+# Fuente: cartilla escaneada, Módulo 3 "Historia Patria", páginas 13-16.
+# Metadatos del examen anotados al margen: Tiempo 25', 30 preguntas, mínimo 8/20.
+#
+# deck_id y los `id` de las tarjetas son permanentes. Ver el encabezado de
+# 01-cultura-y-sociedad.yaml para la leyenda de etiquetas de control.
+
+deck: Colombia::3. Historia Patria
+deck_id: 1302885278
+model: basic
+tags: [colombia, modulo-3]
+
+cards:
+
+  # ─── 1. Antes de Colombia ────────────────────────────────────────────
+  - id: his-llegada-espanoles
+    front: ¿En qué siglo llegaron los españoles a lo que hoy es Colombia?
+    back: En el siglo XV.
+    notes: 'Fuente: Módulo 3, p. 13 (§1)'
+    tags: [precolombino]
+
+  - id: his-periodos-historia
+    model: cloze
+    text: 'Los períodos de la historia de Colombia son: 1) poblamiento {{c1::indígena}} hasta la llegada de los españoles y la conquista, 2) período {{c2::Colonial}}, 3) {{c3::Independencia}} y 4) la {{c4::República}}.'
+    notes: 'Anotación manuscrita del margen (p. 13). Fuente: Módulo 3, p. 13'
+    tags: [precolombino, anotacion]
+
+  - id: his-poblamiento-inicial
+    front: Según la anotación de la cartilla, ¿cómo fue el poblamiento inicial del territorio?
+    back: Fue de habitantes indígenas, hasta la llegada de los españoles en el siglo XV, con el inicio de la época de la conquista.
+    notes: 'Anotación manuscrita del margen (p. 13). Fuente: Módulo 3, p. 13'
+    tags: [precolombino, anotacion]
+
+  - id: his-lenguas-predominantes
+    model: cloze
+    text: 'Las lenguas predominantes antes de la conquista fueron la {{c1::chibcha}}, la {{c2::arawak}} y la {{c3::caribe}}.'
+    notes: 'Fuente: Módulo 3, p. 13 (§1.1)'
+    tags: [precolombino]
+
+  - id: his-comunidades-indigenas
+    model: cloze
+    text: 'Las principales comunidades indígenas fueron los {{c1::Tayrona}}, {{c2::Sinú}}, {{c3::Quimbaya}}, {{c4::Calima}} y {{c5::Muiscas}}.'
+    notes: 'Fuente: Módulo 3, p. 13 (§1.1)'
+    tags: [precolombino]
+
+  # ─── 1.2 Conquista ───────────────────────────────────────────────────
+  - id: his-llegada-costa
+    front: ¿Por dónde llegaron los españoles a Colombia?
+    back: Por la costa Caribe.
+    notes: 'Fuente: Módulo 3, p. 13 (§1.2)'
+    tags: [conquista]
+
+  - id: his-primera-expedicion
+    front: ¿Quién realizó la primera expedición y en qué año?
+    back: Rodrigo de Bastidas, en el año 1501.
+    notes: 'Fuente: Módulo 3, p. 13 (§1.2)'
+    tags: [conquista]
+
+  - id: his-santa-marta-fundacion
+    front: Según la cartilla, ¿quién fundó Santa Marta y en qué año?
+    back: Pedro de Heredia, a partir de 1533.
+    notes: 'La cartilla lo atribuye así. Históricamente, Santa Marta fue fundada por Rodrigo de Bastidas en 1525; Pedro de Heredia fundó Cartagena de Indias el 1 de junio de 1533. Fuente: Módulo 3, p. 13 (§1.2) · https://es.wikipedia.org/wiki/Santa_Marta_(Colombia)'
+    tags: [conquista, discrepancia]
+
+  - id: his-bogota-fundacion
+    front: ¿Quién fundó Bogotá y en qué año?
+    back: Gonzalo Jiménez de Quesada, en 1538.
+    notes: 'Fuente: Módulo 3, p. 13 (§1.2)'
+    tags: [conquista]
+
+  - id: his-atractivo-espanoles
+    front: ¿Qué atrajo a los españoles al territorio?
+    back: La explotación de la minería, el oro y la plata.
+    notes: 'Fuente: Módulo 3, p. 13 (§1.2)'
+    tags: [conquista]
+
+  # ─── 1.3 La Colonia ──────────────────────────────────────────────────
+  - id: his-virreinato
+    front: ¿De qué formaba parte Colombia durante la Colonia?
+    back: Del Virreinato de la Nueva Granada.
+    notes: 'Fuente: Módulo 3, p. 13 (§1.3)'
+    tags: [colonia]
+
+  - id: his-ciudades-coloniales
+    model: cloze
+    text: 'Las principales ciudades de la Colonia fueron {{c1::Santa Fe de Bogotá}}, {{c2::Cartagena de Indias}}, {{c3::Popayán}} y {{c4::Santa Marta}}.'
+    notes: 'Fuente: Módulo 3, p. 13 (§1.3)'
+    tags: [colonia]
+
+  # ─── 2. Los criollos ilustrados ──────────────────────────────────────
+  - id: his-criollos-ilustrados
+    model: cloze
+    text: 'Los criollos ilustrados fueron {{c1::Francisco José de Caldas}}, {{c2::Antonio Nariño}}, {{c3::Camilo Torres}}, {{c4::José Celestino Mutis}} y {{c5::Manuela Beltrán}}.'
+    notes: 'Fuente: Módulo 3, p. 13 (§2)'
+    tags: [criollos]
+
+  - id: his-mercedes-abrego
+    front: ¿Qué otra figura añade la anotación a los criollos ilustrados?
+    back: Mercedes Ábrego.
+    notes: 'Anotación manuscrita del margen (p. 13, §2). Fuente: Módulo 3, p. 13'
+    tags: [criollos, anotacion]
+
+  # ─── 2.1 Los comuneros ───────────────────────────────────────────────
+  - id: his-comuneros-quienes
+    front: ¿Quiénes fueron los comuneros y por qué se rebelaron?
+    back: Agricultores y artesanos que rechazaron el aumento de impuestos.
+    notes: 'Fuente: Módulo 3, p. 13 (§2.1)'
+    tags: [comuneros]
+
+  - id: his-comuneros-fechas
+    front: ¿Entre qué años se desarrolló la revuelta de los comuneros?
+    back: Entre 1780 y 1781.
+    notes: 'Fuente: Módulo 3, p. 13 (§2.1)'
+    tags: [comuneros]
+
+  - id: his-comuneros-localidades
+    model: cloze
+    text: 'La revuelta comunera se desarrolló en {{c1::Socorro}}, {{c2::Charalá}}, {{c3::Simacota}} y {{c4::Mogotes}}.'
+    notes: 'Fuente: Módulo 3, p. 13 (§2.1)'
+    tags: [comuneros]
+
+  - id: his-comuneros-resultado
+    front: ¿Cuál fue el resultado de la revuelta de los comuneros?
+    back: La revuelta no tuvo éxito.
+    notes: 'Fuente: Módulo 3, p. 13 (§2.1)'
+    tags: [comuneros]
+
+  # ─── 3. Nacimiento y desarrollo de una nación ────────────────────────
+  - id: his-nacion-inicio
+    front: ¿Con qué se inició el nacimiento de la nación?
+    back: Con la independencia de la Nueva Granada del Reino de España.
+    notes: 'Fuente: Módulo 3, p. 13 (§3)'
+    tags: [independencia]
+
+  - id: his-memorial-agravios
+    front: ¿Quién escribió el Memorial de Agravios, en qué año y qué era?
+    back: Camilo Torres, en 1809; equivalía a una queja.
+    notes: 'Los criollos consideraban que tenían muchas cargas y los mismos derechos de los españoles. Fuente: Módulo 3, p. 13 (§3.1)'
+    tags: [independencia]
+
+  - id: his-20-julio-1810
+    front: ¿Qué se conmemora el 20 de julio de 1810?
+    back: El día de la independencia de Colombia, en Bogotá, aunque no de manera definitiva.
+    notes: 'La anotación manuscrita lo llama "El Grito de Independencia de Colombia". Fuente: Módulo 3, p. 14'
+    tags: [independencia, anotacion]
+
+  - id: his-grito-independencia
+    model: basic-reversed
+    front: El Grito de Independencia
+    back: 20 de julio de 1810, en Bogotá
+    notes: 'Anotación manuscrita del margen (p. 14). Fuente: Módulo 3, p. 14'
+    tags: [independencia, anotacion]
+
+  - id: his-patria-boba
+    front: ¿Entre qué años se desarrolló la Patria Boba y qué ocurrió?
+    back: Entre 1810 y 1815, cuando el español Pablo Morillo llevó a cabo la reconquista española de la Nueva Granada.
+    notes: 'Fuente: Módulo 3, p. 14 (§3)'
+    tags: [independencia]
+
+  - id: his-pablo-morillo
+    model: basic-reversed
+    front: Pablo Morillo
+    back: Español que llevó a cabo la reconquista de la Nueva Granada (Patria Boba)
+    notes: 'Fuente: Módulo 3, p. 14 (§3)'
+    tags: [independencia]
+
+  - id: his-independencia-definitiva
+    front: ¿Cuándo se dio la independencia definitiva de Colombia?
+    back: El 7 de agosto de 1819, con la victoria de la batalla de Boyacá.
+    notes: 'Fuente: Módulo 3, p. 14 (§3)'
+    tags: [independencia]
+
+  - id: his-batalla-boyaca-general
+    front: ¿Qué general lideró la batalla de Boyacá?
+    back: El general Simón Bolívar.
+    notes: 'Fuente: Módulo 3, p. 14 (§3)'
+    tags: [independencia]
+
+  - id: his-figuras-independencia
+    model: cloze
+    text: 'Figuras importantes de la Independencia: {{c1::Simón Bolívar}}, {{c2::Francisco de Paula Santander}}, {{c3::Antonio Nariño}}, {{c4::José María Carbonell}}, {{c5::Camilo Torres}}, {{c6::José Acevedo y Gómez}}, {{c7::Policarpa Salavarrieta}} y {{c8::Manuelita Sáenz}}.'
+    notes: 'Fuente: Módulo 3, p. 14 (§3)'
+    tags: [independencia]
+
+  # ─── 3.2 La Gran Colombia ────────────────────────────────────────────
+  - id: his-gran-colombia-creacion
+    front: ¿Qué congreso creó la República de Colombia y en qué fecha?
+    back: El Congreso de Angostura, el 17 de diciembre de 1819, después de la batalla de Boyacá.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.2)'
+    tags: [gran-colombia]
+
+  - id: his-gran-colombia-paises
+    model: cloze
+    text: 'La Gran Colombia estuvo compuesta por {{c1::Colombia}}, {{c2::Venezuela}}, {{c3::Ecuador}} y {{c4::Panamá}}.'
+    notes: 'Fuente: Módulo 3, p. 14 (§3.2)'
+    tags: [gran-colombia]
+
+  - id: his-primer-presidente
+    front: ¿Quién fue el primer presidente elegido de la Gran Colombia?
+    back: Simón Bolívar.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.2)'
+    tags: [gran-colombia]
+
+  - id: his-gran-colombia-disolucion
+    front: ¿En qué año y por qué se disolvió la Gran Colombia?
+    back: En 1831, por tensiones entre las regiones.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.2)'
+    tags: [gran-colombia]
+
+  # ─── 3.3 La Nueva Granada ────────────────────────────────────────────
+  - id: his-nueva-granada-que-es
+    front: ¿Qué fue la Nueva Granada y qué países comprendía?
+    back: El nombre que recibió el nuevo país de Colombia y Panamá.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.3)'
+    tags: [nueva-granada]
+
+  - id: his-nueva-granada-periodo
+    front: ¿Entre qué años duró el período de la Nueva Granada?
+    back: Entre 1831 y 1858.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.3)'
+    tags: [nueva-granada]
+
+  - id: his-partidos-origen
+    front: ¿Qué partidos se conformaron durante el período de la Nueva Granada?
+    back: El partido liberal y el partido conservador.
+    notes: 'La anotación manuscrita subraya que fue en este período. Fuente: Módulo 3, p. 14 (§3.3)'
+    tags: [nueva-granada, anotacion]
+
+  # ─── 3.4 Estados Unidos de Colombia ──────────────────────────────────
+  - id: his-eeuu-colombia-periodo
+    front: ¿Entre qué años existieron los Estados Unidos de Colombia?
+    back: Entre 1863 y 1886.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.4)'
+    tags: [estados-unidos-colombia]
+
+  - id: his-constitucion-rionegro
+    front: ¿De qué constitución salieron los Estados Unidos de Colombia?
+    back: De la Constitución de Rionegro de 1863, cuando era un Estado Federal.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.4)'
+    tags: [estados-unidos-colombia]
+
+  - id: his-estados-soberanos
+    model: cloze
+    text: 'Los estados soberanos de los Estados Unidos de Colombia fueron {{c1::Antioquia}}, {{c2::Bolívar}}, {{c3::Boyacá}}, {{c4::Cauca}}, {{c5::Cundinamarca}}, {{c6::Magdalena}}, {{c7::Santander}} y {{c8::Tolima}}.'
+    notes: 'Fuente: Módulo 3, p. 14 (§3.4)'
+    tags: [estados-unidos-colombia]
+
+  - id: his-federal-funcionamiento
+    front: ¿Cómo funcionaba el Estado Federal de los Estados Unidos de Colombia?
+    back: Se basaba en un gobierno central y gobiernos federales, en los que cada uno tenía autonomía sobre asuntos políticos y administrativos.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.4)'
+    tags: [estados-unidos-colombia]
+
+  - id: his-constitucion-1886
+    front: ¿Qué hizo la Constitución de 1886 de Rafael Núñez?
+    back: Abolió el sistema federal y estableció el sistema centralista vigente hasta hoy; el país se llamó República de Colombia.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.4)'
+    tags: [estados-unidos-colombia]
+
+  # ─── 3.5 Hegemonía conservadora y Regeneración ───────────────────────
+  - id: his-hegemonia-conservadora
+    front: ¿Con qué se inició la Hegemonía Conservadora y cuál fue su proyecto político?
+    back: Con la Constitución de 1886; su proyecto político se llamó "La Regeneración".
+    notes: 'Fuente: Módulo 3, p. 14 (§3.5)'
+    tags: [regeneracion]
+
+  - id: his-regeneracion-iglesia
+    front: ¿Qué era el soporte de la sociedad durante la Regeneración?
+    back: La iglesia católica y sus valores morales.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.5)'
+    tags: [regeneracion]
+
+  - id: his-regeneracion-definicion
+    front: ¿Qué fue la Regeneración?
+    back: Un movimiento político, social y cultural para modernizar a Colombia, construir Estado-nación y recuperar valores morales.
+    notes: 'Fuente: Módulo 3, p. 14 (§3.5)'
+    tags: [regeneracion]
+
+  - id: his-regeneracion-representantes
+    model: cloze
+    text: 'Los representantes de la Regeneración fueron {{c1::Miguel Antonio Caro}}, {{c2::Rufino José Cuervo}} y {{c3::Rafael Núñez}}.'
+    notes: 'Anotación manuscrita (p. 14); se lee "José R. Cuervo", es decir Rufino José Cuervo. Fuente: Módulo 3, p. 14 · https://es.wikipedia.org/wiki/Regeneraci%C3%B3n_(Colombia)'
+    tags: [regeneracion, anotacion]
+
+  - id: his-regeneracion-fin
+    front: ¿En qué año y con qué terminó la época de la Regeneración?
+    back: En 1930, con la llegada de la República Liberal.
+    notes: 'Anotación manuscrita (p. 14). Fuente: Módulo 3, p. 14'
+    tags: [regeneracion, anotacion]
+
+  # ─── 4. Modernización ────────────────────────────────────────────────
+  - id: his-modernizacion-presidente
+    front: ¿Qué presidente lideró la Modernización y en qué años?
+    back: El presidente Rafael Reyes, durante los años 1904 a 1909.
+    notes: 'La anotación manuscrita escribe "Núñez" sobre "Reyes", pero el texto impreso es el correcto: fue Rafael Reyes. Fuente: Módulo 3, p. 15 (§4)'
+    tags: [modernizacion, discrepancia]
+
+  - id: his-modernizacion-reformas
+    model: cloze
+    text: 'Durante la Modernización se realizaron reformas que desarrollaron el país con {{c1::vías férreas}} y {{c2::puertos}}, y se fortaleció el cultivo del {{c3::café}} y el {{c4::banano}}.'
+    notes: 'Fuente: Módulo 3, p. 15 (§4)'
+    tags: [modernizacion]
+
+  - id: his-modernizacion-iglesia
+    front: Según la anotación, ¿qué más promovió el gobierno de la Modernización?
+    back: Los valores de la iglesia católica.
+    notes: 'Anotación manuscrita (p. 15). Fuente: Módulo 3, p. 15'
+    tags: [modernizacion, anotacion]
+
+  # ─── 4.2 República Liberal ───────────────────────────────────────────
+  - id: his-republica-liberal-periodo
+    front: ¿Qué período comprende la República Liberal?
+    back: De 1930 a 1946.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.2)'
+    tags: [republica-liberal]
+
+  - id: his-revolucion-en-marcha
+    model: basic-reversed
+    front: La Revolución en Marcha
+    back: Nombre del período liderado por el presidente Alfonso López Pumarejo (República Liberal)
+    notes: 'Fuente: Módulo 3, p. 15 (§4.2)'
+    tags: [republica-liberal]
+
+  - id: his-lopez-pumarejo-proyectos
+    front: ¿Qué proyectos impulsó Alfonso López Pumarejo?
+    back: La modernización del país, la reforma educativa (Ley 68 de 1935) y la construcción de la Universidad Nacional.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.2)'
+    tags: [republica-liberal]
+
+  - id: his-ley-68-1935
+    model: basic-reversed
+    front: Ley 68 de 1935
+    back: Reforma educativa de Alfonso López Pumarejo durante la República Liberal
+    notes: 'Anotación manuscrita del margen (p. 15). Fuente: Módulo 3, p. 15'
+    tags: [republica-liberal, anotacion]
+
+  # ─── 4.3 Frente Nacional ─────────────────────────────────────────────
+  - id: his-frente-nacional-origen
+    front: ¿Qué dio origen a la junta militar previa al Frente Nacional?
+    back: La división de los partidos tradicionales, que dio poder a una junta militar liderada por el general Gustavo Rojas Pinilla.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional]
+
+  - id: his-plebiscito-1957
+    front: ¿Cuándo se realizó el plebiscito a favor del Frente Nacional?
+    back: El 1 de diciembre de 1957.
+    notes: 'La anotación manuscrita lo llama "1er plebiscito". Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional, anotacion]
+
+  - id: his-voto-femenino
+    front: ¿Qué ocurrió por primera vez en el período del Frente Nacional respecto al voto?
+    back: Por primera vez las mujeres votaron en Colombia.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional]
+
+  - id: his-frente-nacional-que-fue
+    front: ¿En qué consistió el Frente Nacional?
+    back: En un pacto político para sacar del poder al general Gustavo Rojas Pinilla, en el que los partidos liberal y conservador ocuparían la presidencia durante 4 años en forma alterna.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional]
+
+  - id: his-frente-nacional-vigencia
+    front: ¿Entre qué años estuvo vigente el Frente Nacional?
+    back: Entre 1958 y 1974.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional]
+
+  - id: his-ultimo-presidente-fn
+    front: ¿Quién fue el último presidente del Frente Nacional?
+    back: Misael Pastrana Borrero.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional]
+
+  - id: his-m19-origen
+    front: ¿Qué guerrilla de izquierda surgió de la situación del Frente Nacional?
+    back: El M-19.
+    notes: 'Fuente: Módulo 3, p. 15 (§4.3)'
+    tags: [frente-nacional]
+
+  # ─── 5. Historia contemporánea ───────────────────────────────────────
+  - id: his-constitucion-1991
+    front: ¿Qué constitución se promulgó en la historia contemporánea?
+    back: La Nueva Constitución Política de Colombia de 1991.
+    notes: 'Fuente: Módulo 3, p. 15 (§5)'
+    tags: [contemporanea]
+
+  - id: his-apertura-economica
+    model: basic-reversed
+    front: Apertura económica
+    back: Liberada por el presidente César Gaviria
+    notes: 'Fuente: Módulo 3, p. 15 (§5)'
+    tags: [contemporanea]
+
+  - id: his-seguridad-democratica
+    model: basic-reversed
+    front: Seguridad democrática
+    back: Política del presidente Álvaro Uribe Vélez
+    notes: 'Fuente: Módulo 3, p. 15 (§5)'
+    tags: [contemporanea]
+
+  - id: his-proceso-paz-santos
+    model: basic-reversed
+    front: Firma del proceso de paz con las FARC
+    back: Gobierno del presidente Juan Manuel Santos
+    notes: 'Fuente: Módulo 3, p. 15 (§5)'
+    tags: [contemporanea, postconflicto]
+
+  - id: his-gustavo-petro
+    front: ¿Quién es el presidente actual según la cartilla y cuál es su proyecto?
+    back: Gustavo Petro, presidente de izquierda, con su proyecto "Colombia Potencia de la Vida".
+    notes: 'Fuente: Módulo 3, p. 15 (§5)'
+    tags: [contemporanea]
+
+  # ─── 6. Postconflicto ────────────────────────────────────────────────
+  - id: his-postconflicto-inicio
+    front: ¿En qué año se inicia el postconflicto y con qué hecho?
+    back: En 2016, con la firma del acuerdo de paz con las FARC, durante el gobierno del presidente Juan Manuel Santos.
+    notes: 'Fuente: Módulo 3, p. 15 (§6) y p. 16 (§6.4)'
+    tags: [postconflicto]
+
+  - id: his-postconflicto-marco
+    model: cloze
+    text: 'El postconflicto se enmarca en la {{c1::justicia transicional}}, la {{c2::participación política}} y la {{c3::reforma agraria}}.'
+    notes: 'Fuente: Módulo 3, p. 15 (§6)'
+    tags: [postconflicto]
+
+  - id: his-postconflicto-violencia
+    front: ¿Qué ocurrió con la violencia tras el acuerdo de paz?
+    back: "No desapareció por completo: los excombatientes se unieron en grupos armados disidentes, creando bandas criminales."
+    notes: 'Fuente: Módulo 3, p. 15 (§6)'
+    tags: [postconflicto]
+
+  - id: his-farc-partido
+    front: ¿En qué se transformaron las FARC tras el acuerdo?
+    back: En un partido político llamado "Comunes", que participó en elecciones y obtuvo escaños en el congreso.
+    notes: 'La cartilla lo llama "Partido los Comunes". Fuente: Módulo 3, p. 16 (§6.4)'
+    tags: [postconflicto]
+
+  - id: his-jep
+    front: ¿Qué es la JEP y cuál es su objeto?
+    back: La Jurisdicción Especial para la Paz; su objeto es garantizar la justicia, la verdad, la reparación y la no repetición del conflicto.
+    notes: 'La cartilla la llama "Junta Especial Para la Paz"; el nombre correcto es Jurisdicción Especial para la Paz. Fuente: Módulo 3, p. 16 (§6.4) · https://www.jep.gov.co'
+    tags: [postconflicto, discrepancia]
+
+  - id: his-comision-verdad
+    front: ¿Cuál es el objeto de la Comisión de la Verdad?
+    back: Investigar la violación de los derechos humanos y los crímenes cometidos durante el conflicto armado.
+    notes: 'Fuente: Módulo 3, p. 16 (§6.4)'
+    tags: [postconflicto]
+
+  # ─── 6.1 Era de la Violencia ─────────────────────────────────────────
+  - id: his-violencia-periodo
+    front: ¿Entre qué años se sitúa la Era de la Violencia?
+    back: Entre 1946 y 1958.
+    notes: 'Fuente: Módulo 3, p. 16 (§6.1)'
+    tags: [violencia]
+
+  - id: his-gaitan-bogotazo
+    front: ¿Qué hecho caracterizó la Era de la Violencia?
+    back: El asesinato del líder político liberal Jorge Eliécer Gaitán, llamado el Bogotazo.
+    notes: 'Fuente: Módulo 3, p. 16 (§6.1)'
+    tags: [violencia]
+
+  - id: his-chulavitas
+    model: basic-reversed
+    front: Los Chulavitas
+    back: Grupo ilegal armado del partido Conservador, al servicio del gobierno
+    notes: 'Fuente: Módulo 3, p. 16 (§6.1)'
+    tags: [violencia]
+
+  - id: his-pajaros
+    front: Según la cartilla, ¿de qué partido eran "Los Pájaros"?
+    back: De los liberales, al servicio del gobierno.
+    notes: 'La cartilla los atribuye a los liberales; históricamente "Los Pájaros" fueron un grupo armado de filiación conservadora, sobre todo en el Valle del Cauca, que atacaba a los liberales. Fuente: Módulo 3, p. 16 (§6.1) · https://es.wikipedia.org/wiki/P%C3%A1jaros_(Colombia)'
+    tags: [violencia, discrepancia]
+
+  - id: his-rojas-pinilla-amnistia
+    front: ¿Qué otorgó el general Gustavo Rojas Pinilla siendo presidente?
+    back: Una amnistía a las guerrillas liberales; otros grupos guerrilleros no la aceptaron.
+    notes: 'La cartilla sitúa su presidencia entre 1953 y 1957. Fuente: Módulo 3, p. 16 (§6.1)'
+    tags: [violencia]
+
+  # ─── 6.2 Efectos del Frente Nacional ─────────────────────────────────
+  - id: his-fn-efecto-guerrillas
+    front: ¿Qué originó que el Frente Nacional no lograra superar la violencia?
+    back: Dio origen a las guerrillas de las FARC, el ELN y el EPL.
+    notes: 'Fuente: Módulo 3, p. 16 (§6.2)'
+    tags: [violencia]
+
+  - id: his-eln-anio
+    model: basic-reversed
+    front: ELN
+    back: Guerrilla fundada en 1962
+    notes: 'Fuente: Módulo 3, p. 16 (§6.2)'
+    tags: [violencia]
+
+  - id: his-epl-anio
+    model: basic-reversed
+    front: EPL
+    back: Guerrilla fundada en 1967
+    notes: 'Fuente: Módulo 3, p. 16 (§6.2)'
+    tags: [violencia]
+
+  - id: his-m19-creacion
+    front: ¿Qué hecho originó la creación del M-19 y en qué año?
+    back: Rojas Pinilla ganó las elecciones, pero el gobierno de Carlos Lleras Restrepo dio la victoria a Misael Pastrana Borrero, candidato conservador; esto originó la creación del M-19 en 1974.
+    notes: 'Fuente: Módulo 3, p. 16 (§6.2)'
+    tags: [violencia]
+
+  # ─── 6.3 Narcotráfico y paramilitarismo ──────────────────────────────
+  - id: his-paramilitarismo-origen
+    front: ¿Para qué se creó el paramilitarismo o autodefensas?
+    back: Para enfrentar a las guerrillas y proteger a terratenientes, ganaderos y empresarios.
+    notes: 'Fuente: Módulo 3, p. 16 (§6.3)'
+    tags: [narcotrafico]
+
+  - id: his-auc
+    model: basic-reversed
+    front: AUC
+    back: Autodefensas Unidas de Colombia
+    notes: 'Fuente: Módulo 3, p. 16 (§6.3)'
+    tags: [narcotrafico]
+
+  - id: his-cartel-medellin
+    model: basic-reversed
+    front: Cartel de Medellín
+    back: Liderado por Pablo Escobar
+    notes: 'Fuente: Módulo 3, p. 16 (§6.3)'
+    tags: [narcotrafico]
+
+  - id: his-cartel-cali
+    model: basic-reversed
+    front: Cartel de Cali
+    back: Liderado por los hermanos Rodríguez Orejuela
+    notes: 'Fuente: Módulo 3, p. 16 (§6.3)'
+    tags: [narcotrafico]
+
+  - id: his-bomba-das
+    front: Según la cartilla, ¿en qué año se atentó con bomba al edificio del DAS en Bogotá?
+    back: En 1980.
+    notes: 'La cartilla dice 1980; el atentado del Cartel de Medellín al edificio del DAS ocurrió el 6 de diciembre de 1989. Fuente: Módulo 3, p. 16 (§6.3) · https://es.wikipedia.org/wiki/Atentado_al_edificio_del_DAS'
+    tags: [narcotrafico, discrepancia]
