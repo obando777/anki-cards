@@ -1,0 +1,22 @@
+# Build output — derived from decks/, never edit or commit
+build/
+*.apkg
+
+# Agent session scratch
+mytasks/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/

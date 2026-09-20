@@ -1,0 +1,51 @@
+# Example deck — delete this once you have real decks, or keep it as a reference.
+#
+# deck_id is permanent: changing it makes Anki treat this as a brand new deck.
+# Each card's `id` is likewise permanent: edit a card's text freely and the next
+# import updates it in place; change its id and you get a second, separate card.
+
+deck: Example::Spanish Vocabulary
+deck_id: 1607392319
+model: basic
+tags: [example, spanish]
+
+cards:
+  # Plain front/back, using the deck's default model.
+  - id: es-perro
+    front: el perro
+    back: the dog
+    tags: [animals, noun]
+
+  - id: es-gato
+    front: el gato
+    back: the cat
+    tags: [animals, noun]
+
+  # `notes` adds a smaller hint under the answer.
+  - id: es-estar-ser
+    front: ser vs. estar
+    back: ser = permanent traits · estar = states and locations
+    notes: |
+      Soy alto (permanent) vs. Estoy cansado (right now).
+    tags: [grammar]
+
+  # A card can override the deck's model.
+  - id: es-subjunctive-esperar
+    model: cloze
+    text: Espero que {{c1::tengas}} razon.
+    notes: Subjunctive after "espero que" — the speaker is expressing a wish.
+    tags: [grammar, subjunctive]
+
+  # basic-reversed generates two cards: front->back and back->front.
+  - id: es-manzana
+    model: basic-reversed
+    front: la manzana
+    back: the apple
+    tags: [food, noun]
+
+  # Fields accept HTML, and multi-line blocks keep their formatting.
+  - id: es-numbers-1-5
+    front: Count from one to five in Spanish
+    back: |
+      uno · dos · tres · cuatro · cinco
+    tags: [numbers]
