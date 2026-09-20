@@ -12,6 +12,8 @@ a half-updated set.
 from __future__ import annotations
 
 import argparse
+import os
+import shutil
 import sys
 from pathlib import Path
 
@@ -19,6 +21,50 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from ankicards.builder import BUILD_DIR, build_deck  # noqa: E402
 from ankicards.loader import DeckError, load_all_decks  # noqa: E402
+
+
+def _configured_drop() -> Path | None:
+    """Drop directory from the environment, falling back to .env.
+
+    Kept out of the code on purpose: it is a personal path (a synced Drive
+    folder, say) and this repo is public.
+    """
+    value = os.environ.get("ANKI_DECKS_DROP_DIR")
+    if not value:
+        env = Path(__file__).resolve().parent.parent / ".env"
+        if env.is_file():
+            for line in env.read_text(encoding="utf-8").splitlines():
+                if line.strip().startswith("ANKI_DECKS_DROP_DIR="):
+                    value = line.split("=", 1)[1].strip().strip("'\"")
+                    break
+    return Path(value).expanduser() if value else None
+
+
+def _drop_decks(paths, drop: Path) -> int:
+    """Copy the built decks into `drop`, writing each atomically.
+
+    A cloud-synced folder may start uploading the moment a file appears, so the
+    copy lands on a temporary name first and is then renamed into place.
+    """
+    drop = Path(drop).expanduser()
+    try:
+        drop.mkdir(parents=True, exist_ok=True)
+    except OSError as exc:
+        print(f"  warning: cannot use drop directory {drop}: {exc}", file=sys.stderr)
+        return 0
+
+    copied = 0
+    for src in paths:
+        dest = drop / src.name
+        tmp = dest.with_name(dest.name + ".part")
+        try:
+            shutil.copy2(src, tmp)
+            tmp.replace(dest)
+            copied += 1
+        except OSError as exc:
+            tmp.unlink(missing_ok=True)
+            print(f"  warning: could not copy {src.name}: {exc}", file=sys.stderr)
+    return copied
 
 
 def main() -> int:
@@ -42,6 +88,15 @@ def main() -> int:
         help="synthesize speech for each card and embed it (needs --group audio)",
     )
     parser.add_argument("--voice", default="coral", help="TTS voice (default: coral)")
+    parser.add_argument(
+        "--drop",
+        type=Path,
+        help="also copy the built .apkg here after a successful build "
+        "(default: ANKI_DECKS_DROP_DIR from the environment or .env)",
+    )
+    parser.add_argument(
+        "--no-drop", action="store_true", help="skip the drop step even if one is configured"
+    )
     parser.add_argument(
         "--tts-model", default="gpt-4o-mini-tts", help="TTS model (default: gpt-4o-mini-tts)"
     )
@@ -68,14 +123,22 @@ def main() -> int:
                 deck, args.voice, args.tts_model, client=client
             )
 
+    built = []
     total = 0
     for deck in decks:
         out_path = build_deck(deck, args.out, audio_by_deck.get(deck.name))
         count = len(deck.cards)
         total += count
+        built.append(out_path)
         print(f"  {deck.name:<40} {count:>4} card(s)  ->  {out_path.name}")
 
     print(f"\nBuilt {len(decks)} deck(s), {total} card(s) into {args.out}/")
+
+    drop = None if args.no_drop else (args.drop or _configured_drop())
+    if drop:
+        copied = _drop_decks(built, drop)
+        print(f"\nCopied {copied} deck(s) to {drop}")
+
     print("Import into Anki: File > Import, or just double-click the .apkg")
     return 0
 

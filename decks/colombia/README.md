@@ -154,17 +154,41 @@ profesora. Está en `DEFAULT_INSTRUCTIONS` (`ankicards/tts.py`).
 |---|---|---|
 | `basic` | lee el `front` | lee el `back` |
 | `basic-reversed` | lee el campo mostrado | lee el campo revelado |
-| `cloze` | sin audio | lee la frase **completa**, ya resuelta |
+| `cloze` (un solo `c1`) | lee el enunciado hasta el primer hueco | lee la frase **completa**, ya resuelta |
+| `cloze` (varios `cN`) | sin audio | lee la frase completa |
 
-Las cloze no llevan audio de pregunta a propósito: una nota con varios huecos
-genera varias tarjetas, y una sola etiqueta `[sound:]` sonaría idéntica en todas,
-así que no podría marcar el hueco correcto de cada una. Al revelar oyes la frase
-entera bien dicha, que es lo que sirve.
+En las cloze el audio **nunca va en el campo `Text`**: ese campo se renderiza
+también al preguntar, así que un `[sound:]` ahí reproduciría la frase resuelta —
+o sea, cantaría la respuesta. Por eso el modelo cloze tiene tres campos:
+
+```
+Text    frase con {{cN::}}, sin audio   → qfmt y afmt
+QAudio  [sound:] del enunciado          → solo qfmt
+Extra   Fuente… + [sound:] de respuesta → solo afmt
+```
+
+El clip de pregunta corta en el primer hueco y limpia el artículo colgante, así
+que se oye «Las 5 regiones biogeográficas son…» y no la lista. Las 12 notas con
+varios `cN` no llevan clip de pregunta: cada una de sus tarjetas esconde un hueco
+distinto y un único campo `QAudio` sonaría igual en todas.
 
 El texto se normaliza antes de sintetizar para que la voz no lea barbaridades:
 `40,5 %` → «cuarenta coma cinco por ciento», `800.000 km²` → «kilómetros
 cuadrados», `C.P.C.` → «Constitución Política de Colombia», `art. 4` → «artículo
 4», `$100.000` → «pesos». El HTML (`<br>`, `<img>`) se elimina.
+
+### Copia automática a otra carpeta
+
+Si defines `ANKI_DECKS_DROP_DIR` en `.env`, cada construcción exitosa copia allí
+los `.apkg` — por ejemplo a una carpeta sincronizada con Drive, para abrirlos
+desde el celular. La copia es atómica (escribe a `.part` y renombra) para que el
+sincronizador no suba un archivo a medio escribir. Se salta con `--no-drop`.
+
+```bash
+ANKI_DECKS_DROP_DIR=/ruta/a/tu/carpeta
+```
+
+La ruta vive en `.env`, que git ignora: es personal y este repo es público.
 
 **Para silenciar el autoplay** cuando estudies leyendo: en Anki, engranaje del
 mazo → Opciones → Audio → *No reproducir audio automáticamente*. El botón de

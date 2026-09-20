@@ -67,6 +67,15 @@ REPLACEMENTS = [
 
 CLOZE = re.compile(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}", re.S)
 
+# Artículos, preposiciones y conjunciones que quedan colgando al cortar en el
+# primer hueco: sin esto, "…son el {{c1::maíz}}" daría «…son el…». Los verbos
+# (son, es, están) NO se quitan: cierran bien el enunciado de una pregunta.
+COLGANTES = re.compile(
+    r"\s*\b(el|la|los|las|un|una|unos|unas|de|del|en|y|e|o|u|con|por|para|"
+    r"su|sus|al|lo|a)\s*$",
+    re.I,
+)
+
 
 def normalize(text: str) -> str:
     """Campo de Anki -> texto pronunciable en español."""
@@ -79,6 +88,39 @@ def normalize(text: str) -> str:
     t = re.sub(r'["“”]', " ", t)
     t = re.sub(r"\s+", " ", t).strip()
     return re.sub(r"(\s*\.)+\s*\.", ".", t)
+
+
+def stem(text: str) -> str:
+    """Enunciado hasta el primer hueco, para el audio de la cara de pregunta.
+
+    Corta en la primera deleción y limpia el artículo o conector que quede
+    colgando, de modo que «Los principales ingredientes … son el {{c1::maíz}}…»
+    produzca «Los principales ingredientes … son», no «… son el».
+    """
+    if not text:
+        return ""
+    head = str(text).split("{{", 1)[0]
+    # Si el enunciado presenta la lista con dos puntos, ese es el corte natural:
+    # "…son: región {{c1::Caribe}}" -> "…son", no "…son: región".
+    if ":" in head:
+        head = head.rsplit(":", 1)[0]
+    head = re.sub(r"[\s,;:.\-–—]+$", "", head.rstrip())
+    previo = None
+    while previo != head:                      # "son el" -> "son"; "con el" -> ""
+        previo = head
+        head = COLGANTES.sub("", head).rstrip(" ,;:.")
+    return head
+
+
+def deletions(text: str) -> list[str]:
+    """Lo que cada deleción oculta. Sirve para comprobar que el clip de
+    pregunta no dice ninguna de estas palabras."""
+    return [m.group(1) for m in CLOZE.finditer(str(text or ""))]
+
+
+def cloze_numbers(text: str) -> set[str]:
+    """Números de deleción distintos presentes en el texto."""
+    return set(re.findall(r"\{\{c(\d+)::", str(text or "")))
 
 
 def clip_id(
@@ -175,14 +217,26 @@ def _compress(src: Path, dest: Path) -> None:
 def sides_for_card(card) -> dict[str, str]:
     """Qué texto se lee en cada cara, según el modelo de la tarjeta.
 
-    En cloze no se genera audio de pregunta: una nota con c1..c5 produce cinco
-    tarjetas y una sola etiqueta [sound:] sonaría igual en todas, así que no
-    podría decir "..." en el hueco correcto de cada una. Se lee la frase
-    completa al revelar.
+    - `text`     -> frase completa resuelta; va al campo Extra (solo `afmt`).
+    - `question` -> enunciado hasta el primer hueco; va a QAudio (solo `qfmt`).
+      Solo se genera si la nota tiene un único cN, es decir, una sola tarjeta.
     """
-    if card.model == "cloze":
-        return {"text": card.fields.get("text", "")}
-    return {"front": card.fields.get("front", ""), "back": card.fields.get("back", "")}
+    if card.model != "cloze":
+        return {
+            "front": card.fields.get("front", ""),
+            "back": card.fields.get("back", ""),
+        }
+
+    texto = card.fields.get("text", "")
+    lados = {"text": texto}
+    # El clip de pregunta solo tiene sentido si la nota genera UNA tarjeta. Con
+    # varios cN, cada tarjeta esconde un hueco distinto y un único campo QAudio
+    # sonaría igual en todas, sin poder marcar el hueco correcto de cada una.
+    if len(cloze_numbers(texto)) <= 1:
+        enunciado = stem(texto)
+        if enunciado:
+            lados["question"] = enunciado
+    return lados
 
 
 def audio_for_deck(

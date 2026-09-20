@@ -344,9 +344,9 @@ cards:
 
   - id: con-estructura-completa
     model: cloze
-    text: 'El Estado colombiano está formado por 3 ramas del poder público -{{c1::legislativo}}, {{c1::ejecutivo}} y {{c1::judicial}}-, los {{c1::organismos de control}} y la {{c1::organización electoral}}.'
-    notes: 'Fuente: Módulo 4, p. 18 (Cap. 4)'
-    tags: [estructura-estado]
+    text: 'El Estado colombiano está formado por 3 ramas del poder público -{{c1::legislativo}}, {{c1::ejecutivo}} y {{c1::judicial}}-, otros {{c1::órganos autónomos e independientes}}, los {{c1::organismos de control}} y la {{c1::organización electoral}}.'
+    notes: 'El resumen escaneado omitía los órganos autónomos e independientes; la guía oficial los incluye en la estructura del Estado. Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 151'
+    tags: [estructura-estado, corregido]
 
   - id: con-rama-ejecutiva
     front: ¿Cuál es la función de la rama ejecutiva y quién la encabeza?
@@ -454,9 +454,9 @@ cards:
   # ─── 7. Organismos autónomos independientes ──────────────────────────
   - id: con-organismos-autonomos
     model: cloze
-    text: 'Los organismos autónomos independientes son el {{c1::Banco de la República}}, los {{c1::entes universitarios autónomos}}, las {{c1::Corporaciones Autónomas Regionales}} y la {{c1::Comisión Nacional del Servicio Civil}}.'
-    notes: 'Tienen autonomía propia. Fuente: Módulo 4, p. 19 (§7)'
-    tags: [organismos-autonomos]
+    text: 'Los organismos autónomos independientes son el {{c1::Banco de la República}}, los {{c1::entes universitarios autónomos}}, las {{c1::Corporaciones Autónomas Regionales}}, la {{c1::Comisión Nacional del Servicio Civil}} y la {{c1::Autoridad Nacional de Televisión}}.'
+    notes: 'El resumen escaneado enumeraba cuatro; la guía oficial añade la Autoridad Nacional de Televisión. Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 155'
+    tags: [organismos-autonomos, corregido]
 
   # ─── Defensoría del Pueblo (anotación manuscrita, p. 19) ─────────────
   - id: con-defensoria-ley

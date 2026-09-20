@@ -19,16 +19,25 @@ def _note(deck: Deck, card, audio: dict[str, Path] | None = None) -> genanki.Not
 
     # El audio se inyecta aquí, no en el YAML: la fuente se queda con texto puro
     # y los clips son derivados, como build/. Anki reproduce [sound:] solo.
-    if audio:
+    audio = audio or {}
+
+    if card.model == "cloze":
+        # Nada de audio en Text: ese campo se renderiza también en la cara de
+        # pregunta, así que un [sound:] ahí reproduciría la frase resuelta, es
+        # decir, cantaría la respuesta. El clip de respuesta va a Extra (solo en
+        # `afmt`) y el de pregunta a QAudio (solo en `qfmt`).
+        extra = card.notes
+        if audio.get("text"):
+            extra += f' [sound:{audio["text"].name}]'
+        values.append(extra)
+        values.append(f'[sound:{audio["question"].name}]' if audio.get("question") else "")
+    else:
         for index, key in enumerate(keys):
             clip = audio.get(key)
             if clip:
                 values[index] += f" [sound:{clip.name}]"
-
-    if card.model == "cloze":
-        values.append(card.notes)
-    elif card.notes:
-        values[-1] += f'<div class="notes">{card.notes}</div>'
+        if card.notes:
+            values[-1] += f'<div class="notes">{card.notes}</div>'
 
     return genanki.Note(
         model=model,

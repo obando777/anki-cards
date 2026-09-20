@@ -75,6 +75,15 @@ text, the voice and the model, so editing one card regenerates only that clip.
 `C.P.C.`) before synthesis and re-encodes to 48 kbps mono, which cuts the media
 payload by roughly 60% with no audible loss on speech.
 
+Set `ANKI_DECKS_DROP_DIR` in `.env` and every successful build also copies the
+`.apkg` files there — a Drive-synced folder, say — written atomically so a cloud
+sync never picks up a half-written file. `--no-drop` skips it.
+
+The cloze notetype carries three fields rather than two: audio in `Text` would
+render on the question side and speak the resolved sentence, so the question clip
+lives in `QAudio` (referenced only by `qfmt`) and the answer clip in `Extra`
+(only by `afmt`).
+
 OpenAI's voices are fixed identities — the name does not select an accent. What
 does steer it is the `instructions` parameter on `gpt-4o-mini-tts`, so
 `DEFAULT_INSTRUCTIONS` asks for neutral Colombian Spanish. Voice, model and those

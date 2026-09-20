@@ -66,14 +66,14 @@ cards:
   - id: geo-regiones-cuantas
     front: ¿Cuántas regiones biogeográficas tiene Colombia y cuáles son?
     back: 5 regiones - Caribe, Andina, Pacífica, Orinoquía y Amazónica. <br><img src="mapa-regiones-naturales.png">
-    notes: 'Fuente: Módulo 2, p. 8 (§1.2)'
-    tags: [regiones]
+    notes: 'OJO - la guía oficial se contradice: su módulo de Geografía dice "cinco regiones principales" sin la Insular (p. 56), pero su módulo de Cultura trata la Región Insular como región propia, con su gastronomía y sus festivales (pp. 16 y 28). La clasificación corriente habla de 6 incluyéndola. La tarjeta sigue al módulo de Geografía, que es el que evalúan aquí. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 56'
+    tags: [regiones, error-fuente-oficial]
 
   - id: geo-regiones-cloze
     model: cloze
     text: 'Las 5 regiones biogeográficas son: región {{c1::Caribe}}, región {{c1::Andina}}, región {{c1::Pacífica}}, región {{c1::Orinoquía}} y región {{c1::Amazónica}}.'
-    notes: 'Fuente: Módulo 2, p. 8 (§1.2)'
-    tags: [regiones]
+    notes: 'OJO - falta la Región Insular, y la propia guía oficial se contradice: Geografía dice cinco (p. 56) pero Cultura la trata como región (pp. 16 y 28). Para el módulo de Geografía responde 5. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 56'
+    tags: [regiones, error-fuente-oficial]
 
   - id: geo-regiones-diferencian
     front: ¿Por qué se diferencian entre sí las regiones biogeográficas?

@@ -86,11 +86,14 @@ BASIC_REVERSED = genanki.Model(
 CLOZE = genanki.Model(
     1727384503,
     "anki-cards Cloze",
-    fields=[{"name": "Text"}, {"name": "Extra"}],
+    # QAudio existe para que el audio de la pregunta NO viaje en Text: cualquier
+    # cosa puesta en Text se renderiza también al preguntar, y un [sound:] ahí
+    # reproduce la frase resuelta, es decir, canta la respuesta.
+    fields=[{"name": "Text"}, {"name": "Extra"}, {"name": "QAudio"}],
     templates=[
         {
             "name": "Cloze",
-            "qfmt": "{{cloze:Text}}",
+            "qfmt": "{{cloze:Text}}{{QAudio}}",
             "afmt": '{{cloze:Text}}<div class="notes">{{Extra}}</div>',
         },
     ],
