@@ -133,8 +133,8 @@ cards:
   - id: geo-amazonica-deptos
     model: cloze
     text: 'Departamentos de la región Amazónica: {{c1::Putumayo}}, {{c2::Caquetá}}, {{c3::Guaviare}}, {{c4::Guainía}}, {{c5::Vaupés}} y {{c6::Amazonas}}.'
-    notes: 'La cartilla escribe "Guainía (San José del Guaviare)"; el departamento cuya capital es San José del Guaviare es Guaviare. <br>Fuente: Módulo 2, p. 9'
-    tags: [amazonica, discrepancia]
+    notes: 'El resumen escribe "Guainía (San José del Guaviare)"; la guía oficial (p. 63) lista Guaviare con capital San José del Guaviare. Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 63'
+    tags: [amazonica, corregido]
 
   - id: geo-cap-putumayo
     model: basic-reversed
@@ -217,14 +217,14 @@ cards:
 
   - id: geo-andina-poblacion
     front: ¿Cuánta población habita la región Andina?
-    back: Aproximadamente 18 millones de habitantes, el 40 % de los pobladores del país.
-    notes: 'Fuente: Módulo 2, p. 9 (§1.5.3)'
+    back: Aproximadamente 18 millones de habitantes, cerca del 40,5 % del total nacional.
+    notes: 'Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 68'
     tags: [andina, demografia]
 
   - id: geo-andina-ciudades
     model: cloze
-    text: 'Ciudades de la región Andina: {{c1::Bogotá}}, {{c2::Medellín}}, {{c3::Cali}}, {{c4::Cúcuta}} y {{c5::Bucaramanga}}.'
-    notes: 'Fuente: Módulo 2, p. 9 (§1.5.3)'
+    text: 'Ciudades de la región Andina: {{c1::Bogotá}} (capital), {{c2::Medellín}}, {{c3::Cúcuta}}, {{c4::Bucaramanga}} y {{c5::Pereira}}.'
+    notes: 'El resumen pone Cali; la guía oficial (p. 68) lista Pereira — Cali pertenece a la región Pacífica. Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 68'
     tags: [andina]
 
   - id: geo-andina-deptos
@@ -631,42 +631,42 @@ cards:
 
   - id: geo-poblacion-total
     front: Según la anotación de la cartilla, ¿cuál es la población de Colombia?
-    back: Entre 44 y 50 millones de habitantes.
-    notes: 'Anotación manuscrita (p. 11). Confirma la cifra que usa tu curso. Fuente: Módulo 2, p. 11'
-    tags: [demografia, anotacion, revisar]
+    back: Aproximadamente 44 millones de personas.
+    notes: 'La anotación decía "44-50 millones"; la guía oficial fija ~44 millones. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 87 (§1.3)'
+    tags: [demografia, anotacion]
 
   - id: geo-indigenas-pct
     front: Según la anotación de la cartilla, ¿qué porcentaje de la población son indígenas?
-    back: El 4,3 % de la población.
-    notes: 'Anotación manuscrita (p. 11); menciona los Wayuu y los Arhuacos. Fuente: Módulo 2, p. 11'
-    tags: [demografia, anotacion, revisar]
+    back: Alrededor del 4,3 %, más de 1,8 millones de personas.
+    notes: 'Confirmado. Los grupos más numerosos son los Wayuu, Nasa, Arhuacos y Páez. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 87 (§1.3)'
+    tags: [demografia, anotacion]
 
   - id: geo-raizales-definicion
     model: basic-reversed
     front: Raizales
-    back: Grupo étnico que habita las islas de San Andrés
-    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
+    back: Habitantes originarios de San Andrés, Providencia y Santa Catalina; 0,06 % de la población, unas 25.300 personas (censo 2018)
+    notes: 'Cifras de la fuente oficial. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 87 (§1.3)'
     tags: [demografia, anotacion]
 
   - id: geo-afrocolombianos-pct
     front: Según la anotación de la cartilla, ¿qué porcentaje de la población son afrocolombianos?
-    back: El 6,7 % de la población, aproximadamente 3 millones.
-    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
-    tags: [demografia, anotacion, revisar]
+    back: Aproximadamente el 6,7 %, más de 3 millones de personas.
+    notes: 'Confirmado. Se concentran en el Pacífico, la costa Caribe y algunas zonas urbanas. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 87 (§1.3)'
+    tags: [demografia, anotacion]
 
   - id: geo-palenqueros-definicion
     model: basic-reversed
     front: Palenqueros
-    back: Descendientes de africanos
-    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
+    back: Descendientes de esclavos africanos liberados en el siglo XVII en San Basilio de Palenque (Bolívar); unas 6.650 personas
+    notes: 'Cifras de la fuente oficial. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 87 (§1.3)'
     tags: [demografia, anotacion]
 
   - id: geo-rom-gitanos
     model: basic-reversed
     front: Rom o gitanos
-    back: Grupo étnico de aproximadamente 2.000 personas
-    notes: 'Anotación manuscrita (p. 11). Fuente: Módulo 2, p. 11'
-    tags: [demografia, anotacion, revisar]
+    back: Grupo étnico gitano; 2.606 personas se autorreconocieron como Rom en el último censo
+    notes: 'La anotación decía "≈2.000"; la cifra oficial es 2.606, con una reducción del 45,5 % frente al Censo 2005. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 87 (§1.3)'
+    tags: [demografia, anotacion]
 
   # ─── 2. Geografía física ─────────────────────────────────────────────
   - id: geo-cordillera-occidental
@@ -708,9 +708,9 @@ cards:
 
   - id: geo-macizo-colombiano
     front: ¿Dónde está el Macizo Colombiano y de qué se compone?
-    back: Al sureste del país; se compone de las tres cordilleras (Occidental, Central y Oriental) y alberga los nevados del Huila y el Nevado del Cumbal.
-    notes: 'La cartilla dice "sureste"; el Macizo Colombiano está en realidad al suroeste del país, en el departamento del Cauca. Fuente: Módulo 2, p. 11 (§2.2)'
-    tags: [geografia-fisica, discrepancia]
+    back: Al suroeste de Colombia; se compone de las tres cordilleras (Occidental, Central y Oriental) y alberga los nevados del Huila y el Nevado del Cumbal.
+    notes: 'El resumen escrito a mano dice "sureste"; la guía oficial dice suroeste (p. 90). Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 90'
+    tags: [geografia-fisica, corregido]
 
   - id: geo-valles-interandinos
     model: cloze
@@ -733,9 +733,9 @@ cards:
 
   - id: geo-archipielago-islas
     model: cloze
-    text: 'El archipiélago de San Andrés lo componen {{c1::San Andrés}}, {{c2::Providencia}}, {{c3::Santa Catalina}}, {{c4::Quitasueño}}, {{c5::Serrana}}, {{c6::Roncador}}, {{c7::Albuquerque}} y {{c8::Bajo Nuevo}}.'
-    notes: 'La cartilla dice "10 islas" pero enumera 8. Fuente: Módulo 2, p. 11 (§2.5)'
-    tags: [insular, discrepancia]
+    text: 'El archipiélago lo componen {{c1::San Andrés}}, {{c2::Providencia}}, {{c3::Santa Catalina}}, {{c4::Quitasueño}}, {{c5::Serrana}}, {{c6::Serranilla}}, {{c7::Bajo Nuevo}}, {{c8::Roncador}}, {{c9::Albuquerque}} y {{c10::Este-Sudeste}}.'
+    notes: 'Son 10, como dice la cartilla; el resumen solo alcanzó a copiar 8 (faltaban Serranilla y Este-Sudeste). Es el único departamento sin territorio continental. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 93'
+    tags: [insular, corregido]
 
   - id: geo-islas-rosario
     model: basic-reversed
@@ -753,9 +753,9 @@ cards:
 
   - id: geo-isla-malpelo
     front: ¿Dónde se ubica la isla Malpelo?
-    back: En el océano Pacífico, al sureste del país.
-    notes: 'La cartilla dice "sureste"; Malpelo está mar adentro al suroeste, y pertenece al Valle del Cauca (jurisdicción de Buenaventura). Fuente: Módulo 2, p. 11 (§2.5)'
-    tags: [insular, discrepancia]
+    back: En el océano Pacífico, al suroeste de Colombia; es una isla volcánica y reserva de fauna marina.
+    notes: 'El resumen escrito a mano dice "sureste"; la guía oficial dice suroeste (p. 94). Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 94'
+    tags: [insular, corregido]
 
   # ─── 3. El clima ─────────────────────────────────────────────────────
   - id: geo-clima-ecuatorial
@@ -879,3 +879,142 @@ cards:
     back: Campesina, indígena y afrocolombiana.
     notes: 'Fuente: Módulo 2, p. 12 (§4.3)'
     tags: [geografia-humana]
+
+  # ═══════════════════════════════════════════════════════════════════
+  # AMPLIACIÓN desde la guía oficial "Colombia, nuestra casa" (pp. 63-94).
+  # Este módulo exige 11/20 (55 %). Son sobre todo las tablas-resumen por
+  # región, que el resumen escaneado no alcanzó a copiar y que tienen
+  # forma de pregunta de examen. Etiqueta `ampliacion`.
+  # ═══════════════════════════════════════════════════════════════════
+
+  - id: geo-extension-andina
+    front: ¿Cuál es la extensión aproximada de la región Andina?
+    back: 800.000 km².
+    notes: 'Fuente: Guía oficial, p. 69'
+    tags: [andina, ampliacion]
+
+  - id: geo-extension-caribe
+    front: ¿Cuántos kilómetros de costa tiene la región Caribe?
+    back: 1.600 km de costa.
+    notes: 'Fuente: Guía oficial, p. 75'
+    tags: [caribe, ampliacion]
+
+  - id: geo-extension-pacifica
+    front: ¿Cuál es la extensión aproximada de la región Pacífica?
+    back: 1.300 km.
+    notes: 'Fuente: Guía oficial, p. 81'
+    tags: [pacifica, ampliacion]
+
+  - id: geo-extensiones-comparadas
+    model: cloze
+    text: 'Extensiones por región: Andina {{c1::800.000}} km², Amazónica {{c2::403.000}} km², Caribe {{c3::1.600}} km de costa, Pacífica {{c4::1.300}} km, Orinoquía el {{c5::28}} % del territorio.'
+    notes: 'Fuente: Guía oficial, pp. 63, 69, 75, 81 y 86'
+    tags: [regiones, ampliacion]
+
+  - id: geo-amazonica-clima
+    front: ¿Qué clima y vegetación tiene la región Amazónica?
+    back: Selva ecuatorial, con clima ecuatorial húmedo, altas temperaturas y alta humedad todo el año.
+    notes: 'Fuente: Guía oficial, p. 63'
+    tags: [amazonica, clima, ampliacion]
+
+  - id: geo-andina-clima
+    front: ¿Cómo es el clima de la región Andina?
+    back: Variado, porque cambia con la altitud de las cordilleras.
+    notes: 'Fuente: Guía oficial, p. 69'
+    tags: [andina, clima, ampliacion]
+
+  - id: geo-pacifica-clima
+    front: ¿Qué vegetación caracteriza a la región Pacífica?
+    back: Selva ecuatorial húmeda; es una de las zonas más lluviosas del mundo.
+    notes: 'Fuente: Guía oficial, pp. 81 y 90'
+    tags: [pacifica, clima, ampliacion]
+
+  - id: geo-pacifica-relieve-oficial
+    model: cloze
+    text: 'El relieve de la región Pacífica incluye {{c1::llanuras y valles fluviales}}, {{c2::estuarios}}, {{c3::manglares}} y {{c4::playas}}, limitado por la cordillera Occidental.'
+    notes: 'Fuente: Guía oficial, p. 81'
+    tags: [pacifica, ampliacion]
+
+  - id: geo-pacifica-rios-oficial
+    front: Según la tabla-resumen oficial, ¿cuáles son los ríos principales de la región Pacífica?
+    back: El San Juan y el Atrato.
+    notes: 'El resumen escaneado añade Baudó, Mira y Patía. Fuente: Guía oficial, p. 81'
+    tags: [pacifica, ampliacion]
+
+  - id: geo-andina-rios-oficial
+    front: Según la tabla-resumen oficial, ¿cuáles son los ríos principales de la región Andina?
+    back: El Magdalena y el Cauca.
+    notes: 'Fuente: Guía oficial, p. 69'
+    tags: [andina, ampliacion]
+
+  - id: geo-orinoquia-relieve-oficial
+    model: cloze
+    text: 'El relieve de la Orinoquía lo forman {{c1::mesetas y colinas}} y {{c2::llanuras}}, conocidas como los {{c3::Llanos Orientales}}.'
+    notes: 'Fuente: Guía oficial, p. 86'
+    tags: [orinoquia, ampliacion]
+
+  - id: geo-caribe-relieve-oficial
+    model: cloze
+    text: 'El relieve de la región Caribe lo forman {{c1::llanuras costeras}}, la {{c2::Sierra Nevada de Santa Marta}}, la {{c3::Serranía de Perijá}} y los {{c4::Montes de María}}.'
+    notes: 'Fuente: Guía oficial, p. 75'
+    tags: [caribe, ampliacion]
+
+  - id: geo-choco-lluvias
+    front: ¿Qué distingue al Chocó en términos de clima a nivel mundial?
+    back: Es una de las zonas más lluviosas del mundo, con gran cantidad de especies endémicas y en peligro de extinción.
+    notes: 'Fuente: Guía oficial, p. 90'
+    tags: [pacifica, clima, ampliacion]
+
+  - id: geo-gorgona-ubicacion-oficial
+    front: ¿A qué distancia de la costa está la isla Gorgona y a qué departamento pertenece?
+    back: A 28 km al oeste de la costa Pacífica; pertenece al municipio de Guapi, departamento del Cauca.
+    notes: 'Fuente: https://es.wikipedia.org/wiki/Isla_Gorgona'
+    tags: [insular, ampliacion, externo]
+
+  - id: geo-malpelo-departamento
+    front: ¿A qué departamento pertenece la isla Malpelo?
+    back: Al Valle del Cauca, bajo la jurisdicción especial de Buenaventura.
+    notes: 'Fuente: https://es.wikipedia.org/wiki/Isla_de_Malpelo'
+    tags: [insular, ampliacion, externo]
+
+  - id: geo-malpelo-tiburones
+    front: ¿Por qué es mundialmente importante la isla Malpelo?
+    back: Es uno de los lugares más importantes del mundo para la observación de tiburones; es una isla volcánica y reserva de fauna marina.
+    notes: 'Fuente: Guía oficial, p. 94'
+    tags: [insular, ampliacion]
+
+  - id: geo-archipielago-sin-continente
+    front: ¿Qué tiene de único el departamento de San Andrés, Providencia y Santa Catalina?
+    back: Es el único departamento de Colombia sin territorio continental.
+    notes: 'Fuente: Guía oficial, p. 93'
+    tags: [insular, ampliacion]
+
+  - id: geo-indigenas-mas-numerosos
+    model: cloze
+    text: 'Los grupos indígenas más numerosos de Colombia son los {{c1::Wayuu}}, los {{c2::Nasa}}, los {{c3::Arhuacos}} y los {{c4::Páez}}.'
+    notes: 'Se distribuyen sobre todo en la Sierra Nevada de Santa Marta, la Amazonía y la región Andina. Fuente: Guía oficial, p. 87 (§1.3)'
+    tags: [demografia, ampliacion]
+
+  - id: geo-palenqueros-origen
+    front: ¿De dónde provienen los palenqueros y en qué siglo?
+    back: De esclavos africanos liberados en el siglo XVII en San Basilio de Palenque, departamento de Bolívar.
+    notes: 'Fuente: Guía oficial, p. 87 (§1.3)'
+    tags: [demografia, ampliacion]
+
+  - id: geo-afrocolombianos-donde
+    front: ¿Dónde se concentra la población afrocolombiana?
+    back: En la región del Pacífico, la costa Caribe y algunas zonas urbanas; su origen es la llegada de esclavos africanos durante la Colonia.
+    notes: 'Fuente: Guía oficial, p. 87 (§1.3)'
+    tags: [demografia, ampliacion]
+
+  - id: geo-grupos-etnicos-cifras
+    model: cloze
+    text: 'Cifras étnicas: indígenas {{c1::4,3}} %, afrocolombianos {{c2::6,7}} %, raizales {{c3::0,06}} %, palenqueros unas {{c4::6.650}} personas y Rom {{c5::2.606}} personas.'
+    notes: 'Población total del país: aproximadamente 44 millones. Fuente: Guía oficial, p. 87 (§1.3)'
+    tags: [demografia, ampliacion]
+
+  - id: geo-macizo-importancia
+    front: ¿Por qué es importante el Macizo Colombiano?
+    back: Por la regulación del clima, el suministro de agua y la protección de la biodiversidad; allí nacen las tres cordilleras.
+    notes: 'Fuente: Guía oficial, p. 90'
+    tags: [geografia-fisica, ampliacion]

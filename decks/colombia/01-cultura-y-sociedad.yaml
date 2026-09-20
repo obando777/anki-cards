@@ -8,11 +8,13 @@
 # próxima importación la actualiza; cambia el id y obtienes una tarjeta nueva.
 #
 # Etiquetas de control:
-#   anotacion    — el dato viene de una nota manuscrita del margen
-#   externo      — no está en la cartilla; verificado en línea (URL en las notas)
-#   discrepancia — la cartilla contradice el hecho documentado; la tarjeta sigue
-#                  a la cartilla y la nota explica la corrección
-#   revisar      — lectura del manuscrito no resuelta; confirma y corrige
+#   anotacion             — el dato viene de una nota manuscrita del margen
+#   externo               — no está en la guía oficial; la nota lleva la fuente
+#   corregido             — el resumen escrito a mano se apartaba de la guía
+#                           oficial "Colombia, nuestra casa"; la tarjeta sigue a
+#                           la guía oficial, que es sobre la que se arma el examen
+#   error-fuente-oficial  — el error está en la guía OFICIAL; la tarjeta la sigue
+#                           igual (es lo que evalúan) y la nota explica el hecho real
 
 deck: Colombia::1. Cultura y Sociedad
 deck_id: 1220339672

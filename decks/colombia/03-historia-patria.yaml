@@ -58,10 +58,10 @@ cards:
     tags: [conquista]
 
   - id: his-santa-marta-fundacion
-    front: Según la cartilla, ¿quién fundó Santa Marta y en qué año?
-    back: Pedro de Heredia, a partir de 1533.
-    notes: 'La cartilla lo atribuye así. Históricamente, Santa Marta fue fundada por Rodrigo de Bastidas en 1525; Pedro de Heredia fundó Cartagena de Indias el 1 de junio de 1533. Fuente: Módulo 3, p. 13 (§1.2) · https://es.wikipedia.org/wiki/Santa_Marta_(Colombia)'
-    tags: [conquista, discrepancia]
+    front: Según la guía oficial, ¿con qué hecho se intensificó la conquista española a partir de 1533?
+    back: Con la fundación de Santa Marta por parte de Pedro de Heredia.
+    notes: 'ATENCIÓN - este error está en la guía OFICIAL, no en tu resumen: la guía dice textualmente "la fundación de Santa Marta por parte de Pedro de Heredia" (p. 111). Históricamente Santa Marta la fundó Rodrigo de Bastidas (1525) y Heredia fundó Cartagena (1533). Como el examen se construye sobre la guía oficial, la tarjeta sigue a la guía. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 111'
+    tags: [conquista, error-fuente-oficial]
 
   - id: his-bogota-fundacion
     front: ¿Quién fundó Bogotá y en qué año?
@@ -293,8 +293,8 @@ cards:
   - id: his-modernizacion-presidente
     front: ¿Qué presidente lideró la Modernización y en qué años?
     back: El presidente Rafael Reyes, durante los años 1904 a 1909.
-    notes: 'La anotación manuscrita escribe "Núñez" sobre "Reyes", pero el texto impreso es el correcto: fue Rafael Reyes. Fuente: Módulo 3, p. 15 (§4)'
-    tags: [modernizacion, discrepancia]
+    notes: 'La anotación manuscrita escribe "Núñez" sobre "Reyes"; el impreso acierta y la guía oficial lo confirma: la administración de Rafael Reyes (1904-1909). Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 120'
+    tags: [modernizacion, corregido]
 
   - id: his-modernizacion-reformas
     model: cloze
@@ -439,9 +439,9 @@ cards:
 
   - id: his-jep
     front: ¿Qué es la JEP y cuál es su objeto?
-    back: La Jurisdicción Especial para la Paz; su objeto es garantizar la justicia, la verdad, la reparación y la no repetición del conflicto.
-    notes: 'La cartilla la llama "Junta Especial Para la Paz"; el nombre correcto es Jurisdicción Especial para la Paz. Fuente: Módulo 3, p. 16 (§6.4) · https://www.jep.gov.co'
-    tags: [postconflicto, discrepancia]
+    back: La Jurisdicción Especial para la Paz; su objeto es garantizar la verdad, la justicia, la reparación y la no repetición de los hechos del conflicto armado.
+    notes: 'El resumen escrito a mano la llama "Junta"; la guía oficial dice Jurisdicción Especial para la Paz (pp. 130 y 134). Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), pp. 130 y 134'
+    tags: [postconflicto, corregido]
 
   - id: his-comision-verdad
     front: ¿Cuál es el objeto de la Comisión de la Verdad?
@@ -470,10 +470,10 @@ cards:
     tags: [violencia]
 
   - id: his-pajaros
-    front: Según la cartilla, ¿de qué partido eran "Los Pájaros"?
-    back: De los liberales, al servicio del gobierno.
-    notes: 'La cartilla los atribuye a los liberales; históricamente "Los Pájaros" fueron un grupo armado de filiación conservadora, sobre todo en el Valle del Cauca, que atacaba a los liberales. Fuente: Módulo 3, p. 16 (§6.1) · https://es.wikipedia.org/wiki/P%C3%A1jaros_(Colombia)'
-    tags: [violencia, discrepancia]
+    front: ¿De qué partido eran los "Chulavitas" y "Los Pájaros"?
+    back: De los conservadores, al servicio del gobierno. Del lado liberal estaban las guerrillas liberales y las autodefensas comunistas.
+    notes: 'El resumen escrito a mano atribuye "Los Pájaros" a los liberales; la guía oficial los pone del lado conservador (p. 131). Corregido. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 131'
+    tags: [violencia, corregido]
 
   - id: his-rojas-pinilla-amnistia
     front: ¿Qué otorgó el general Gustavo Rojas Pinilla siendo presidente?
@@ -537,7 +537,7 @@ cards:
     tags: [narcotrafico]
 
   - id: his-bomba-das
-    front: Según la cartilla, ¿en qué año se atentó con bomba al edificio del DAS en Bogotá?
-    back: En 1980.
-    notes: 'La cartilla dice 1980; el atentado del Cartel de Medellín al edificio del DAS ocurrió el 6 de diciembre de 1989. Fuente: Módulo 3, p. 16 (§6.3) · https://es.wikipedia.org/wiki/Atentado_al_edificio_del_DAS'
-    tags: [narcotrafico, discrepancia]
+    front: ¿En qué año fue el atentado con bomba al edificio del DAS en Bogotá?
+    back: El 6 de diciembre de 1989.
+    notes: 'El resumen dice 1980; la fecha real es 1989. La guía oficial NO menciona este atentado, así que es poco probable en el examen. Fuente: https://es.wikipedia.org/wiki/Atentado_al_edificio_del_DAS'
+    tags: [narcotrafico, corregido, externo]

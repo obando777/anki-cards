@@ -500,3 +500,260 @@ cards:
     back: Lo elige la Cámara de Representantes, de terna presentada por el Presidente de la República, por 4 años.
     notes: 'Anotación manuscrita (p. 19). Fuente: Módulo 4, p. 19'
     tags: [defensoria, anotacion]
+
+  # ═══════════════════════════════════════════════════════════════════
+  # AMPLIACIÓN desde la guía oficial "Colombia, nuestra casa" (pp. 139-155).
+  # Este módulo exige 12/20 (60 %), el listón más alto del examen, y era el
+  # más comprimido del resumen. Etiqueta `ampliacion`: suspéndela entera en
+  # Anki si resulta demasiado.
+  # ═══════════════════════════════════════════════════════════════════
+
+  - id: con-esd-tres-obligaciones
+    model: cloze
+    text: 'En el Estado social de derecho, el Estado {{c1::respeta}} los derechos absteniéndose de interferir, los {{c2::protege}} evitando intromisiones de terceros y los {{c3::garantiza}} mediante autoridades e instituciones.'
+    notes: 'Fuente: Guía oficial, p. 139 (§1.1)'
+    tags: [principios, ampliacion]
+
+  - id: con-descentralizacion-tres-tipos
+    model: cloze
+    text: 'La descentralización puede ser {{c1::territorial}}, por {{c2::servicios}} o por {{c3::colaboración}}.'
+    notes: 'Fuente: Guía oficial, p. 139 (§1.2)'
+    tags: [principios, ampliacion]
+
+  - id: con-descentralizacion-territorial
+    model: basic-reversed
+    front: Descentralización territorial
+    back: Otorga competencias administrativas a las entidades territoriales (departamentos y municipios), que las ejecutan en su propio nombre y bajo su responsabilidad
+    notes: 'Fuente: Guía oficial, p. 139 (§1.2)'
+    tags: [principios, ampliacion]
+
+  - id: con-descentralizacion-servicios
+    model: basic-reversed
+    front: Descentralización por servicios
+    back: Asigna funciones a entidades creadas para una actividad especializada - establecimientos públicos, corporaciones autónomas regionales, empresas industriales y comerciales del Estado, sociedades de economía mixta
+    notes: 'Fuente: Guía oficial, p. 139 (§1.2)'
+    tags: [principios, ampliacion]
+
+  - id: con-descentralizacion-colaboracion
+    model: basic-reversed
+    front: Descentralización por colaboración
+    back: Personas privadas ejercen funciones administrativas; por ejemplo las Cámaras de Comercio y la Federación Nacional de Cafeteros
+    notes: 'Fuente: Guía oficial, p. 139 (§1.2)'
+    tags: [principios, ampliacion]
+
+  - id: con-pena-de-muerte
+    front: ¿Está permitida la pena de muerte en Colombia?
+    back: No. El derecho a la vida es inviolable y la pena de muerte no es permitida en el territorio nacional.
+    notes: 'Fuente: Guía oficial, p. 140 (§1.5.1)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-igualdad-tres-dimensiones
+    model: cloze
+    text: 'El derecho a la igualdad tiene tres dimensiones: {{c1::formal}} (la ley se aplica con equidad a todos), {{c2::material}} (paridad de oportunidades) y la prohibición de {{c3::discriminación}}.'
+    notes: 'Fuente: Guía oficial, p. 140 (§1.5.2)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-libre-desarrollo-definicion
+    front: ¿Qué protege el derecho al libre desarrollo de la personalidad?
+    back: La capacidad de las personas para definir de forma autónoma las opciones vitales que guiarán el curso de su existencia.
+    notes: 'Fuente: Guía oficial, p. 141 (§1.5.3)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-libertad-conciencia-tres
+    model: cloze
+    text: 'La libertad de conciencia garantiza que nadie sea {{c1::acosado ni perseguido}} por sus convicciones, que nadie esté obligado a {{c2::revelarlas}} y que nadie sea obligado a {{c3::actuar contra su conciencia}}.'
+    notes: 'Fuente: Guía oficial, p. 141 (§1.5.4)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-libertad-opinion-doble-via
+    front: ¿Por qué la libertad de opinión es un derecho de doble vía?
+    back: Porque su titular no es solo quien emite la información, sino también quien la recibe.
+    notes: 'Fuente: Guía oficial, p. 142 (§1.5.7)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-derecho-rectificacion
+    front: ¿Qué se puede ejercer ante una información errónea o parcial de un medio?
+    back: El derecho de rectificación ante el medio respectivo, para que pruebe lo que está informando.
+    notes: 'Fuente: Guía oficial, p. 142 (§1.5.7)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-asociacion-sindical-art39
+    model: basic-reversed
+    front: Artículo 39
+    back: Derecho de asociación sindical - trabajadores y empleadores pueden constituir sindicatos sin intervención estatal
+    notes: 'Su reconocimiento jurídico se produce con la inscripción del acta de constitución. Fuente: Guía oficial, p. 143 (§1.5.12)'
+    tags: [derechos-fundamentales, ampliacion]
+
+  - id: con-accion-popular-requisitos
+    model: cloze
+    text: 'Para que proceda la acción popular debe haber: {{c1::una acción u omisión}} de autoridades públicas o particulares, {{c2::un daño o amenaza}} a derechos colectivos y el {{c3::nexo de causalidad}} entre ambos.'
+    notes: 'Fuente: Guía oficial, p. 146 (§2.2)'
+    tags: [mecanismos-proteccion, ampliacion]
+
+  - id: con-accion-grupo-indemnizacion
+    front: ¿Cuál es la característica esencial de la acción de grupo?
+    back: La indemnización debe hacerse en proporción al daño causado.
+    notes: 'Fuente: Guía oficial, p. 146 (§2.3)'
+    tags: [mecanismos-proteccion, ampliacion]
+
+  - id: con-peticion-ley-1755
+    front: ¿Qué ley fijó los términos del derecho de petición?
+    back: La Ley 1755 de 2015.
+    notes: 'Fuente: Guía oficial, p. 147'
+    tags: [mecanismos-proteccion, ampliacion]
+
+  - id: con-peticion-plazos
+    model: cloze
+    text: 'El derecho de petición debe resolverse en {{c1::10}} días hábiles para información o documentos, y en {{c2::30}} días hábiles para consultas.'
+    notes: 'Ley 1755 de 2015. Tu anotación al margen registraba los 10 días. Fuente: Guía oficial, p. 147'
+    tags: [mecanismos-proteccion, ampliacion]
+
+  - id: con-peticion-gratuito
+    front: ¿Cómo se puede presentar un derecho de petición?
+    back: De manera verbal o escrita, es gratuito y no necesita abogado.
+    notes: 'Fuente: Guía oficial, p. 147'
+    tags: [mecanismos-proteccion, ampliacion]
+
+  - id: con-voto-caracteristicas
+    model: cloze
+    text: 'El sufragio en Colombia es {{c1::universal}}, {{c2::libre}}, {{c3::igual}}, {{c4::directo}} y {{c5::secreto}}.'
+    notes: 'El voto es a la vez un derecho y un deber ciudadano. Fuente: Guía oficial, p. 149 (§3.1)'
+    tags: [participacion, ampliacion]
+
+  - id: con-plebiscito-requisitos
+    front: ¿Qué requisitos debe cumplir el presidente para convocar un plebiscito?
+    back: La firma de todos los ministros y el concepto favorable previo del Congreso de la República.
+    notes: 'Fuente: Guía oficial, p. 149 (§3.2)'
+    tags: [participacion, ampliacion]
+
+  - id: con-plebiscito-prohibiciones
+    model: cloze
+    text: 'El plebiscito no puede emplearse para asuntos de {{c1::tratados internacionales}}, {{c2::leyes de presupuesto}} ni materias {{c3::fiscales y tributarias}}.'
+    notes: 'Fuente: Guía oficial, p. 149 (§3.2)'
+    tags: [participacion, ampliacion]
+
+  - id: con-consulta-popular-forma
+    front: ¿Cómo debe estar redactada una consulta popular?
+    back: De forma clara, de manera que los consultados puedan contestar con un Sí o un No.
+    notes: 'Una vez tomada la decisión por el pueblo, es de obligatorio cumplimiento para la administración. Fuente: Guía oficial, p. 149 (§3.3)'
+    tags: [participacion, ampliacion]
+
+  - id: con-revocatoria-firmas
+    front: ¿Qué porcentaje de firmas exige la revocatoria del mandato y ante quién se interpone?
+    back: Firmas superiores o iguales al 40 % de los votos que obtuvo el elegido; se interpone ante la registraduría respectiva.
+    notes: 'Fuente: Guía oficial, p. 150 (§3.5)'
+    tags: [participacion, ampliacion]
+
+  - id: con-iniciativa-corporaciones
+    model: cloze
+    text: 'La iniciativa legislativa se presenta ante el {{c1::Congreso de la República}}, las {{c2::Asambleas Departamentales}}, los {{c3::Concejos Municipales o Distritales}} o las {{c4::Juntas Administradoras Locales}}.'
+    notes: 'Fuente: Guía oficial, p. 150 (§3.7)'
+    tags: [participacion, ampliacion]
+
+  - id: con-presidente-tres-calidades
+    model: cloze
+    text: 'El presidente de la República simboliza la unidad nacional y actúa como jefe de {{c1::Estado}}, jefe de {{c2::Gobierno}} y suprema autoridad {{c3::administrativa}}.'
+    notes: 'Fuente: Guía oficial, p. 154'
+    tags: [ramas, ampliacion]
+
+  - id: con-gobierno-nacional-composicion
+    front: ¿Por quiénes está conformado el Gobierno Nacional?
+    back: Por el Presidente de la República, los ministros del despacho y los directores de departamentos administrativos.
+    notes: 'Fuente: Guía oficial, p. 154'
+    tags: [ramas, ampliacion]
+
+  - id: con-ejecutiva-tres-niveles
+    model: cloze
+    text: 'La Rama Ejecutiva se organiza en tres niveles: {{c1::nacional}}, {{c2::departamental}} y {{c3::municipal}}.'
+    notes: 'Fuente: Guía oficial, p. 154'
+    tags: [ramas, ampliacion]
+
+  - id: con-altas-cortes
+    model: cloze
+    text: 'Los órganos superiores de la Rama Judicial son la {{c1::Corte Constitucional}}, la {{c2::Corte Suprema de Justicia}}, el {{c3::Consejo de Estado}}, el {{c4::Consejo Superior de la Judicatura}} y la {{c5::Fiscalía General de la Nación}}.'
+    notes: 'Fuente: Guía oficial, p. 154'
+    tags: [ramas, ampliacion]
+
+  - id: con-jurisdiccion-ordinaria
+    model: cloze
+    text: 'La jurisdicción ordinaria la componen la {{c1::Corte Suprema de Justicia}}, los {{c2::Tribunales Superiores de Distrito Judicial}} y los {{c3::juzgados}}.'
+    notes: 'Fuente: Guía oficial, p. 152'
+    tags: [ramas, ampliacion]
+
+  - id: con-rama-judicial-funcion-oficial
+    front: Según la guía oficial, ¿qué le corresponde a la Rama Judicial?
+    back: Administrar justicia, solucionar los conflictos entre los ciudadanos y entre estos y el Estado, y decidir cuestiones jurídicas mediante sentencias, fallos o autos.
+    notes: 'Fuente: Guía oficial, p. 152'
+    tags: [ramas, ampliacion]
+
+  - id: con-camara-elige-defensor
+    front: ¿Quién elige al Defensor del Pueblo?
+    back: La Cámara de Representantes.
+    notes: 'Confirma tu anotación manuscrita de la p. 19. Fuente: Guía oficial, p. 151'
+    tags: [ramas, defensoria, ampliacion]
+
+  - id: con-camara-cuenta-general
+    front: ¿Qué hace la Cámara de Representantes con la cuenta general del presupuesto?
+    back: La examina y la fenece; se la presenta el Contralor General de la República.
+    notes: 'Fuente: Guía oficial, p. 151'
+    tags: [ramas, ampliacion]
+
+  - id: con-senado-funciones
+    front: ¿Qué funciones cumple el Senado de la República?
+    back: Tramitar proyectos de ley y actos legislativos, hacer debates de control político y público, y elegir altos dignatarios del Estado.
+    notes: 'Fuente: Guía oficial, p. 151'
+    tags: [ramas, ampliacion]
+
+  - id: con-ministerio-publico-oficial
+    model: cloze
+    text: 'El Ministerio Público lo integran la {{c1::Procuraduría General de la Nación}}, la {{c2::Defensoría del Pueblo}} y los {{c3::agentes del Ministerio Público}}.'
+    notes: 'Fuente: Guía oficial, p. 155'
+    tags: [organismos-control, defensoria, ampliacion]
+
+  - id: con-contraloria-maximo-organo
+    front: ¿Cuál es el máximo órgano de control fiscal del Estado colombiano?
+    back: La Contraloría General de la República; vigila el buen uso de los recursos y bienes públicos.
+    notes: 'Fuente: Guía oficial, pp. 152 y 155'
+    tags: [organismos-control, ampliacion]
+
+  - id: con-registraduria-funciones
+    front: ¿De qué se encarga la Registraduría Nacional del Estado Civil?
+    back: De la organización, dirección y vigilancia de las elecciones, y de la identificación de las personas.
+    notes: 'Fuente: Guía oficial, p. 155'
+    tags: [organizacion-electoral, ampliacion]
+
+  - id: con-banco-republica-funciones
+    model: cloze
+    text: 'Funciones del Banco de la República: regular la {{c1::moneda, los cambios internacionales y el crédito}}, {{c2::emitir la moneda legal}}, administrar las {{c3::reservas internacionales}}, ser {{c4::prestamista de última instancia}} y servir como {{c5::agente fiscal del gobierno}}.'
+    notes: 'Fuente: Guía oficial, p. 153 (§4.4.4)'
+    tags: [organismos-autonomos, ampliacion]
+
+  - id: con-car-funcion
+    front: ¿Qué administran las Corporaciones Autónomas Regionales?
+    back: El medio ambiente y los recursos naturales renovables dentro de su jurisdicción, propendiendo por su desarrollo sostenible.
+    notes: 'Fuente: Guía oficial, p. 153 (§4.4.4)'
+    tags: [organismos-autonomos, ampliacion]
+
+  - id: con-entes-universitarios
+    front: ¿Qué son los entes universitarios autónomos y a qué ministerio se vinculan?
+    back: Las universidades estatales u oficiales, vinculadas al Ministerio de Educación Nacional; tienen personería jurídica, autonomía académica, administrativa y financiera, y patrimonio independiente.
+    notes: 'Fuente: Guía oficial, p. 153 (§4.4.4)'
+    tags: [organismos-autonomos, ampliacion]
+
+  - id: con-organos-autonomos-definicion
+    front: ¿Qué caracteriza a los órganos autónomos e independientes?
+    back: Tienen un régimen especial y autonomía propia prevista directamente por la Constitución o la ley, dada la especialidad de sus funciones.
+    notes: 'Fuente: Guía oficial, p. 153 (§4.4.4)'
+    tags: [organismos-autonomos, ampliacion]
+
+  - id: con-autoridad-nacional-television
+    front: Además del Banco de la República y las CAR, ¿qué otros órganos autónomos lista la guía oficial?
+    back: La Comisión Nacional del Servicio Civil, los entes universitarios autónomos y la Autoridad Nacional de Televisión.
+    notes: 'Fuente: Guía oficial, p. 155'
+    tags: [organismos-autonomos, ampliacion]
+
+  - id: con-organizacion-territorial
+    front: ¿Qué es la organización territorial?
+    back: El conjunto de normas que regulan cómo se distribuye espacialmente el poder público entre los niveles nacional, departamental, distrital y municipal.
+    notes: 'Fuente: Guía oficial, p. 154'
+    tags: [estructura-estado, ampliacion]

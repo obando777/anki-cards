@@ -1,172 +1,187 @@
-# Análisis de la cartilla como material de estudio
+# Análisis del material de estudio
 
-Evaluación del escaneo de `raw_input/colombia/` hecha al transcribirlo entero
-(19 páginas, impreso y manuscrito) y convertirlo en 415 tarjetas. No es una
-crítica académica del contenido: es una lectura de qué tan bien sirve **para
-pasar el examen que sus propios márgenes describen**, y dónde te va a fallar.
+Evaluación de tu resumen escaneado de 19 páginas frente a la **guía oficial de
+190 páginas** y al **instructivo oficial del examen**, ambos de la Cancillería.
+La pregunta que responde: ¿qué tan bien te prepara este material para el examen
+de naturalización, y dónde te va a fallar?
+
+> Una versión anterior de este análisis se escribió sin conocer el examen real y
+> dedujo su estructura de tus notas al margen. Ahora está reescrito sobre los
+> documentos oficiales. La conclusión principal —Constitución es el módulo de
+> mayor riesgo— **se confirmó**, pero por razones más precisas.
 
 ---
 
-## 1. El dato más importante: el módulo 4 es el de mayor riesgo
+## 1. Tus notas al margen registraron los puntos de corte oficiales
 
-Los márgenes traen los parámetros del examen. Cruzándolos con el volumen real
-de material aparece un desbalance que no se ve leyendo la cartilla de corrido:
+Este es el hallazgo que valida todo lo demás. Los mínimos que anotaste a mano
+coinciden **exactamente** con los del instructivo oficial:
 
-| Módulo | Páginas | Preguntas | Mínimo | Tiempo | Tarjetas | **Tarjetas por pregunta** |
+| Módulo | Anotado a mano | Oficial | |
+|---|---|---|---|
+| Geografía | 11/20 | 11/20 | ✅ |
+| Historia Patria | 8/20 | 8/20 | ✅ |
+| Constitución | 12/20 | 12/20 | ✅ |
+| Cultura | ilegible `?/20` | **8/20** | ← el dígito borroso es un 8 |
+
+Los "Preg 32 / 30 / 34" que también anotaste **no** son del examen —el examen
+tiene 20 preguntas por módulo— sino del banco de práctica del curso. Igual que
+los tiempos de 25'-35': el examen real dura 3 horas corridas para los 4 módulos.
+
+---
+
+## 2. Constitución es el módulo de mayor riesgo
+
+Cruzando el examen oficial con el material disponible:
+
+| Módulo | Mínimo | Págs. en la guía oficial | Págs. en tu resumen | Compresión | Tarjetas | **Tarjetas por pregunta** |
 |---|---:|---:|---:|---:|---:|---:|
-| 1. Cultura y Sociedad | 7 | — | — | 25' | 123 | — |
-| 2. Geografía | 5 | 32 | 11/20 | 30' | 135 | **4,2** |
-| 3. Historia Patria | 4 | 30 | 8/20 | 25' | 83 | **2,8** |
-| 4. Constitución | 3 | 34 | 12/20 | 35' | 74 | **2,2** |
+| **Constitución** | **60 %** | 30 | 3 | 10 % | 115 | **5,8** |
+| **Geografía** | **55 %** | 52 | 5 | 10 % | 157 | **7,9** |
+| Historia Patria | 40 % | 31 | 4 | 13 % | 83 | 4,2 |
+| Cultura | 40 % | 48 | 7 | 15 % | 123 | 6,2 |
 
-El módulo 4 tiene **la mayor cantidad de preguntas (34), el mínimo de aprobación
-más alto (12/20 = 60 %) y la menor cantidad de material por pregunta**. Son tres
-páginas para el examen más exigente. El módulo 3, en cambio, pide apenas 8/20
-(40 %) sobre 4 páginas razonablemente densas.
+Las cifras de tarjetas ya incluyen la ampliación desde la guía oficial (ver §6).
+Antes de ampliar, Constitución tenía 74 tarjetas (3,7 por pregunta) y Geografía
+135 (6,8) — es decir, el módulo del listón más alto era también el peor servido.
 
-**Si tienes tiempo limitado, va al módulo 4 primero.** La cartilla no lo señala
-por ningún lado; el desbalance solo aparece al contar.
+**Constitución combinaba las tres peores condiciones**: el listón más alto (60 %,
+20 puntos porcentuales por encima de Historia y Cultura), la compresión más
+agresiva de tu resumen (10 %) y la menor cantidad de material por pregunta. La
+ampliación corrigió lo tercero; lo primero y lo segundo siguen ahí. Geografía es
+el segundo frente, con 55 % y la misma compresión del 10 %.
+
+Y hay una asimetría que la aritmética no muestra: **aprobar exige valoración
+positiva en los cuatro módulos**. Sacar 20/20 en Cultura no compensa un 11/20 en
+Constitución. El examen se juega al peor módulo, no al promedio — así que
+estudiar de más lo que ya dominas no vale nada.
+
+**Orden sugerido: Constitución → Geografía → Historia → Cultura.**
 
 ---
 
-## 2. Sin las anotaciones a mano, el material impreso es insuficiente
+## 3. Sin las anotaciones a mano, tu resumen es insuficiente
 
-52 de las 415 tarjetas (12,5 %) salen de notas al margen, no del texto impreso.
-Pero están muy mal repartidas:
+52 notas salen de anotaciones al margen, no del texto impreso, y están muy mal
+repartidas. Los porcentajes de abajo son sobre el mazo **antes** de la ampliación,
+que es cuando la dependencia del manuscrito era total:
 
 | Módulo | Tarjetas de anotación | % del módulo |
 |---|---:|---:|
-| 1. Cultura y Sociedad | 9 | 7 % |
-| 2. Geografía | 13 | 10 % |
-| 3. Historia Patria | 11 | 13 % |
-| 4. Constitución | **19** | **26 %** |
+| Cultura | 9 | 7 % |
+| Geografía | 13 | 10 % |
+| Historia Patria | 11 | 13 % |
+| **Constitución** | **19** | **26 %** |
 
-En el módulo 4 **una de cada cuatro tarjetas viene del manuscrito**, y no son
-adornos: son precisamente los **números de artículo**. El texto impreso enumera
-los mecanismos de protección y de participación pero omite buena parte de los
-artículos; quien anotó tuvo que agregar a mano "Art. 1º al 10", "Art. 3º",
-"Art. 4º", "Art. 11-44", "Art. 83-94", "Art. 103-106", "Art. 113", "Art. 96
-nacionalidad", "10 días" para la tutela. Un examen de constitución pregunta
-artículos. **La cartilla impresa sola no te los da.**
+En Constitución **una de cada cuatro tarjetas viene del manuscrito**, y no son
+adornos: son los **números de artículo**. El resumen impreso enumera los
+mecanismos de protección y de participación pero omite buena parte de los
+artículos; quien anotó agregó a mano "Art. 1º al 10", "Art. 3º", "Art. 4º",
+"Art. 11-44", "Art. 83-94", "Art. 103-106", "Art. 113", "Art. 96 nacionalidad",
+"10 días" para la tutela. Un examen de constitución pregunta artículos.
 
 Lo mismo con el bloque entero de la Defensoría del Pueblo (7 tarjetas): no
-existe en el impreso, está manuscrito al pie de la p. 19 — Ley 24 de 1992,
-art. 283, composición del Ministerio Público, elección por la Cámara de terna
-presidencial por 4 años. Es material de examen que solo vive en el margen.
+existe en el impreso, está manuscrito al pie de la p. 19.
 
-**Conclusión:** conserva el escaneo. Si alguien te pasa "la cartilla" limpia, le
-falta el 26 % del módulo más difícil.
+**Conserva el escaneo.** Si alguien te pasa "el resumen" limpio, le falta el
+26 % del módulo más difícil.
 
 ---
 
-## 3. Precisión: 9 errores de hecho en 19 páginas
+## 4. Precisión: 9 diferencias frente a la guía oficial
 
-Aproximadamente **un error por cada dos páginas**. Para material de estudio es
-una densidad alta, y los errores no son erratas inocuas — son del tipo que un
-examen pregunta:
+Al contrastar tu resumen con la guía oficial aparecieron nueve puntos en
+conflicto. **Ocho son errores de transcripción de tu resumen** y se corrigieron
+siguiendo a la oficial:
 
-**Confusión de nombres y fechas**
-- "Pedro de Heredia fundó Santa Marta en 1533" — fue Rodrigo de Bastidas, 1525;
-  Heredia fundó Cartagena. La cartilla acaba de nombrar correctamente a Bastidas
-  dos renglones antes, y se contradice sola.
-- "bomba al edificio del DAS en 1980" — fue el 6 de diciembre de 1989.
+- Malpelo y el Macizo Colombiano "al sureste" — la oficial dice **suroeste** en ambos.
+- "Guainía (San José del Guaviare)" — la oficial lista **Guaviare** con esa capital.
+- "10 islas" seguido de 8 — la oficial **sí enumera 10**; el resumen dejó fuera
+  Serranilla y Este-Sudeste.
+- Cali entre las ciudades de la región Andina — la oficial pone **Pereira**
+  (Cali es del Pacífico).
+- Población andina "40 %" — la oficial dice **40,5 %**.
+- "Los Pájaros" como liberales — la oficial los pone del lado **conservador**,
+  junto a los chulavitas.
+- "**Junta** Especial para la Paz" — la oficial dice **Jurisdicción**.
 
-**Terminología jurídica mal escrita**
-- "**Junta** Especial Para la Paz" — es **Jurisdicción** Especial para la Paz.
-  En un examen de constitución, confundir una junta con una jurisdicción no es
-  un detalle.
-- "Partido **los** Comunes" — el partido se llama Comunes.
+Un caso aparte: el atentado al DAS fechado en 1980 (fue 1989). **La guía oficial
+no menciona ese atentado**, así que la tarjeta quedó con la fecha correcta y
+marcada `externo`: es poco probable en el examen.
 
-**Atribución política invertida**
-- "los liberales llamados 'Los Pájaros'" — Los Pájaros eran de filiación
-  **conservadora** y atacaban liberales. La frase invierte el bando en un tema
-  (La Violencia) cuya lógica entera es quién le hizo qué a quién.
-
-**Geografía**
-- Macizo Colombiano "al sureste" e isla Malpelo "al sureste" — ambos al
-  **suroeste**. Dos veces el mismo error de orientación.
-
-**Inconsistencias internas**
-- "archipiélago compuesto por **10 islas** que son:" y enumera **8**.
-- "Guainía (San José del Guaviare)" — mezcla dos departamentos en una línea.
-- El numeral "2.2" se usa dos veces en el módulo 1 (gastronomía y festivales).
-- La numeración del módulo 2 salta sin lógica: §1.5 Andina, luego §3.1-3.4 para
-  Caribe, §4.x para Pacífica, §5.x para Orinoquía.
-- Los ríos de la región Andina se listan como "Magdalena, Cauca y **Caquetá**";
-  el Caquetá es amazónico y la propia cartilla lo pone en la Amazonía.
-
-Las 9 tarjetas marcadas `discrepancia` enseñan **lo que dice la cartilla** —
-porque es contra lo que te evalúan — y llevan la corrección documentada en las
-notas. Es una decisión deliberada, y es reversible: si el examen no se califica
-contra esta cartilla, invierte el criterio.
+**Y un caso incómodo: un error de la guía oficial misma.** La guía dice
+textualmente *"la fundación de Santa Marta por parte de Pedro de Heredia"*
+(p. 111), cuando históricamente Santa Marta la fundó Rodrigo de Bastidas en 1525
+y Heredia fundó Cartagena en 1533. La propia guía se contradice: su cronología
+(p. 108) registra "1501 Rodrigo de Bastidas llega a Santa Marta". Como el examen
+lo redacta la Universidad de Antioquia sobre esta guía, **la tarjeta sigue a la
+guía** y lleva etiqueta `error-fuente-oficial`.
 
 ---
 
-## 4. Estructura: buena forma, mal tamaño
+## 5. Estructura: buena forma, mal tamaño
 
-**Lo que funciona.** El material ya viene en formato pregunta-respuesta ("R/"),
-que es la forma correcta para memorizar. Y la organización por regiones es
-consistente: las mismas 5-6 regiones reaparecen en gastronomía, festivales,
-música y geografía. Eso construye un andamio mental reutilizable — aprender
-"Pacífica = Chocó, Valle, Cauca, Nariño" paga cuatro veces.
+**Lo que funciona.** Tu resumen sigue la estructura de la guía oficial sección
+por sección —la tabla de contenidos coincide— y viene en formato
+pregunta-respuesta ("R/"), que es la forma correcta para memorizar. La
+organización por regiones es consistente: las mismas 5-6 regiones reaparecen en
+gastronomía, festivales, música y geografía, lo que construye un andamio mental
+reutilizable. Aprender "Pacífica = Chocó, Valle, Cauca, Nariño" paga cuatro veces.
 
 **Lo que no.** Las respuestas empaquetan demasiados hechos. Las ~130 preguntas
-numeradas de la cartilla se convirtieron en **415 tarjetas atómicas: un factor
-de 3,2×**. Ese número *es* el diagnóstico: cada "pregunta" del material contiene
-en promedio más de tres cosas que te pueden preguntar por separado.
+numeradas del resumen se convirtieron en **415 tarjetas atómicas: un factor de
+3,2×**. Ese número *es* el diagnóstico: cada "pregunta" del resumen contiene en
+promedio más de tres cosas que te pueden preguntar por separado.
 
-El caso extremo son las listas. La cartilla presenta como una sola respuesta:
-- **33 festivales** con su ciudad o región,
-- **31 pares departamento-capital**,
-- 14 artículos de la Constitución con su derecho.
-
-Memorizar eso leyendo una lista de nueve viñetas no funciona. En el mazo cada
-par es una tarjeta `basic-reversed` (se pregunta en los dos sentidos) más un
-`cloze` por región con los encabezados. Son 144 tarjetas reversibles y 75 cloze
-— el 53 % del mazo existe para desempacar listas que la cartilla dejó crudas.
+El caso extremo son las listas: 33 festivales con su ciudad, 31 pares
+departamento-capital, 14 artículos con su derecho. Más de la mitad del mazo
+(148 reversibles + 96 cloze) existe para desempacar listas que el resumen dejó
+crudas.
 
 ---
 
-## 5. Tres temas que la cartilla simplemente no trae
+## 6. La ampliación: dónde y por qué
 
-El documento delega contenido hacia afuera en varios puntos:
+Tu resumen comprime la guía oficial al **10-15 % de su extensión**. La cobertura
+por *sección* es completa —no falta ningún tema— pero la *profundidad* no.
 
-| Sección | Lo que dice | Estado |
-|---|---|---|
-| §1.4.1 Himno, coro y 1ª estrofa | "tómala de página de Google" | **Llenado** (texto oficial) |
-| §2.7 Arquitectura | "Favor leer el material adjunto" | **Llenado** (4 tarjetas) |
-| §2.8 Música y danza | "Favor leer el material de la cartilla" | **Llenado** (4 tarjetas + las manuscritas) |
+Ampliar el mazo entero desde las 190 páginas rendiría 900-1200 tarjetas, lo que
+lo volvería impracticable. En vez de eso la ampliación fue **quirúrgica**: solo
+los dos módulos donde el listón aprieta.
 
-Y además remite sin desarrollar en: "Ver mapa", "estudiar recuadro azul",
-"Leer pag. 91", "Leer pag. 92", "estudiar pág. 97 y 98", "estudiar página
-resumen de la cartilla", "HACER LECTURA". Las 12 tarjetas `externo` cubren los
-tres temas de la tabla con fuente citada; **los demás reenvíos apuntan a un
-material adjunto que no está en el escaneo**. Si ese material existe,
-escanéalo: es la única laguna que queda sin cerrar.
+| Módulo | Antes | Ahora | Añadido | Por qué |
+|---|---:|---:|---:|---|
+| Constitución | 74 | **115** | +41 | Listón al 60 %, el más alto; era el peor servido |
+| Geografía | 135 | **157** | +22 | Listón al 55 %; faltaban las tablas-resumen por región |
+| Historia Patria | 83 | 83 | — | Listón al 40 %, ya bien cubierto |
+| Cultura | 123 | 123 | — | Listón al 40 %, ya bien cubierto |
+
+Lo que entró en Constitución es justo lo preguntable que el resumen no alcanzó:
+los tres tipos de descentralización, las tres dimensiones de la igualdad, los
+requisitos del plebiscito (firma de todos los ministros, concepto favorable del
+Congreso, y las tres materias que le están vedadas), el 40 % de firmas de la
+revocatoria, los plazos del derecho de petición según la Ley 1755 de 2015, la
+composición de las altas cortes y las funciones del Banco de la República.
+
+En Geografía entraron sobre todo las **tablas-resumen por región** —extensión,
+relieve, clima, ríos, departamentos— que tienen forma de pregunta de examen y
+que tu resumen solo copió para la Amazónica.
+
+Todo lo añadido lleva la etiqueta `ampliacion`, así que se puede suspender en
+bloque si el volumen molesta.
 
 ---
 
-## 6. Veredicto y plan
+## 7. Veredicto
 
-**Como material de examen: sirve, pero no solo.** Es un resumen razonablemente
-completo del temario, en formato ya preguntable, con una organización regional
-que ayuda. Pero tiene una densidad de error que obliga a verificar, empaqueta
-las listas de forma que no se memorizan leyendo, delega tres temas y —lo más
-grave— depende de anotaciones manuscritas para el módulo más exigente.
+**Tu resumen es un buen índice del temario, no un sustituto de la guía oficial.**
+Sigue su estructura fielmente, está en formato preguntable y tus anotaciones
+aportan justo lo que el impreso omite. Pero comprime al 10 %, arrastra ocho
+errores de transcripción —ya corregidos en el mazo contra la fuente oficial— y
+dejaba los dos módulos más exigentes por debajo de lo que piden.
 
-**Orden de estudio sugerido**, por presión de examen y no por número de módulo:
-
-1. **Módulo 4 (Constitución)** — 34 preguntas, mínimo 60 %, solo 3 páginas, 26 %
-   del contenido en manuscrito. Es donde más fácil se pierde.
-2. **Módulo 2 (Geografía)** — 32 preguntas y el grueso de la memorización bruta
-   (31 departamentos-capital). Empieza temprano: las listas necesitan repeticiones,
-   no horas.
-3. **Módulo 1 (Cultura)** — el más largo (123 tarjetas) pero el más blando;
-   los 33 festivales son el único bloque pesado.
-4. **Módulo 3 (Historia)** — mínimo de 8/20, el más indulgente, y es narrativo:
-   se sostiene mejor con menos repaso porque las fechas se encadenan.
-
-**Antes del examen**, dos lecturas obligadas: las 9 tarjetas `discrepancia`
-(decide con qué criterio te califican) y las 4 `revisar` (cifras demográficas
-manuscritas que no se leen con certeza — contrástalas con tus apuntes y corrige
-el YAML).
+Con la ampliación, el mazo (478 notas, 946 tarjetas de repaso) cubre los cuatro
+módulos en proporción a su dificultad real. El orden de estudio sigue siendo
+**Constitución → Geografía → Historia → Cultura**, y la regla que manda por
+encima de todo: hay que aprobar los cuatro, así que el examen se juega al peor
+módulo, no al promedio.

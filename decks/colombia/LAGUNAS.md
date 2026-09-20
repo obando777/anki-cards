@@ -1,186 +1,146 @@
 # Lagunas del material
 
-Todo lo que falta, en orden de impacto sobre el examen. Sale de revisar las 19
-páginas del escaneo buscando cada remisión hacia afuera ("leer", "estudiar",
-"ver mapa", "material adjunto"), cada anotación ilegible y cada desbalance entre
-material y peso del examen.
+Estado tras conseguir la **guía oficial de 190 páginas** y el **instructivo
+oficial del examen**, ambos de la Cancillería y ambos en `raw_input/colombia/`.
 
-**Resumen:** 3 lagunas cerradas, **22 abiertas**. De las abiertas, 4 son
-bloqueantes para estudiar bien y 1 sola acción — escanear la cartilla
-subyacente — cierra 16 de ellas.
+**De las 22 lagunas abiertas del inventario anterior, quedan 4.** La guía oficial
+cerró 18 de un golpe, porque casi todas eran la misma: contenido que vivía en el
+documento al que tu resumen remite 38 veces.
 
 ---
 
-## A. La laguna que contiene a casi todas: la cartilla subyacente
+## Cerradas
 
-Lo escaneado **no es la cartilla**: es una guía-resumen de 19 páginas *sobre*
-una cartilla más larga, a la que remite por número de página 38 veces.
+### La grande: la cartilla subyacente ✅
 
-Páginas citadas del documento original:
+Tu resumen de 19 páginas cita por número de página un documento más largo. Ese
+documento es la **guía oficial de estudio "Colombia, nuestra casa"** de la
+Cancillería — 190 páginas, con capa de texto completa. Verificación: las 17
+páginas citadas al azar caen exactamente sobre el contenido correcto (p. 15 →
+Gastronomía, p. 63 → resumen de la Amazónica, p. 139 → Principios
+constitucionales, p. 151 → Estructura del Estado…).
 
-| Módulo | Páginas citadas |
-|---|---|
-| 1 | 8, 15, 37, 39, 44, 46, 48 |
-| 2 | 56, 57, 63, 64, 70, 76, 82, 89, 91, 92, 95, 96, 97, 98, 100 |
-| 3 | 109, 110, 112, 114, 115, 117, 118, 123, 126, 130, 133 |
-| 4 | 139, 146, 149, 151, 153 |
+Descargada de
+[cancilleria.gov.co](https://www.cancilleria.gov.co/sites/default/files/DOCUMENTOS-2026/naturalizacion/Guia_de_estudio_ajustada.pdf).
 
-**El original abarca al menos de la página 8 a la 153 — unas 145 páginas, de las
-cuales tienes un resumen de 19.** Casi todas las lagunas de las secciones C, D y
-E de abajo son en realidad esta misma: contenido que vive en esas 145 páginas.
+### Los resúmenes por región ✅
 
-> **Acción única de mayor rendimiento: escanear la cartilla completa a
-> `raw_input/colombia/`.** Cierra 16 de las 22 lagunas abiertas.
+Tenías 1 de 5. La guía oficial trae las cinco tablas-resumen —extensión, relieve,
+clima, ríos, serranías, departamentos y capitales— en las pp. 63 (Amazónica),
+69 (Andina), 75 (Caribe), 81 (Pacífica) y 86 (Orinoquía). Incorporadas al mazo
+con etiqueta `ampliacion`; de ahí salen las extensiones que faltaban: Andina
+800.000 km², Caribe 1.600 km de costa, Pacífica 1.300 km.
 
----
+### Las secciones comprimidas ✅
 
-## B. Contenido que la cartilla delega explícitamente — **3 de 3 cerradas**
+"Recursos naturales (estudiar pág. 97 y 98)", "Geografía humana (estudiar
+pag.100)", "Primeros pobladores (HACER LECTURA)" y los recuadros azules: todo
+está en la guía. Lo preguntable se incorporó; el resto queda a un `pdftotext` de
+distancia si quieres profundizar.
 
-| § | Instrucción literal | Estado |
+### Las 4 cifras demográficas ilegibles ✅
+
+Estaban a lápiz en los márgenes de la p. 11 y no se leían ni a 220 dpi. La guía
+oficial las trae en su §1.3 "Datos demográficos básicos" (p. 87):
+
+| Dato | Tu anotación | Guía oficial |
 |---|---|---|
-| 1.4.1 (p. 1) | "Coro/1ª estrofa (tómala de página de Google)" | ✅ Cerrada — texto oficial, 2 tarjetas `externo` |
-| 2.7 (p. 5) | "ARQUITECTURA (Favor leer el material adjunto). (Pag.39)" | ✅ Cerrada — 4 tarjetas `externo` |
-| 2.8 (p. 5) | "MUSICA Y DANZA (Favor leer el material de la cartilla)" | ✅ Cerrada — 4 `externo` + 5 de tus notas al margen |
+| Población de Colombia | "44-50 millones" | **~44 millones** |
+| Indígenas | 4,3 % | **4,3 %**, más de 1,8 millones ✅ |
+| Afrocolombianos | 6,7 % ≈ 3 millones | **6,7 %**, más de 3 millones ✅ |
+| Rom / gitanos | "≈ 2.000" | **2.606 personas** (−45,5 % vs. censo 2005) |
 
-Estas tres son las únicas donde la cartilla admite no traer el contenido. Las
-demás remisiones (secciones C-E) asumen que tienes el documento original.
+Dos de las cuatro las habías leído bien. De propina entraron los raizales
+(0,06 %, ~25.300) y los palenqueros (~6.650, San Basilio de Palenque, s. XVII).
 
----
+### Los metadatos del examen ✅
 
-## C. Resúmenes por región: tienes 1 de 5 — **4 abiertas**
+El módulo 1 no tenía número de preguntas anotado y su mínimo era ilegible. El
+instructivo oficial lo resuelve, y además revela que tus anotaciones registraban
+los puntos de corte **oficiales exactos**:
 
-La región Amazónica trae su página-resumen estructurada (extensión, relieves,
-ríos, serranías, departamentos) en las pp. 8-9. Las otras cuatro **no**, y tus
-propias notas al margen lo señalan tres veces: *"Al final de la Región hay un
-Resumen Gral."*, *"Al final del capítulo hay un resumen general de esta Región"*.
+| Módulo | Preguntas | Mínimo |
+|---|---:|---:|
+| Constitución Política | 20 | 12 (60 %) |
+| Geografía | 20 | 11 (55 %) |
+| Historia Patria | 20 | 8 (40 %) |
+| Cultura | 20 | **8 (40 %)** ← el dígito borroso |
+| Lengua Castellana\* | 10 | 4 (40 %) |
 
-| Región | Resumen | Nota |
-|---|---|---|
-| Amazónica | ✅ presente (pp. 8-9) | Único completo |
-| Andina | ❌ falta | p. 9: *"Nota: LEER EL RESUMEN RESALTADO COLOR AZUL (pag.63)"* |
-| Caribe | ❌ falta | Margen p. 9: *"Al final de la Región hay un Resumen Gral."* |
-| Pacífica | ❌ falta | Margen p. 10: ídem |
-| Orinoquía | ❌ falta | Margen p. 10: ídem |
+Los "Preg 32/30/34" y los tiempos de 25'-35' eran del banco de práctica del
+curso, no del examen: el real son 80 preguntas de opción múltiple en 3 horas.
 
-**Por qué importa:** la propia estructura del material sugiere que esos resúmenes
-son el formato en que se pregunta. Tienes el modelo (Amazónica) y falta el
-contenido equivalente de las otras cuatro. Las tarjetas cubren los hechos
-sueltos de cada región, pero no puedes verificar que cubran lo mismo que el
-resumen oficial.
+### El contexto del examen ✅
 
----
+Es el examen de conocimientos del trámite de Naturalización (Cancillería, art. 13
+de la Ley 2332 de 2023), diseñado por la Universidad de Antioquia. Eso fijó el
+criterio para resolver los conflictos del material: **manda la guía oficial**,
+porque es sobre ella que se redacta el examen.
 
-## D. Material visual citado y no escaneado — **5 abiertas**
+### Material visual ⚠️ parcialmente
 
-| Dónde | Cita | Qué falta |
-|---|---|---|
-| p. 8, fronteras | "(estudiar recuadro azul)" | Recuadro azul de fronteras |
-| p. 8, §1.2 | "(Ver mapa)" | Mapa de las 5 regiones |
-| p. 9, §1.5.3 | "LEER EL RESUMEN RESALTADO COLOR AZUL (pag.63)" | Recuadro azul, región Andina |
-| p. 9, §3.1 | "(Ver mapa)" | Mapa de extensión de la región Caribe |
-| p. 13, §1.1 | "Ver mapa principales comunidades indígenas (ver mapa pag.110)" | Mapa de comunidades precolombinas |
-
-Sustituí parcialmente dos de estos con material propio: `mapa-regiones-naturales.png`
-y `mapa-departamentos.png` de Wikimedia Commons, en `media/`. **No son los mapas
-de la cartilla** — sirven para orientarte, no para responder una pregunta que
-diga "según el mapa de la pág. 110".
-
-No generé ningún mapa con IA: un mapa inventado enseñaría fronteras falsas.
+Los mapas y recuadros que tu resumen cita están en la guía oficial (el mapa
+político está en su p. 56). El mazo usa mapas de Wikimedia en `media/` para
+orientación, no los de la guía. Suficiente salvo que una pregunta diga "según el
+mapa de la pág. 110".
 
 ---
 
-## E. Secciones que remiten al original sin desarrollar — **7 abiertas**
+## Abiertas — quedan 4
 
-| § | Cita | Cubierto en el mazo por |
-|---|---|---|
-| 1.1 (p. 13) | "Primeros pobladores (HACER LECTURA)" | Nada — solo el listado de comunidades |
-| 1.4.1 (p. 8) | "RESUMEN REGIÓN AMAZÓNICA (estudiar pagina resumen de la cartilla)" | El resumen sí está impreso aquí |
-| 2.3 (p. 11) | "VALLES INTERANDINOS (Leer pag.91)" | ✅ Tu nota manuscrita lo llena (4 valles) |
-| 2.4 (p. 11) | "LLANURAS (Leer pag.92)" | ✅ Tu nota manuscrita lo llena (3 llanuras) |
-| 3.2 (p. 12) | "RECURSOS NATURALES (estudiar pág. 97 y 98)" | Solo la lista corta impresa |
-| 4 (p. 12) | "GEOGRAFIA HUMANA (estudiar pag.100)" | Solo lo impreso, 6 tarjetas |
-| 1.3 (p. 8) | "Estudiar A-su hidrográfica..." | Lo impreso sí trae el detalle |
+### 1. Profundidad: el mazo no agota la guía oficial
 
-Las dos marcadas ✅ están cerradas **gracias a tus anotaciones**, no al impreso.
-Las otras cinco quedan con lo que alcanzó el resumen: en "Recursos naturales" y
-"Geografía humana", dos páginas del original se comprimieron en cuatro renglones
-cada una.
+La ampliación fue deliberadamente quirúrgica (+63 notas en Constitución y
+Geografía, los dos módulos del listón alto). Trabajar las 190 páginas enteras
+rendiría 900-1200 tarjetas y volvería el mazo impracticable.
 
----
+**Qué falta, si algún día lo quieres:** desarrollo doctrinal de cada derecho
+fundamental (la guía dedica media página a cada uno), la sección de Cultura de la
+guía (48 páginas contra 7 de tu resumen) y el detalle de ciudades principales
+(pp. 100-105). Ninguno es urgente: Cultura pide 40 % y ya tiene 123 tarjetas.
 
-## F. Anotaciones que no se resolvieron — **4 abiertas** (etiqueta `revisar`)
+### 2. Lengua Castellana — sin cubrir
 
-Cifras demográficas escritas a lápiz en los márgenes de la p. 11, ilegibles
-incluso a 220 dpi tras dos pasadas:
+La guía oficial le dedica 24 páginas (pp. 167-190: acentuación, esdrújulas,
+comprensión lectora). El mazo **no la cubre en absoluto**.
 
-| Tarjeta | Lectura registrada | Duda |
-|---|---|---|
-| `geo-poblacion-total` | 44-50 millones | El rango mismo es ambiguo |
-| `geo-indigenas-pct` | 4,3 % | El decimal no se distingue |
-| `geo-afrocolombianos-pct` | 6,7 % ≈ 3 millones | Ídem |
-| `geo-rom-gitanos` | ≈ 2.000 personas | Podrían ser 2.000 o 2.600 |
+Solo aplica *"cuando el español no fuere la lengua materna del solicitante"*. Si
+el español es tu lengua materna, esta laguna no existe y presentas la Forma 1
+(80 preguntas). Si no lo es, presentas la Forma 2 (90 preguntas, 4 horas) y hay
+que construir ese módulo. **Dime cuál es tu caso.**
 
-**No las verifiqué contra fuentes externas a propósito**: son cifras que tu
-curso fijó, y la cifra "correcta" del DANE puede no ser la que te califican.
-Contrástalas con tus apuntes y corrige el YAML.
+### 3. No hay simulacro ni clave de respuestas
 
----
+Ni la Cancillería ni el curso publican un examen de práctica con respuestas
+oficiales. El instructivo solo trae **una** pregunta de ejemplo (sobre el inicio
+del proceso de independencia). El mazo entrena producción de respuestas, que es
+más exigente que el reconocimiento que pide el examen, pero no entrena el formato
+de opción múltiple ni el manejo del tiempo.
 
-## G. Metadatos del examen: falta el módulo 1 — **2 abiertas**
+### 4. Un error dentro de la guía oficial
 
-| Módulo | Tiempo | Preguntas | Mínimo |
-|---|---|---|---|
-| 1 | 25' | **❌ no anotado** | **❌ ilegible** (`?/20`) |
-| 2 | 30' | 32 | 11/20 |
-| 3 | 25' | 30 | 8/20 |
-| 4 | 35' | 34 | 12/20 |
+La guía dice *"la fundación de Santa Marta por parte de Pedro de Heredia"*
+(p. 111) y se contradice con su propia cronología (p. 108: "1501 Rodrigo de
+Bastidas llega a Santa Marta"). Históricamente, Bastidas fundó Santa Marta en
+1525 y Heredia fundó Cartagena en 1533.
 
-El módulo 1 es el más largo del mazo (123 tarjetas, 7 páginas) y es el único del
-que **no sabes cuántas preguntas trae ni cuánto necesitas para pasar**. El
-análisis de prioridades en `ANALISIS-MATERIAL.md` tuvo que dejarlo fuera del
-cálculo de "tarjetas por pregunta" por eso.
+No es una laguna que se pueda cerrar desde fuera: si el examen la pregunta, no se
+sabe si el redactor siguió la guía o el hecho. La tarjeta sigue a la guía
+(etiqueta `error-fuente-oficial`) y la nota explica ambas versiones.
 
 ---
 
-## H. Lagunas de contexto — **2 abiertas**
+## Cómo volver a descargar las fuentes
 
-1. **No sé qué examen es.** Pregunté si se trata del examen de conocimientos
-   para nacionalización de la Cancillería y quedó sin respuesta, así que limité
-   las tarjetas `externo` a los tres temas que la cartilla delega explícitamente
-   (12 tarjetas). Si es el examen de nacionalidad, su temario publicado incluye
-   materia que esta cartilla no toca y convendría añadir ~20 tarjetas más.
+Están en `raw_input/colombia/`, que git ignora. Si las pierdes:
 
-2. **No hay clave de respuestas ni simulacro.** El material es un cuestionario
-   sin respuestas oficiales verificadas y sin examen de práctica. Las 9
-   `discrepancia` existen justamente porque no hay una clave contra la cual
-   contrastar: cada una es una decisión mía sobre a quién creerle.
+```bash
+cd raw_input/colombia
+curl -L -o Guia-oficial-Colombia-nuestra-casa.pdf \
+  "https://www.cancilleria.gov.co/sites/default/files/DOCUMENTOS-2026/naturalizacion/Guia_de_estudio_ajustada.pdf"
+```
 
----
-
-## Lo que NO es laguna
-
-Para que la lista no confunda:
-
-- **Las 9 tarjetas `discrepancia`** no son material faltante sino material
-  **equivocado**. Están todas transcritas, con su corrección verificada en las
-  notas. Ver `README.md`.
-- **Las 52 tarjetas `anotacion`** no son laguna: son contenido que sí tienes,
-  solo que manuscrito. El riesgo es perder el escaneo, no que falte.
-- **Los símbolos patrios, festivales, departamentos y artículos** están
-  completos según lo que el material trae.
-
----
-
-## Orden sugerido para cerrarlas
-
-| # | Acción | Cierra |
-|---|---|---|
-| 1 | **Escanear la cartilla completa (pp. 8-153) a `raw_input/colombia/`** | 16 lagunas (C, D, E y parte de A) |
-| 2 | Confirmar las 4 cifras demográficas con tus apuntes y editar el YAML | 4 (F) |
-| 3 | Preguntar al curso cuántas preguntas trae el módulo 1 y cuál es el mínimo | 2 (G) |
-| 4 | Decirme qué examen es, para calibrar las tarjetas `externo` | 1 (H1) |
-| 5 | Conseguir una clave de respuestas o un simulacro, si existe | 1 (H2) |
-
-Con (1) hecho, vuelve a correr el flujo: `scripts/render_pdf.py` sobre el nuevo
-escaneo, y las tarjetas nuevas se agregan a los mismos mazos. Como los `id`
-existentes no cambian, **tu historial de repaso sobrevive**.
+El instructivo del examen se publica por convocatoria; búscalo en
+[cancilleria.gov.co/tt_ss/examenes-conocimiento](https://www.cancilleria.gov.co/tt_ss/examenes-conocimiento).
+Ojo: la Cancillería reorganiza su sitio — una de sus URLs ya devolvía 404 al
+armar esto.
