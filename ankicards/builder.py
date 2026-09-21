@@ -21,6 +21,7 @@ ATRIBUCION = {
     "grok-relleno": "Ilustración generada — evocadora, NO es una foto del original",
     "commons-mapa": "Mapa: Wikimedia Commons",
     "guia-mapa": "Mapa: guía oficial «Colombia, nuestra casa», p. {pagina_guia}",
+    "commons-mapa-rotulado": "Mapa: {autor} · {licencia} · Wikimedia Commons — rótulos añadidos",
 }
 
 

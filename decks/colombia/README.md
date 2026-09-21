@@ -233,11 +233,19 @@ La asignación sigue una cascada, de lo específico a lo general:
 
 | Regla | Mapa |
 |---|---|
+| Cordilleras y macizo | Mapa orográfico con las tres cordilleras rotuladas |
 | Par departamento↔capital | Localizador: Colombia con ese departamento en rojo |
 | Etiqueta de región | Infografía-resumen de la región, de la guía oficial |
 | Insular o regiones | Mapa de las regiones naturales |
 | Relieve, clima, pisos térmicos | Mapa de relieve |
 | Resto | Mapa político |
+
+El mapa de cordilleras es el único **rotulado a mano**: ni Commons ni la guía
+tienen uno que nombre las tres ramas, así que sobre el mapa orográfico de
+Wikimedia se marcaron los tres ramales. No se colocaron a ojo — se detectaron por
+color buscando la latitud donde los tres se separan (y=370: x=147, 189, 255,
+oeste→este), y entre ellos se ven los valles del Cauca y del Magdalena, con el
+del Magdalena más ancho, como es. Su atribución lo dice: «rótulos añadidos».
 
 El localizador **pisa** cualquier imagen previa en los pares departamento↔capital:
 saber dónde queda es la mitad de la pregunta, y una foto del paisaje no la

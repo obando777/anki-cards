@@ -959,9 +959,21 @@ geo-andina-mamiferos:
   pagina_guia: 66
   verificada: true
 geo-andina-poblacion: *id002
-geo-andina-relieve: *id002
+geo-andina-relieve:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
 geo-andina-rios-oficial: *id002
-geo-andina-ubicacion: *id002
+geo-andina-ubicacion:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
 geo-archipielago-islas:
   archivo: g093-1f9fa1fc509e.jpg
   muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
@@ -1193,10 +1205,34 @@ geo-clima-ecuatorial: *id005
 geo-clima-subecuatorial: *id005
 geo-clima-templado: *id005
 geo-climas-cuatro: *id005
-geo-cordillera-central: *id005
-geo-cordillera-occidental: *id005
-geo-cordillera-oriental: *id005
-geo-cordilleras-nombre: *id004
+geo-cordillera-central:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
+geo-cordillera-occidental:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
+geo-cordillera-oriental:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
+geo-cordilleras-nombre:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
 geo-cultura-rural: *id004
 geo-delfin-rio: &id007
   archivo: mapa-region-orinoquia.jpg
@@ -1270,8 +1306,20 @@ geo-llanuras-cuenta:
   pagina_guia: 82
   verificada: true
 geo-llanuras-tres: *id005
-geo-macizo-colombiano: *id005
-geo-macizo-importancia: *id005
+geo-macizo-colombiano:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
+geo-macizo-importancia:
+  archivo: mapa-cordilleras.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: mapa orográfico con las tres cordilleras rotuladas
+  origen: commons-mapa-rotulado
+  verificada: true
 geo-malpelo-departamento:
   archivo: g094-742d611e01f5.jpg
   muestra: isla de Malpelo
