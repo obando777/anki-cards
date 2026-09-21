@@ -875,6 +875,11 @@ geo-afrocolombianos-donde:
   origen: guia-oficial
   pagina_guia: 112
   verificada: true
+geo-afrocolombianos-pct: &id004
+  archivo: mapa-departamentos.png
+  muestra: mapa político de Colombia
+  origen: commons-mapa
+  verificada: true
 geo-amazonica-aves:
   archivo: g059-584d1574093f.jpg
   muestra: tucán
@@ -893,6 +898,13 @@ geo-amazonica-deptos:
   origen: guia-oficial
   pagina_guia: 57
   verificada: true
+geo-amazonica-etnias: &id001
+  archivo: mapa-region-amazonica.jpg
+  muestra: mapa de la región amazonica
+  origen: guia-mapa
+  pagina_guia: 63
+  verificada: true
+geo-amazonica-extension: *id001
 geo-amazonica-flora:
   archivo: g060-69d9e332e0b3.jpg
   muestra: ceiba, árbol de la Amazonía
@@ -905,6 +917,7 @@ geo-amazonica-mamiferos:
   origen: guia-oficial
   pagina_guia: 58
   verificada: true
+geo-amazonica-relieve: *id001
 geo-amazonica-rios:
   archivo: g057-08c6e2d8a838.jpg
   muestra: río Amazonas
@@ -923,6 +936,14 @@ geo-andina-aves:
   origen: guia-oficial
   pagina_guia: 66
   verificada: true
+geo-andina-ciudades: &id002
+  archivo: mapa-region-andina.jpg
+  muestra: mapa de la región andina
+  origen: guia-mapa
+  pagina_guia: 69
+  verificada: true
+geo-andina-clima: *id002
+geo-andina-cultivos: *id002
 geo-andina-deptos:
   archivo: mapa-departamentos.png
   autor: Wikimedia
@@ -930,12 +951,17 @@ geo-andina-deptos:
   muestra: mapa político con los departamentos
   origen: commons
   verificada: true
+geo-andina-hidrografia: *id002
 geo-andina-mamiferos:
   archivo: g066-2564aacb95a6.jpg
   muestra: oso de anteojos
   origen: guia-oficial
   pagina_guia: 66
   verificada: true
+geo-andina-poblacion: *id002
+geo-andina-relieve: *id002
+geo-andina-rios-oficial: *id002
+geo-andina-ubicacion: *id002
 geo-archipielago-islas:
   archivo: g093-1f9fa1fc509e.jpg
   muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
@@ -955,10 +981,159 @@ geo-cano-cristales:
   pagina_guia: 83
   verificada: true
 geo-cap-amazonas:
-  archivo: g057-08c6e2d8a838.jpg
-  muestra: río Amazonas
-  origen: guia-oficial
-  pagina_guia: 57
+  archivo: mapa-geo-cap-amazonas.jpg
+  muestra: mapa localizador de ia - Amazonas
+  origen: commons-mapa
+  verificada: true
+geo-cap-antioquia:
+  archivo: mapa-geo-cap-antioquia.jpg
+  muestra: mapa localizador de ia - Antioquia
+  origen: commons-mapa
+  verificada: true
+geo-cap-arauca:
+  archivo: mapa-geo-cap-arauca.jpg
+  muestra: mapa localizador de ia - Arauca
+  origen: commons-mapa
+  verificada: true
+geo-cap-atlantico:
+  archivo: mapa-geo-cap-atlantico.jpg
+  muestra: mapa localizador de ia - Atlántico
+  origen: commons-mapa
+  verificada: true
+geo-cap-bolivar:
+  archivo: mapa-geo-cap-bolivar.jpg
+  muestra: mapa localizador de ia - Bolívar
+  origen: commons-mapa
+  verificada: true
+geo-cap-boyaca:
+  archivo: mapa-geo-cap-boyaca.jpg
+  muestra: mapa localizador de ia - Boyacá
+  origen: commons-mapa
+  verificada: true
+geo-cap-caldas:
+  archivo: mapa-geo-cap-caldas.jpg
+  muestra: mapa localizador de ia - Caldas
+  origen: commons-mapa
+  verificada: true
+geo-cap-caqueta:
+  archivo: mapa-geo-cap-caqueta.jpg
+  muestra: mapa localizador de ia - Caquetá
+  origen: commons-mapa
+  verificada: true
+geo-cap-casanare:
+  archivo: mapa-geo-cap-casanare.jpg
+  muestra: mapa localizador de ia - Casanare
+  origen: commons-mapa
+  verificada: true
+geo-cap-cauca:
+  archivo: mapa-geo-cap-cauca.jpg
+  muestra: mapa localizador de ia - Cauca
+  origen: commons-mapa
+  verificada: true
+geo-cap-cesar:
+  archivo: mapa-geo-cap-cesar.jpg
+  muestra: mapa localizador de ia - Cesar
+  origen: commons-mapa
+  verificada: true
+geo-cap-choco:
+  archivo: mapa-geo-cap-choco.jpg
+  muestra: mapa localizador de ia - Chocó
+  origen: commons-mapa
+  verificada: true
+geo-cap-cordoba:
+  archivo: mapa-geo-cap-cordoba.jpg
+  muestra: mapa localizador de ia - Córdoba
+  origen: commons-mapa
+  verificada: true
+geo-cap-cundinamarca:
+  archivo: mapa-geo-cap-cundinamarca.jpg
+  muestra: mapa localizador de ia - Cundinamarca
+  origen: commons-mapa
+  verificada: true
+geo-cap-guainia:
+  archivo: mapa-geo-cap-guainia.jpg
+  muestra: mapa localizador de ia - Guainía
+  origen: commons-mapa
+  verificada: true
+geo-cap-guajira:
+  archivo: mapa-geo-cap-guajira.jpg
+  muestra: mapa localizador de ia - La Guajira
+  origen: commons-mapa
+  verificada: true
+geo-cap-guaviare:
+  archivo: mapa-geo-cap-guaviare.jpg
+  muestra: mapa localizador de ia - Guaviare
+  origen: commons-mapa
+  verificada: true
+geo-cap-huila:
+  archivo: mapa-geo-cap-huila.jpg
+  muestra: mapa localizador de ia - Huila
+  origen: commons-mapa
+  verificada: true
+geo-cap-magdalena:
+  archivo: mapa-geo-cap-magdalena.jpg
+  muestra: mapa localizador de ia - Magdalena
+  origen: commons-mapa
+  verificada: true
+geo-cap-meta:
+  archivo: mapa-geo-cap-meta.jpg
+  muestra: mapa localizador de ia - Meta
+  origen: commons-mapa
+  verificada: true
+geo-cap-narino:
+  archivo: mapa-geo-cap-narino.jpg
+  muestra: mapa localizador de ia - Nariño
+  origen: commons-mapa
+  verificada: true
+geo-cap-norte-santander:
+  archivo: mapa-geo-cap-norte-santander.jpg
+  muestra: mapa localizador de ia - Norte de Santander
+  origen: commons-mapa
+  verificada: true
+geo-cap-putumayo:
+  archivo: mapa-geo-cap-putumayo.jpg
+  muestra: mapa localizador de ia - Putumayo
+  origen: commons-mapa
+  verificada: true
+geo-cap-quindio:
+  archivo: mapa-geo-cap-quindio.jpg
+  muestra: mapa localizador de ia - Quindío
+  origen: commons-mapa
+  verificada: true
+geo-cap-risaralda:
+  archivo: mapa-geo-cap-risaralda.jpg
+  muestra: mapa localizador de ia - Risaralda
+  origen: commons-mapa
+  verificada: true
+geo-cap-santander:
+  archivo: mapa-geo-cap-santander.jpg
+  muestra: mapa localizador de ia - Santander
+  origen: commons-mapa
+  verificada: true
+geo-cap-sucre:
+  archivo: mapa-geo-cap-sucre.jpg
+  muestra: mapa localizador de ia - Sucre
+  origen: commons-mapa
+  verificada: true
+geo-cap-tolima:
+  archivo: mapa-geo-cap-tolima.jpg
+  muestra: mapa localizador de ia - Tolima
+  origen: commons-mapa
+  verificada: true
+geo-cap-valle:
+  archivo: mapa-geo-cap-valle.jpg
+  muestra: mapa localizador de ia - Valle del Cauca
+  origen: commons-mapa
+  verificada: true
+geo-cap-vaupes:
+  archivo: mapa-geo-cap-vaupes.jpg
+  muestra: mapa localizador de ia - Vaupés
+  origen: commons-mapa
+  verificada: true
+geo-cap-vichada:
+  archivo: mapa-geo-cap-vichada.jpg
+  muestra: mapa localizador de ia - Vichada
+  origen: commons-mapa
   verificada: true
 geo-capibara:
   archivo: g084-2ee3989fe5e9.jpg
@@ -978,6 +1153,17 @@ geo-caribe-aves:
   origen: guia-oficial
   pagina_guia: 72
   verificada: true
+geo-caribe-ciudades: &id003
+  archivo: mapa-region-caribe.jpg
+  muestra: mapa de la región caribe
+  origen: guia-mapa
+  pagina_guia: 75
+  verificada: true
+geo-caribe-compuesta: *id003
+geo-caribe-deptos: *id003
+geo-caribe-extension: *id003
+geo-caribe-poblacion-pct: *id003
+geo-caribe-relieve: *id003
 geo-caribe-relieve-oficial:
   archivo: g071-289ef2ecd6db.jpg
   muestra: picos nevados de la Sierra Nevada de Santa Marta
@@ -990,18 +1176,62 @@ geo-caribe-rios:
   origen: guia-oficial
   pagina_guia: 64
   verificada: true
+geo-caribe-ubicacion: *id003
+geo-centros-urbanos: *id004
+geo-choco-lluvias: &id006
+  archivo: mapa-region-pacifica.jpg
+  muestra: mapa de la región pacifica
+  origen: guia-mapa
+  pagina_guia: 81
+  verificada: true
+geo-clima-alta-montana: &id005
+  archivo: mapa-relieve.jpg
+  muestra: mapa de relieve de Colombia
+  origen: commons-mapa
+  verificada: true
+geo-clima-ecuatorial: *id005
+geo-clima-subecuatorial: *id005
+geo-clima-templado: *id005
+geo-climas-cuatro: *id005
+geo-cordillera-central: *id005
+geo-cordillera-occidental: *id005
+geo-cordillera-oriental: *id005
+geo-cordilleras-nombre: *id004
+geo-cultura-rural: *id004
+geo-delfin-rio: &id007
+  archivo: mapa-region-orinoquia.jpg
+  muestra: mapa de la región orinoquia
+  origen: guia-mapa
+  pagina_guia: 86
+  verificada: true
 geo-economia-rural:
   archivo: g103-bc735d123eae.jpg
   muestra: tractor en zona rural, agricultura
   origen: guia-oficial
   pagina_guia: 103
   verificada: true
+geo-embalse-guatape: *id004
+geo-extension-andina: *id002
+geo-extension-caribe: *id003
+geo-extension-pacifica: *id006
+geo-extensiones-comparadas: &id008
+  archivo: mapa-regiones-naturales.png
+  muestra: mapa de las regiones naturales
+  origen: commons-mapa
+  verificada: true
+geo-frontera-norte: *id004
+geo-frontera-occidente: *id004
+geo-frontera-oriente: *id004
+geo-frontera-sur: *id004
+geo-fronteras: *id004
 geo-gorgona-ubicacion-oficial:
   archivo: g094-f1cb620394c1.jpg
   muestra: isla Gorgona
   origen: guia-oficial
   pagina_guia: 94
   verificada: true
+geo-grupos-etnicos-cifras: *id004
+geo-grupos-etnicos-cinco: *id004
 geo-grupos-etnicos-humana:
   archivo: g100-b57f18843b54.jpg
   muestra: indígenas arhuacos de la Sierra Nevada
@@ -1014,6 +1244,7 @@ geo-indigenas-mas-numerosos:
   origen: guia-oficial
   pagina_guia: 100
   verificada: true
+geo-indigenas-pct: *id004
 geo-isla-gorgona:
   archivo: g094-f1cb620394c1.jpg
   muestra: isla Gorgona
@@ -1038,6 +1269,9 @@ geo-llanuras-cuenta:
   origen: guia-oficial
   pagina_guia: 82
   verificada: true
+geo-llanuras-tres: *id005
+geo-macizo-colombiano: *id005
+geo-macizo-importancia: *id005
 geo-malpelo-departamento:
   archivo: g094-742d611e01f5.jpg
   muestra: isla de Malpelo
@@ -1056,6 +1290,12 @@ geo-orinoquia-aves-reptiles:
   origen: guia-oficial
   pagina_guia: 78
   verificada: true
+geo-orinoquia-deptos: *id007
+geo-orinoquia-economia: *id007
+geo-orinoquia-extension: *id007
+geo-orinoquia-fauna: *id007
+geo-orinoquia-limites: *id007
+geo-orinoquia-poblacion: *id007
 geo-orinoquia-relieve:
   archivo: g082-2f5bb297efa8.jpg
   muestra: llanero a caballo en los Llanos Orientales
@@ -1068,6 +1308,7 @@ geo-orinoquia-relieve-oficial:
   origen: guia-oficial
   pagina_guia: 82
   verificada: true
+geo-orinoquia-rios: *id007
 geo-orinoquia-serranias:
   archivo: g083-71f21a36c989.jpg
   muestra: Caño Cristales, serranía de La Macarena
@@ -1080,12 +1321,24 @@ geo-pacifica-aves:
   origen: guia-oficial
   pagina_guia: 66
   verificada: true
+geo-pacifica-ciudades: *id006
+geo-pacifica-clima: *id006
+geo-pacifica-deptos: *id006
+geo-pacifica-extension: *id006
 geo-pacifica-fauna:
   archivo: g058-065016b903d3.jpg
   muestra: jaguar
   origen: guia-oficial
   pagina_guia: 58
   verificada: true
+geo-pacifica-flora: *id006
+geo-pacifica-medicinales: *id006
+geo-pacifica-poblacion: *id006
+geo-pacifica-relieve: *id006
+geo-pacifica-relieve-oficial: *id006
+geo-pacifica-rios: *id006
+geo-pacifica-rios-oficial: *id006
+geo-pacifica-ubicacion: *id006
 geo-palenqueros-definicion:
   archivo: g087-a986c782d9de.jpg
   muestra: palenqueras de San Basilio de Palenque
@@ -1098,24 +1351,30 @@ geo-palenqueros-origen:
   origen: guia-oficial
   pagina_guia: 87
   verificada: true
+geo-paramo-altitud: *id005
 geo-pico-cristobal-colon:
   archivo: g071-289ef2ecd6db.jpg
   muestra: picos nevados de la Sierra Nevada de Santa Marta
   origen: guia-oficial
   pagina_guia: 71
   verificada: true
+geo-pisos-termicos-cuatro: *id005
+geo-poblacion-total: *id004
 geo-raizales-definicion:
   archivo: g093-1f9fa1fc509e.jpg
   muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
   origen: guia-oficial
   pagina_guia: 93
   verificada: true
+geo-recursos-energeticos: *id004
 geo-recursos-hidricos:
   archivo: g064-05cfca84c7a1.jpg
   muestra: río Magdalena
   origen: guia-oficial
   pagina_guia: 64
   verificada: true
+geo-recursos-minerales: *id004
+geo-regiones-cloze: *id008
 geo-regiones-cuantas:
   archivo: mapa-regiones-naturales.png
   autor: Wikimedia
@@ -1123,12 +1382,14 @@ geo-regiones-cuantas:
   muestra: mapa de las regiones naturales
   origen: commons
   verificada: true
+geo-regiones-diferencian: *id008
 geo-rio-mas-largo:
   archivo: g064-05cfca84c7a1.jpg
   muestra: río Magdalena
   origen: guia-oficial
   pagina_guia: 64
   verificada: true
+geo-rom-gitanos: *id004
 geo-serrania-baudo:
   archivo: g090-59c0749f4e52.jpg
   muestra: serranía del Baudó
@@ -1141,12 +1402,18 @@ geo-sierra-nevada-altura:
   origen: guia-oficial
   pagina_guia: 71
   verificada: true
+geo-territorio-insular: *id008
+geo-tierra-caliente-altitud: *id005
+geo-tierra-fria-altitud: *id005
+geo-tierra-templada-altitud: *id005
+geo-ubicacion: *id004
 geo-valles-interandinos:
   archivo: g091-0c733baa32ee.jpg
   muestra: valle de Aburrá, Medellín
   origen: guia-oficial
   pagina_guia: 91
   verificada: true
+geo-zonas-rurales: *id004
 his-bomba-das:
   archivo: g133-97ad9e3e11ab.jpg
   muestra: atentado con carro bomba, narcotráfico

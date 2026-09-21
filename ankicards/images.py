@@ -45,6 +45,19 @@ GROK_PROHIBIDO = (
 )
 
 # Etiquetas cuyo contenido es un concepto sin referente visual que equivocar.
+UA = ("anki-cards-study-deck/1.0 "
+      "(https://github.com/obando777/anki-cards; obando777@gmail.com)")
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+
+GROK_MODELO = "grok-imagine-image"
+# Coletilla obligatoria: sin ella, Grok mete texto ilegible y símbolos inventados.
+GROK_PROHIBIDO = (
+    " Estilo ilustración vectorial plana y limpia, fondo claro, sin ningún texto "
+    "ni letras ni números, sin banderas, sin escudos, sin mapas, sin logotipos y "
+    "sin rostros de personas reales identificables."
+)
+
+# Etiquetas cuyo contenido es un concepto sin referente visual que equivocar.
 ABSTRACTO = {
     "derechos-fundamentales", "mecanismos-proteccion", "participacion",
     "principios", "ramas", "organismos-control", "organizacion-electoral",
@@ -60,71 +73,7 @@ PURA_CIFRA = re.compile(
     r"[.\s]*$",
     re.I,
 )
-CLOZE = re.compile(r"\{\{c\d+::(.*?)(?:::[^}]*)?\}\}", re.S)
-
-
-def _caras(card) -> tuple[str, str]:
-    if card.model == "cloze":
-        t = card.fields.get("text", "")
-        return t, CLOZE.sub(r"\1", t)
-    return card.fields.get("front", ""), card.fields.get("back", "")
-
-
-def clasificar(card) -> str:
-    """'real' (necesita foto auténtica) | 'abstracto' (ilustrable) | 'sin-imagen'."""
-    pregunta, respuesta = _caras(card)
-    if "<img" in pregunta or "<img" in respuesta:
-        return "real"                                  # ya curada a mano
-    if set(card.tags) & ABSTRACTO:
-        return "abstracto"
-    if PURA_CIFRA.match(str(respuesta).strip()):
-        return "sin-imagen"
-    return "real"
-
-
 # ─── Wikimedia Commons ───────────────────────────────────────────────
-
-def _api(params: dict) -> dict:
-    url = COMMONS + "?" + urllib.parse.urlencode({**params, "format": "json"})
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
-
-
-def buscar_commons(consulta: str, limite: int = 6) -> list[dict]:
-    """Candidatas para una consulta, con autoría y licencia ya resueltas."""
-    try:
-        res = _api({"action": "query", "list": "search", "srnamespace": 6,
-                    "srlimit": limite, "srsearch": consulta})
-    except Exception:
-        return []
-    titulos = [r["title"] for r in res.get("query", {}).get("search", [])
-               if re.search(r"\.(jpe?g|png|svg|webp)$", r["title"], re.I)]
-    if not titulos:
-        return []
-    try:
-        info = _api({"action": "query", "prop": "imageinfo",
-                     "iiprop": "url|extmetadata", "iiurlwidth": ANCHO_MAX,
-                     "titles": "|".join(titulos[:limite])})
-    except Exception:
-        return []
-
-    salida = []
-    for pagina in info.get("query", {}).get("pages", {}).values():
-        ii = (pagina.get("imageinfo") or [{}])[0]
-        if not ii.get("thumburl"):
-            continue
-        em = ii.get("extmetadata", {})
-        autor = re.sub(r"<[^>]+>", "", em.get("Artist", {}).get("value", "")).strip()
-        salida.append({
-            "titulo": pagina.get("title", ""),
-            "url": ii["thumburl"].split("?")[0],
-            "pagina": ii.get("descriptionurl", ""),
-            "autor": (autor or "desconocido")[:80],
-            "licencia": em.get("LicenseShortName", {}).get("value", "?"),
-        })
-    return salida
-
 
 def descargar(url: str, destino: Path) -> Path | None:
     destino.parent.mkdir(parents=True, exist_ok=True)

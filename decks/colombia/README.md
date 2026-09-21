@@ -219,7 +219,38 @@ azúcar en lugar de las banderas y lanzas.
 |---|---:|---|
 | `guia-oficial` | 107 | Fotos extraídas de la guía oficial de la Cancillería |
 | `grok` | 114 | Ilustraciones de conceptos abstractos de Constitución |
-| `commons` | 4 | Bandera, escudo y mapas de Wikimedia |
+| `commons-mapa` | 69 | Mapas localizadores y de relieve de Wikimedia |
+| `guia-mapa` | 42 | Infografías-resumen de región de la guía oficial |
+| `commons` | 4 | Bandera, escudo y mapas generales |
+
+### Mapas en Geografía
+
+**Las 157 tarjetas de Geografía llevan imagen, y casi todas son un mapa.** Una
+pregunta de geografía sin mapa deja a medias lo que pregunta: «Antioquia →
+Medellín» no dice dónde queda Antioquia.
+
+La asignación sigue una cascada, de lo específico a lo general:
+
+| Regla | Mapa |
+|---|---|
+| Par departamento↔capital | Localizador: Colombia con ese departamento en rojo |
+| Etiqueta de región | Infografía-resumen de la región, de la guía oficial |
+| Insular o regiones | Mapa de las regiones naturales |
+| Relieve, clima, pisos térmicos | Mapa de relieve |
+| Resto | Mapa político |
+
+El localizador **pisa** cualquier imagen previa en los pares departamento↔capital:
+saber dónde queda es la mitad de la pregunta, y una foto del paisaje no la
+responde.
+
+```bash
+uv run --group images --group extract scripts/fetch_maps.py
+uv run --group images --group extract scripts/fetch_maps.py --sheets /tmp/rev
+```
+
+El segundo comando compone hojas de contacto rotuladas para revisarlos de un
+vistazo. Es el control que de verdad atrapa errores: así se vio que la tarjeta
+del ave nacional había recibido una foto de capibaras.
 
 **Nunca se genera** un símbolo patrio, un mapa, un billete, un documento ni el
 rostro de una persona real. Para esos solo vale una foto auténtica.
@@ -244,10 +275,14 @@ uv sync --group images
 uv run --group images scripts/build.py decks/colombia --images
 ```
 
-Los bytes viven en `.image-cache/` (20 MB, ignorado por git). Lo que sí se
-versiona es `_imagenes.yaml`, el manifiesto: lo caro no son los archivos sino
-haber encontrado la imagen correcta y haberla mirado. Las de la guía se vuelven
-a extraer idénticas; las de Grok se regeneran parecidas, no iguales.
+Los bytes viven en `.image-cache/` (ignorado por git). Lo que sí se versiona es
+`_imagenes.yaml`, el manifiesto: lo caro no son los archivos sino haber
+encontrado la imagen correcta y haberla mirado.
+
+Los mapas y las fotos de la guía se recuperan idénticos con
+`scripts/fetch_maps.py` y `scripts/render_pdf.py`. **Las 114 ilustraciones de
+Grok no son regenerables**: el manifiesto no guarda sus prompts. Si borras
+`.image-cache/`, esas se pierden — cópiala aparte si te importan.
 
 > **Nota sobre el texto en las ilustraciones.** Se le pidió a Grok que no
 > escribiera texto y lo ignoró en cerca de la mitad. Al revisarlas resultó que
