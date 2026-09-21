@@ -181,7 +181,7 @@ cards:
 
   - id: cul-otros-simbolos-culturales
     model: cloze
-    text: 'Otros símbolos culturales: la {{c1::ruana}} de la región cundiboyacense, el {{c2::carriel}} antioqueño y las mochilas {{c3::arhuacas}} y {{c4::wayuu}} de La Guajira.'
+    text: 'Otros símbolos culturales: la {{c1::ruana}} de la región cundiboyacense, el {{c1::carriel}} antioqueño y las mochilas {{c1::arhuacas}} y {{c1::wayuu}} de La Guajira.'
     notes: 'Fuente: Módulo 1, p. 2 (§1.8.1)'
     tags: [simbolos-culturales]
 
@@ -236,7 +236,7 @@ cards:
 
   - id: cul-otros-simbolos-comida
     model: cloze
-    text: 'Otros símbolos colombianos: el {{c1::mute santandereano}}, el {{c2::chicharrón de pirarucú}} de la región amazónica y la {{c3::mamona}} de la región de la Orinoquía.'
+    text: 'Otros símbolos colombianos: el {{c1::mute santandereano}}, el {{c1::chicharrón de pirarucú}} de la región amazónica y la {{c1::mamona}} de la región de la Orinoquía.'
     notes: 'Fuente: Módulo 1, p. 2 (§1.9.1)'
     tags: [simbolos-culturales]
 

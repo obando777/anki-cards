@@ -585,6 +585,13 @@ con-voto-caracteristicas:
   muestra: ilustración conceptual
   origen: grok
   verificada: true
+cul-amazonia-turismo:
+  archivo: cul-cul-amazonia-turismo.jpg
+  autor: Xemenendura
+  licencia: CC BY-SA 4.0
+  muestra: Selva amazónica en Leticia.jpg
+  origen: commons
+  verificada: true
 cul-arbol-nacional:
   archivo: g011-524941078890.jpg
   muestra: palma de cera del Quindío, valle de Cocora
@@ -621,11 +628,25 @@ cul-ave-nacional:
   origen: guia-oficial
   pagina_guia: 10
   verificada: true
+cul-bambuco-origen:
+  archivo: cul-cul-bambuco-origen.jpg
+  autor: NatalyG2
+  licencia: CC BY-SA 4.0
+  muestra: Baile de cumbia en Fiestas de independencia de Colombia, Mompox, Boliv
+  origen: commons
+  verificada: true
 cul-bandeja-paisa-simbolo:
   archivo: g017-ab3afee5f0b6.jpg
   muestra: bandeja paisa
   origen: guia-oficial
   pagina_guia: 17
+  verificada: true
+cul-bandera-amarillo:
+  archivo: cul-cul-bandera-amarillo.jpg
+  autor: See File history below for details.
+  licencia: Public domain
+  muestra: Flag of Colombia.svg
+  origen: commons
   verificada: true
 cul-bandera-azul:
   archivo: g008-c1686db0112f.jpg
@@ -652,6 +673,12 @@ cul-bandera-rojo:
   origen: guia-oficial
   pagina_guia: 8
   verificada: true
+cul-billete-100mil:
+  archivo: g014-1f195d2b3eef.jpg
+  muestra: imagen de la guía oficial
+  origen: guia-oficial
+  pagina_guia: 14
+  verificada: true
 cul-billete-20mil:
   archivo: g012-ddf378d9b8e1.jpg
   muestra: sombrero vueltiao zenú
@@ -663,6 +690,13 @@ cul-cabrera-peliculas:
   muestra: cartel de la película La estrategia del caracol, de Sergio Cabrera
   origen: guia-oficial
   pagina_guia: 37
+  verificada: true
+cul-cochise-rodriguez:
+  archivo: cul-cul-cochise-rodriguez.jpg
+  autor: ANSA.it
+  licencia: Public domain
+  muestra: Martín Emilio Rodríguez and Fausto Bertoglio 1975 (cropped).jpg
+  origen: commons
   verificada: true
 cul-egan-bernal:
   archivo: g044-cce4fb8344f2.jpg
@@ -677,11 +711,25 @@ cul-escudo-anio-autor:
   muestra: escudo nacional de Colombia
   origen: commons
   verificada: true
+cul-escudo-composicion:
+  archivo: cul-cul-escudo-composicion.jpg
+  autor: See File history below for details.
+  licencia: Public domain
+  muestra: Coat of arms of Colombia.svg
+  origen: commons
+  verificada: true
 cul-escudo-condor:
   archivo: g066-32e7be78a816.jpg
   muestra: cóndor de los Andes
   origen: guia-oficial
   pagina_guia: 66
+  verificada: true
+cul-escudo-representa:
+  archivo: cul-cul-escudo-representa.jpg
+  autor: See File history below for details.
+  licencia: Public domain
+  muestra: Coat of arms of Colombia.svg
+  origen: commons
   verificada: true
 cul-etnias-precolombinas:
   archivo: g032-6264b3837059.jpg
@@ -689,11 +737,46 @@ cul-etnias-precolombinas:
   origen: guia-oficial
   pagina_guia: 32
   verificada: true
+cul-fabiola-zuluaga:
+  archivo: cul-cul-fabiola-zuluaga.jpg
+  autor: Wikigo
+  licencia: CC BY-SA 3.0
+  muestra: Fabiola Zuluaga RG 2005.JPG
+  origen: commons
+  verificada: true
 cul-fanny-mikey:
   archivo: g036-21fe1fa911f6.jpg
   muestra: Fanny Mikey, fundadora del Festival Iberoamericano de Teatro
   origen: guia-oficial
   pagina_guia: 36
+  verificada: true
+cul-fest-arepa-huevo:
+  archivo: cul-cul-fest-arepa-huevo.jpg
+  autor: Jdvillalobos
+  licencia: CC BY 3.0
+  muestra: Carimañolas empanadas arepas de huevo.jpg
+  origen: commons
+  verificada: true
+cul-fest-bambuco-neiva:
+  archivo: cul-cul-fest-bambuco-neiva.jpg
+  autor: Guillermo Vasquez from neiva, Colombia
+  licencia: CC BY 2.0
+  muestra: Reina De El Festival.jpg
+  origen: commons
+  verificada: true
+cul-fest-bambuco-patiano:
+  archivo: cul-cul-fest-bambuco-patiano.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: Colombia - Cauca - Patía.svg
+  origen: commons
+  verificada: true
+cul-fest-blancos-negros:
+  archivo: cul-cul-fest-blancos-negros.jpg
+  autor: camiloAndres
+  licencia: CC BY 2.0
+  muestra: Talco en Carnaval de Blancos y Negros.jpg
+  origen: commons
   verificada: true
 cul-fest-carnaval-barranquilla:
   archivo: g029-e99c2de11aaf.jpg
@@ -707,11 +790,25 @@ cul-fest-corrio-llanero:
   origen: guia-oficial
   pagina_guia: 85
   verificada: true
+cul-fest-cultura-wayuu:
+  archivo: cul-cul-fest-cultura-wayuu.jpg
+  autor: Sharon NRB
+  licencia: CC BY-SA 4.0
+  muestra: Cultura wayú 03.jpg
+  origen: commons
+  verificada: true
 cul-fest-duetos-ibague:
   archivo: g023-87dca9b12dd8.jpg
   muestra: orquesta de música andina colombiana
   origen: guia-oficial
   pagina_guia: 23
+  verificada: true
+cul-fest-feria-cali:
+  archivo: cul-cul-fest-feria-cali.jpg
+  autor: Jyon
+  licencia: CC BY-SA 3.0
+  muestra: Salsódromo, Feria de Cali, Colombia.JPG
+  origen: commons
   verificada: true
 cul-fest-feria-flores:
   archivo: g022-d3e5fe3340c3.jpg
@@ -725,6 +822,13 @@ cul-fest-feria-libro:
   origen: guia-oficial
   pagina_guia: 23
   verificada: true
+cul-fest-feria-manizales:
+  archivo: cul-cul-fest-feria-manizales.jpg
+  autor: Feria de Manizales
+  licencia: CC BY-SA 4.0
+  muestra: Logo Feria de Manizales 2023.svg
+  origen: commons
+  verificada: true
 cul-fest-hay-festival:
   archivo: g027-c8c9a68ddd15.jpg
   muestra: Hay Festival de Cartagena de Indias
@@ -736,6 +840,20 @@ cul-fest-iberoamericano-teatro:
   muestra: Fanny Mikey, fundadora del Festival Iberoamericano de Teatro
   origen: guia-oficial
   pagina_guia: 36
+  verificada: true
+cul-fest-joropo:
+  archivo: cul-cul-fest-joropo.jpg
+  autor: Marco.sierra35
+  licencia: CC BY-SA 3.0
+  muestra: Baile de joropo 2.jpg
+  origen: commons
+  verificada: true
+cul-fest-mapale:
+  archivo: cul-cul-fest-mapale.jpg
+  autor: P R
+  licencia: CC BY 2.0
+  muestra: Cartagena de Indias.Septiembre 2007 786.jpg
+  origen: commons
   verificada: true
 cul-fest-marimba-tambores:
   archivo: g087-a986c782d9de.jpg
@@ -767,11 +885,32 @@ cul-fest-semana-santa-popayan:
   origen: guia-oficial
   pagina_guia: 30
   verificada: true
+cul-fest-vallenato:
+  archivo: cul-cul-fest-vallenato.jpg
+  autor: Julitric
+  licencia: CC BY-SA 3.0
+  muestra: Reyes Vallenatos 2014.jpg
+  origen: commons
+  verificada: true
 cul-flor-nacional:
   archivo: g011-6a1d300f7503.jpg
   muestra: orquídea Cattleya trianae, flor nacional
   origen: guia-oficial
   pagina_guia: 11
+  verificada: true
+cul-garcia-marquez:
+  archivo: cul-cul-garcia-marquez.jpg
+  autor: Gorup de Besanez
+  licencia: CC BY-SA 4.0
+  muestra: Gabriel García Márquez 02.jpg
+  origen: commons
+  verificada: true
+cul-gastronomia-andina-ingredientes:
+  archivo: cul-cul-gastronomia-andina-ingredientes.jpg
+  autor: Caldobasico
+  licencia: CC BY-SA 4.0
+  muestra: Papa criolla 1.jpg
+  origen: commons
   verificada: true
 cul-gastronomia-andina-platos:
   archivo: g005-c280d21c6df4.jpg
@@ -779,17 +918,59 @@ cul-gastronomia-andina-platos:
   origen: guia-oficial
   pagina_guia: 5
   verificada: true
+cul-gastronomia-pacifico-platos:
+  archivo: cul-cul-gastronomia-pacifico-platos.jpg
+  autor: Daniestrella123
+  licencia: CC BY-SA 4.0
+  muestra: Sancocho de gallina yopal.jpg
+  origen: commons
+  verificada: true
 cul-gran-colombia-integrantes:
   archivo: g119-3815b12bbd3e.jpg
   muestra: mapa de la Gran Colombia
   origen: guia-oficial
   pagina_guia: 119
   verificada: true
+cul-himno-coro:
+  archivo: cul-cul-himno-coro.jpg
+  autor: Unknown authorUnknown author
+  licencia: Public domain
+  muestra: Primera partitura del Himno Nacional de Colombia.jpg
+  origen: commons
+  verificada: true
 cul-himno-letra:
   archivo: g120-9076f56af73a.jpg
   muestra: retrato del presidente Rafael Núñez
   origen: guia-oficial
   pagina_guia: 120
+  verificada: true
+cul-himno-musica:
+  archivo: cul-cul-himno-musica.jpg
+  autor: Demetrio Paredes (1830-1898)
+  licencia: Public domain
+  muestra: Oreste Sindici.jpg
+  origen: commons
+  verificada: true
+cul-himno-primera-estrofa:
+  archivo: cul-cul-himno-primera-estrofa.jpg
+  autor: Unknown authorUnknown author
+  licencia: Public domain
+  muestra: Primera partitura del Himno Nacional de Colombia.jpg
+  origen: commons
+  verificada: true
+cul-himno-proclamacion:
+  archivo: cul-cul-himno-proclamacion.jpg
+  autor: Unknown authorUnknown author
+  licencia: Public domain
+  muestra: Marco Fidel Suárez (1855-1927).jpg
+  origen: commons
+  verificada: true
+cul-ibague-capital-musical:
+  archivo: cul-cul-ibague-capital-musical.jpg
+  autor: Milenioscuro
+  licencia: CC BY-SA 3.0
+  muestra: Colombia - Tolima - Ibagué.svg
+  origen: commons
   verificada: true
 cul-instrumentos-currulao:
   archivo: g026-b1294085dfe7.jpg
@@ -803,11 +984,67 @@ cul-instrumentos-joropo:
   origen: guia-oficial
   pagina_guia: 31
   verificada: true
+cul-jorge-isaacs:
+  archivo: cul-cul-jorge-isaacs.jpg
+  autor: Cultura Banco de la República
+  licencia: Public domain
+  muestra: Fi 322 Isaacs, Jorge.jpg
+  origen: commons
+  verificada: true
+cul-jose-eustasio-rivera:
+  archivo: cul-cul-jose-eustasio-rivera.jpg
+  autor: Morraco
+  licencia: CC BY-SA 4.0
+  muestra: Busto de José Eustacio Rivera Salas.jpg
+  origen: commons
+  verificada: true
+cul-juan-pablo-montoya:
+  archivo: cul-cul-juan-pablo-montoya.jpg
+  autor: Raniel Diaz
+  licencia: CC BY 2.0
+  muestra: Juan Pablo Montoya Bristol 2010.jpg
+  origen: commons
+  verificada: true
+cul-kid-pambele:
+  archivo: cul-cul-kid-pambele.jpg
+  autor: Francisco Asís
+  licencia: CC BY-SA 2.0
+  muestra: Kid Pambelé.jpg
+  origen: commons
+  verificada: true
+cul-mochilas-guajira:
+  archivo: cul-cul-mochilas-guajira.jpg
+  autor: Alejandra Quintero Sinisterra
+  licencia: CC BY 2.0
+  muestra: Mochilas wayuu.png
+  origen: commons
+  verificada: true
 cul-moneda-oficial:
   archivo: g014-1f195d2b3eef.jpg
   muestra: billetes del peso colombiano
   origen: guia-oficial
   pagina_guia: 14
+  verificada: true
+cul-musica-caribe:
+  archivo: cul-cul-musica-caribe.jpg
+  autor: Catalina Peñuela
+  licencia: CC BY-SA 4.0
+  muestra: Música, vallenato, acordeón.JPG
+  origen: commons
+  verificada: true
+cul-musica-llanera:
+  archivo: cul-cul-musica-llanera.jpg
+  autor: JOSE J. LUGO A.
+  licencia: CC BY 3.0
+  muestra: Joropo arpa llanera (cropped).jpg
+  origen: commons
+  verificada: true
+cul-musica-pacifica:
+  archivo: cul-cul-musica-pacifica.jpg
+  autor: andres felipe paz taborda
+  licencia: CC BY-SA 4.0
+  muestra: GON 2993.jpg
+  origen: commons
   verificada: true
 cul-nombre-homenaje:
   archivo: g111-ffbdb310491c.jpg
@@ -815,17 +1052,52 @@ cul-nombre-homenaje:
   origen: guia-oficial
   pagina_guia: 111
   verificada: true
+cul-nombre-quien:
+  archivo: cul-cul-nombre-quien.jpg
+  autor: Guillermo Ramos Flamerich
+  licencia: CC BY 2.5
+  muestra: House of the Congress of Angostura.jpg
+  origen: commons
+  verificada: true
 cul-otros-simbolos-comida:
   archivo: g018-268e90cb4177.jpg
   muestra: mute santandereano
   origen: guia-oficial
   pagina_guia: 18
   verificada: true
+cul-otros-simbolos-culturales:
+  archivo: cul-cul-ruana-region.jpg
+  autor: GtPLzcat89
+  licencia: CC0
+  muestra: ruana, símbolo cultural cundiboyacense
+  origen: commons
+  verificada: true
 cul-palma-altura:
   archivo: g011-524941078890.jpg
   muestra: palma de cera del Quindío, valle de Cocora
   origen: guia-oficial
   pagina_guia: 11
+  verificada: true
+cul-radio-sutatenza:
+  archivo: cul-cul-radio-sutatenza.jpg
+  autor: MuseoPedagogicoUPN
+  licencia: CC BY-SA 4.0
+  muestra: Cartilla Hablemos Bien ACPO 1987.jpg
+  origen: commons
+  verificada: true
+cul-rafael-nino:
+  archivo: cul-cul-rafael-nino.jpg
+  autor: Petruss
+  licencia: CC BY-SA 3.0
+  muestra: Monumento Rafael Niño Cucaita Boyaca.JPG
+  origen: commons
+  verificada: true
+cul-region-andina-conforman:
+  archivo: cul-cul-region-andina-conforman.jpg
+  autor: Alejandro  Bayer Tamayo from Armenia, Colombia
+  licencia: CC BY-SA 2.0
+  muestra: Cordillera Central de los Andes colombianos - Camino nacional - 2800 m
+  origen: commons
   verificada: true
 cul-religiones-migrantes:
   archivo: g045-83d9e08539bf.jpg
@@ -839,17 +1111,38 @@ cul-rogelio-salmona:
   origen: guia-oficial
   pagina_guia: 41
   verificada: true
+cul-ruana-region:
+  archivo: cul-cul-ruana-region.jpg
+  autor: GtPLzcat89
+  licencia: CC0
+  muestra: Ruana.JPG
+  origen: commons
+  verificada: true
 cul-simbolo-cultural:
   archivo: g012-ddf378d9b8e1.jpg
   muestra: sombrero vueltiao zenú
   origen: guia-oficial
   pagina_guia: 12
   verificada: true
+cul-television-llegada:
+  archivo: cul-cul-television-llegada.jpg
+  autor: EAFIT University
+  licencia: CC BY-SA 2.0
+  muestra: Gral. Gustavo Rojas Pinilla.jpg
+  origen: commons
+  verificada: true
 cul-turismo-academico-cultural:
   archivo: g022-d3e5fe3340c3.jpg
   muestra: silleteros de la Feria de las Flores de Medellín
   origen: guia-oficial
   pagina_guia: 22
+  verificada: true
+cul-turismo-ciudades-pacifico:
+  archivo: cul-cul-turismo-ciudades-pacifico.jpg
+  autor: No machine-readable author provided. Hertziodj assumed (base
+  licencia: Public domain
+  muestra: BUENAVENTURA COLOMBIA.JPG
+  origen: commons
   verificada: true
 cul-turismo-naturaleza-actividades:
   archivo: g048-9ba597604242.jpg
