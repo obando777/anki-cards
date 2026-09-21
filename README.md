@@ -94,6 +94,27 @@ does steer it is the `instructions` parameter on `gpt-4o-mini-tts`, so
 instructions all feed the cache hash: change any of them and every clip is
 regenerated.
 
+## Images
+
+Cards can carry a reference image on the answer side, with its provenance printed
+underneath. `ankicards/images.py` pulls photos out of a source PDF, fetches from
+Wikimedia Commons, or generates an illustration with Grok — and which of those is
+allowed depends entirely on the card.
+
+Anything with a real referent — a flag, a coat of arms, a map, a banknote, a
+person — must come from an authentic photo. Asking Grok for Colombia's coat of
+arms returned four quarters instead of three bands, an invented capybara, and
+sugarcane where the flags should be. Generation is reserved for abstract concepts,
+where there is no visual fact to get wrong.
+
+Retrieved images are verified by eye, in contact sheets, never on the strength of
+a filename. That pass caught a capybara photo assigned to the national-bird card.
+
+The bytes live in `.image-cache/` (gitignored); `_imagenes.yaml` is the manifest
+and it is what gets versioned, since the expensive part is finding the right image
+and checking it. Files prefixed with `_` under `decks/` are data, not decks, and
+the loader skips them.
+
 ## The one rule: ids are permanent
 
 Anki recognises a note by a GUID, which this repo derives from the deck name plus

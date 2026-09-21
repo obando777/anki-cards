@@ -207,6 +207,54 @@ Otras voces: `--voice nova|shimmer|sage|alloy|echo|fable|onyx`. Ojo, **cambiar l
 voz o las instrucciones de acento invalida la caché entera** —ambas entran en el
 hash— y hay que regenerar, con su costo.
 
+## Imágenes
+
+225 de las 478 tarjetas llevan imagen en la cara de respuesta, con su
+procedencia escrita debajo. La regla que lo gobierna todo salió de una prueba,
+no de una corazonada: se le pidió a Grok el escudo nacional y devolvió uno con
+cuatro cuarteles en vez de tres franjas, un **capibara** inventado y caña de
+azúcar en lugar de las banderas y lanzas.
+
+| Origen | Tarjetas | Qué es |
+|---|---:|---|
+| `guia-oficial` | 107 | Fotos extraídas de la guía oficial de la Cancillería |
+| `grok` | 114 | Ilustraciones de conceptos abstractos de Constitución |
+| `commons` | 4 | Bandera, escudo y mapas de Wikimedia |
+
+**Nunca se genera** un símbolo patrio, un mapa, un billete, un documento ni el
+rostro de una persona real. Para esos solo vale una foto auténtica.
+
+Las 107 de la guía se verificaron **mirándolas una por una** en hojas de
+contacto, no fiándose del pie de foto del PDF. Esa revisión atrapó errores
+reales del emparejamiento automático: la tarjeta del ave nacional había recibido
+una foto de capibaras, y la de Rogelio Salmona una iglesia colonial.
+
+Cada tarjeta dice de dónde viene su imagen:
+
+```
+Foto: guía oficial «Colombia, nuestra casa», p. 58
+Foto: SKopp y otros · dominio público · Wikimedia Commons
+Ilustración generada — esquemática, no documental
+```
+
+### Regenerarlas
+
+```bash
+uv sync --group images
+uv run --group images scripts/build.py decks/colombia --images
+```
+
+Los bytes viven en `.image-cache/` (20 MB, ignorado por git). Lo que sí se
+versiona es `_imagenes.yaml`, el manifiesto: lo caro no son los archivos sino
+haber encontrado la imagen correcta y haberla mirado. Las de la guía se vuelven
+a extraer idénticas; las de Grok se regeneran parecidas, no iguales.
+
+> **Nota sobre el texto en las ilustraciones.** Se le pidió a Grok que no
+> escribiera texto y lo ignoró en cerca de la mitad. Al revisarlas resultó que
+> el texto que escribe es la respuesta de la tarjeta, copiada del prompt y
+> correcta, y va siempre en la cara de respuesta. Se dejó así; si prefieres
+> imágenes mudas, hay que regenerarlas.
+
 ## Si te abruma
 
 Son 656 tarjetas. Para bajar la carga sin perder cobertura, suspende en Anki la

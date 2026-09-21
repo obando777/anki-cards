@@ -1,0 +1,1251 @@
+# Imágenes de referencia del mazo Colombia.
+#
+# Los bytes viven en .image-cache/ (ignorado por git); esto es lo que se versiona,
+# porque lo caro no son los archivos sino haber encontrado la imagen correcta y
+# haberla mirado una por una.
+#
+#   origen: guia-oficial  -> foto de la guía oficial de la Cancillería
+#   origen: grok          -> ilustración generada, solo para conceptos abstractos
+#
+# NUNCA se genera un símbolo patrio, un mapa, un billete ni un rostro real: a
+# Grok se le pidió el escudo nacional de prueba y devolvió uno con cuatro
+# cuarteles, un capibara y caña de azúcar.
+con-accion-cumplimiento-articulo:
+  archivo: ilus-con-accion-cumplimiento-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-cumplimiento-definicion:
+  archivo: ilus-con-accion-cumplimiento-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-grupo-articulo:
+  archivo: ilus-con-accion-grupo-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-grupo-definicion:
+  archivo: ilus-con-accion-grupo-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-grupo-indemnizacion:
+  archivo: ilus-con-accion-grupo-indemnizacion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-popular-articulo:
+  archivo: ilus-con-accion-popular-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-popular-definicion:
+  archivo: ilus-con-accion-popular-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-accion-popular-requisitos:
+  archivo: ilus-con-accion-popular-requisitos.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-altas-cortes:
+  archivo: ilus-con-altas-cortes.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-11:
+  archivo: ilus-con-art-11.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-13:
+  archivo: ilus-con-art-13.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-16:
+  archivo: ilus-con-art-16.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-17:
+  archivo: ilus-con-art-17.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-18:
+  archivo: ilus-con-art-18.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-19:
+  archivo: ilus-con-art-19.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-20:
+  archivo: ilus-con-art-20.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-21:
+  archivo: ilus-con-art-21.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-22:
+  archivo: ilus-con-art-22.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-24:
+  archivo: ilus-con-art-24.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-38-39:
+  archivo: ilus-con-art-38-39.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-53:
+  archivo: ilus-con-art-53.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-96:
+  archivo: ilus-con-art-96.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-art-libertad:
+  archivo: ilus-con-art-libertad.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-articulo-1:
+  archivo: ilus-con-articulo-1.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-articulo-3:
+  archivo: ilus-con-articulo-3.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-articulos-total:
+  archivo: ilus-con-articulos-total.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-asociacion-sindical-art39:
+  archivo: ilus-con-asociacion-sindical-art39.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-autoridad-nacional-television:
+  archivo: ilus-con-autoridad-nacional-television.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-banco-republica-funciones:
+  archivo: ilus-con-banco-republica-funciones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-bicameral:
+  archivo: ilus-con-bicameral.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-cabildo-abierto:
+  archivo: ilus-con-cabildo-abierto.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-camara-cuenta-general:
+  archivo: ilus-con-camara-cuenta-general.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-camara-elige-defensor:
+  archivo: ilus-con-camara-elige-defensor.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-car-funcion:
+  archivo: ilus-con-car-funcion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-cne:
+  archivo: ilus-con-cne.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-congreso-composicion:
+  archivo: ilus-con-congreso-composicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-congreso-republica:
+  archivo: ilus-con-congreso-republica.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-consejo-judicatura:
+  archivo: ilus-con-consejo-judicatura.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-consulta-popular:
+  archivo: ilus-con-consulta-popular.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-consulta-popular-forma:
+  archivo: ilus-con-consulta-popular-forma.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-contraloria:
+  archivo: ilus-con-contraloria.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-contraloria-maximo-organo:
+  archivo: ilus-con-contraloria-maximo-organo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-defensor-eleccion:
+  archivo: ilus-con-defensor-eleccion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-defensoria-autonomia:
+  archivo: ilus-con-defensoria-autonomia.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-defensoria-enfoque:
+  archivo: ilus-con-defensoria-enfoque.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-defensoria-garantia:
+  archivo: ilus-con-defensoria-garantia.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-defensoria-ley:
+  archivo: ilus-con-defensoria-ley.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-defensoria-naturaleza:
+  archivo: ilus-con-defensoria-naturaleza.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-derecho-peticion-articulo:
+  archivo: ilus-con-derecho-peticion-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-derecho-peticion-definicion:
+  archivo: ilus-con-derecho-peticion-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-derecho-rectificacion:
+  archivo: ilus-con-derecho-rectificacion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-derechos-fundamentales-rango:
+  archivo: ilus-con-derechos-fundamentales-rango.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-descentralizacion:
+  archivo: ilus-con-descentralizacion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-descentralizacion-colaboracion:
+  archivo: ilus-con-descentralizacion-colaboracion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-descentralizacion-servicios:
+  archivo: ilus-con-descentralizacion-servicios.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-descentralizacion-territorial:
+  archivo: ilus-con-descentralizacion-territorial.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-descentralizacion-tres-tipos:
+  archivo: ilus-con-descentralizacion-tres-tipos.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-ejecutiva-tres-niveles:
+  archivo: ilus-con-ejecutiva-tres-niveles.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-entes-universitarios:
+  archivo: ilus-con-entes-universitarios.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-esd-tres-obligaciones:
+  archivo: ilus-con-esd-tres-obligaciones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-estado-social-derecho:
+  archivo: ilus-con-estado-social-derecho.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-estructura-completa:
+  archivo: ilus-con-estructura-completa.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-fiscalia:
+  archivo: ilus-con-fiscalia.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-forma-estado:
+  archivo: ilus-con-forma-estado.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-gobierno-nacional-composicion:
+  archivo: ilus-con-gobierno-nacional-composicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-habeas-corpus-articulo:
+  archivo: ilus-con-habeas-corpus-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-habeas-corpus-definicion:
+  archivo: ilus-con-habeas-corpus-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-habeas-corpus-plazo:
+  archivo: ilus-con-habeas-corpus-plazo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-igualdad-tres-dimensiones:
+  archivo: ilus-con-igualdad-tres-dimensiones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-iniciativa-corporaciones:
+  archivo: ilus-con-iniciativa-corporaciones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-iniciativa-legislativa:
+  archivo: ilus-con-iniciativa-legislativa.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-jurisdiccion-constitucional:
+  archivo: ilus-con-jurisdiccion-constitucional.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-jurisdiccion-contenciosa:
+  archivo: ilus-con-jurisdiccion-contenciosa.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-jurisdiccion-ordinaria:
+  archivo: ilus-con-jurisdiccion-ordinaria.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-jurisdiccion-paz:
+  archivo: ilus-con-jurisdiccion-paz.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-libertad-conciencia-tres:
+  archivo: ilus-con-libertad-conciencia-tres.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-libertad-opinion-doble-via:
+  archivo: ilus-con-libertad-opinion-doble-via.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-libre-desarrollo-definicion:
+  archivo: ilus-con-libre-desarrollo-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-mecanismos-proteccion-cuando:
+  archivo: ilus-con-mecanismos-proteccion-cuando.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-ministerio-publico:
+  archivo: ilus-con-ministerio-publico.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-ministerio-publico-oficial:
+  archivo: ilus-con-ministerio-publico-oficial.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-organismos-autonomos:
+  archivo: ilus-con-organismos-autonomos.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-organismos-control-funcion:
+  archivo: ilus-con-organismos-control-funcion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-organizacion-electoral:
+  archivo: ilus-con-organizacion-electoral.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-organizacion-territorial:
+  archivo: ilus-con-organizacion-territorial.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-organos-autonomos-definicion:
+  archivo: ilus-con-organos-autonomos-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-participacion-ambitos:
+  archivo: ilus-con-participacion-ambitos.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-participacion-articulo:
+  archivo: ilus-con-participacion-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-participacion-siete:
+  archivo: ilus-con-participacion-siete.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-pena-de-muerte:
+  archivo: ilus-con-pena-de-muerte.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-peticion-gratuito:
+  archivo: ilus-con-peticion-gratuito.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-peticion-ley-1755:
+  archivo: ilus-con-peticion-ley-1755.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-peticion-plazos:
+  archivo: ilus-con-peticion-plazos.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-plebiscito:
+  archivo: ilus-con-plebiscito.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-plebiscito-prohibiciones:
+  archivo: ilus-con-plebiscito-prohibiciones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-plebiscito-requisitos:
+  archivo: ilus-con-plebiscito-requisitos.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-presidente-tres-calidades:
+  archivo: ilus-con-presidente-tres-calidades.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-procuraduria:
+  archivo: ilus-con-procuraduria.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-rama-ejecutiva:
+  archivo: ilus-con-rama-ejecutiva.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-rama-judicial:
+  archivo: ilus-con-rama-judicial.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-rama-judicial-funcion-oficial:
+  archivo: ilus-con-rama-judicial-funcion-oficial.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-rama-legislativa:
+  archivo: ilus-con-rama-legislativa.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-referendo:
+  archivo: ilus-con-referendo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-referendo-alcance:
+  archivo: ilus-con-referendo-alcance.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-registraduria-funciones:
+  archivo: ilus-con-registraduria-funciones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-revocatoria-firmas:
+  archivo: ilus-con-revocatoria-firmas.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-revocatoria-mandato:
+  archivo: ilus-con-revocatoria-mandato.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-senado-funciones:
+  archivo: ilus-con-senado-funciones.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-soberania-popular:
+  archivo: ilus-con-soberania-popular.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-supremacia-cpc:
+  archivo: ilus-con-supremacia-cpc.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-tutela-articulo:
+  archivo: ilus-con-tutela-articulo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-tutela-definicion:
+  archivo: ilus-con-tutela-definicion.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-tutela-plazo:
+  archivo: ilus-con-tutela-plazo.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-voto:
+  archivo: ilus-con-voto.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+con-voto-caracteristicas:
+  archivo: ilus-con-voto-caracteristicas.jpg
+  muestra: ilustración conceptual
+  origen: grok
+  verificada: true
+cul-arbol-nacional:
+  archivo: g011-524941078890.jpg
+  muestra: palma de cera del Quindío, valle de Cocora
+  origen: guia-oficial
+  pagina_guia: 11
+  verificada: true
+cul-arquitectura-colonial-militar:
+  archivo: g046-696b64fce9ac.jpg
+  muestra: murallas de Cartagena de Indias
+  origen: guia-oficial
+  pagina_guia: 46
+  verificada: true
+cul-arquitectura-periodos:
+  archivo: g040-3eea26137e3a.jpg
+  muestra: arquitectura colonial y republicana colombiana
+  origen: guia-oficial
+  pagina_guia: 40
+  verificada: true
+cul-arquitectura-republicana:
+  archivo: g040-3eea26137e3a.jpg
+  muestra: arquitectura colonial y republicana colombiana
+  origen: guia-oficial
+  pagina_guia: 40
+  verificada: true
+cul-arte-contemporaneo:
+  archivo: g033-14b6746eceed.jpg
+  muestra: pintura del arte contemporáneo colombiano
+  origen: guia-oficial
+  pagina_guia: 33
+  verificada: true
+cul-ave-nacional:
+  archivo: g010-d80aebef76e7.jpg
+  muestra: cóndor de los Andes en vuelo
+  origen: guia-oficial
+  pagina_guia: 10
+  verificada: true
+cul-bandeja-paisa-simbolo:
+  archivo: g017-ab3afee5f0b6.jpg
+  muestra: bandeja paisa
+  origen: guia-oficial
+  pagina_guia: 17
+  verificada: true
+cul-bandera-azul:
+  archivo: g008-c1686db0112f.jpg
+  muestra: mano sosteniendo la bandera de Colombia
+  origen: guia-oficial
+  pagina_guia: 8
+  verificada: true
+cul-bandera-franjas:
+  archivo: bandera-colombia.png
+  autor: SKopp y otros
+  licencia: dominio público
+  muestra: bandera de Colombia
+  origen: commons
+  verificada: true
+cul-bandera-miranda:
+  archivo: g008-c1686db0112f.jpg
+  muestra: mano sosteniendo la bandera de Colombia
+  origen: guia-oficial
+  pagina_guia: 8
+  verificada: true
+cul-bandera-rojo:
+  archivo: g008-c1686db0112f.jpg
+  muestra: mano sosteniendo la bandera de Colombia
+  origen: guia-oficial
+  pagina_guia: 8
+  verificada: true
+cul-billete-20mil:
+  archivo: g012-ddf378d9b8e1.jpg
+  muestra: sombrero vueltiao zenú
+  origen: guia-oficial
+  pagina_guia: 12
+  verificada: true
+cul-cabrera-peliculas:
+  archivo: g037-14ab60c8cde8.jpg
+  muestra: cartel de la película La estrategia del caracol, de Sergio Cabrera
+  origen: guia-oficial
+  pagina_guia: 37
+  verificada: true
+cul-egan-bernal:
+  archivo: g044-cce4fb8344f2.jpg
+  muestra: Egan Bernal, ciclista
+  origen: guia-oficial
+  pagina_guia: 44
+  verificada: true
+cul-escudo-anio-autor:
+  archivo: escudo-colombia.png
+  autor: Wikimedia
+  licencia: dominio público
+  muestra: escudo nacional de Colombia
+  origen: commons
+  verificada: true
+cul-escudo-condor:
+  archivo: g066-32e7be78a816.jpg
+  muestra: cóndor de los Andes
+  origen: guia-oficial
+  pagina_guia: 66
+  verificada: true
+cul-etnias-precolombinas:
+  archivo: g032-6264b3837059.jpg
+  muestra: poporo quimbaya de oro
+  origen: guia-oficial
+  pagina_guia: 32
+  verificada: true
+cul-fanny-mikey:
+  archivo: g036-21fe1fa911f6.jpg
+  muestra: Fanny Mikey, fundadora del Festival Iberoamericano de Teatro
+  origen: guia-oficial
+  pagina_guia: 36
+  verificada: true
+cul-fest-carnaval-barranquilla:
+  archivo: g029-e99c2de11aaf.jpg
+  muestra: carroza del Carnaval de Barranquilla
+  origen: guia-oficial
+  pagina_guia: 29
+  verificada: true
+cul-fest-corrio-llanero:
+  archivo: g085-0421b21ada71.jpg
+  muestra: llanero en el río, Orinoquía
+  origen: guia-oficial
+  pagina_guia: 85
+  verificada: true
+cul-fest-duetos-ibague:
+  archivo: g023-87dca9b12dd8.jpg
+  muestra: orquesta de música andina colombiana
+  origen: guia-oficial
+  pagina_guia: 23
+  verificada: true
+cul-fest-feria-flores:
+  archivo: g022-d3e5fe3340c3.jpg
+  muestra: silleteros de la Feria de las Flores de Medellín
+  origen: guia-oficial
+  pagina_guia: 22
+  verificada: true
+cul-fest-feria-libro:
+  archivo: g023-84dc29e2c24b.jpg
+  muestra: Feria Internacional del Libro de Bogotá
+  origen: guia-oficial
+  pagina_guia: 23
+  verificada: true
+cul-fest-hay-festival:
+  archivo: g027-c8c9a68ddd15.jpg
+  muestra: Hay Festival de Cartagena de Indias
+  origen: guia-oficial
+  pagina_guia: 27
+  verificada: true
+cul-fest-iberoamericano-teatro:
+  archivo: g036-21fe1fa911f6.jpg
+  muestra: Fanny Mikey, fundadora del Festival Iberoamericano de Teatro
+  origen: guia-oficial
+  pagina_guia: 36
+  verificada: true
+cul-fest-marimba-tambores:
+  archivo: g087-a986c782d9de.jpg
+  muestra: palenqueras de San Basilio de Palenque
+  origen: guia-oficial
+  pagina_guia: 87
+  verificada: true
+cul-fest-mono-nunez:
+  archivo: g023-87dca9b12dd8.jpg
+  muestra: orquesta de música andina colombiana
+  origen: guia-oficial
+  pagina_guia: 23
+  verificada: true
+cul-fest-petronio:
+  archivo: g030-3d2f661652bc.jpg
+  muestra: Festival Petronio Álvarez
+  origen: guia-oficial
+  pagina_guia: 30
+  verificada: true
+cul-fest-semana-santa-mompox:
+  archivo: g030-d608474ee228.jpg
+  muestra: procesión de Semana Santa
+  origen: guia-oficial
+  pagina_guia: 30
+  verificada: true
+cul-fest-semana-santa-popayan:
+  archivo: g030-d608474ee228.jpg
+  muestra: procesión de Semana Santa
+  origen: guia-oficial
+  pagina_guia: 30
+  verificada: true
+cul-flor-nacional:
+  archivo: g011-6a1d300f7503.jpg
+  muestra: orquídea Cattleya trianae, flor nacional
+  origen: guia-oficial
+  pagina_guia: 11
+  verificada: true
+cul-gastronomia-andina-platos:
+  archivo: g005-c280d21c6df4.jpg
+  muestra: ajiaco santafereño
+  origen: guia-oficial
+  pagina_guia: 5
+  verificada: true
+cul-gran-colombia-integrantes:
+  archivo: g119-3815b12bbd3e.jpg
+  muestra: mapa de la Gran Colombia
+  origen: guia-oficial
+  pagina_guia: 119
+  verificada: true
+cul-himno-letra:
+  archivo: g120-9076f56af73a.jpg
+  muestra: retrato del presidente Rafael Núñez
+  origen: guia-oficial
+  pagina_guia: 120
+  verificada: true
+cul-instrumentos-currulao:
+  archivo: g026-b1294085dfe7.jpg
+  muestra: músicos de marimba y tambores del Pacífico
+  origen: guia-oficial
+  pagina_guia: 26
+  verificada: true
+cul-instrumentos-joropo:
+  archivo: g031-5ed493312f1e.jpg
+  muestra: baile de joropo llanero
+  origen: guia-oficial
+  pagina_guia: 31
+  verificada: true
+cul-moneda-oficial:
+  archivo: g014-1f195d2b3eef.jpg
+  muestra: billetes del peso colombiano
+  origen: guia-oficial
+  pagina_guia: 14
+  verificada: true
+cul-nombre-homenaje:
+  archivo: g111-ffbdb310491c.jpg
+  muestra: retrato de Cristóbal Colón
+  origen: guia-oficial
+  pagina_guia: 111
+  verificada: true
+cul-otros-simbolos-comida:
+  archivo: g018-268e90cb4177.jpg
+  muestra: mute santandereano
+  origen: guia-oficial
+  pagina_guia: 18
+  verificada: true
+cul-palma-altura:
+  archivo: g011-524941078890.jpg
+  muestra: palma de cera del Quindío, valle de Cocora
+  origen: guia-oficial
+  pagina_guia: 11
+  verificada: true
+cul-religiones-migrantes:
+  archivo: g045-83d9e08539bf.jpg
+  muestra: mezquita, islam en Colombia
+  origen: guia-oficial
+  pagina_guia: 45
+  verificada: true
+cul-rogelio-salmona:
+  archivo: g041-bce7e6a1dd8c.jpg
+  muestra: Biblioteca Virgilio Barco, de Rogelio Salmona
+  origen: guia-oficial
+  pagina_guia: 41
+  verificada: true
+cul-simbolo-cultural:
+  archivo: g012-ddf378d9b8e1.jpg
+  muestra: sombrero vueltiao zenú
+  origen: guia-oficial
+  pagina_guia: 12
+  verificada: true
+cul-turismo-academico-cultural:
+  archivo: g022-d3e5fe3340c3.jpg
+  muestra: silleteros de la Feria de las Flores de Medellín
+  origen: guia-oficial
+  pagina_guia: 22
+  verificada: true
+cul-turismo-naturaleza-actividades:
+  archivo: g048-9ba597604242.jpg
+  muestra: avistamiento de ballenas
+  origen: guia-oficial
+  pagina_guia: 48
+  verificada: true
+cul-turismo-naturaleza-lugares:
+  archivo: g071-289ef2ecd6db.jpg
+  muestra: picos nevados de la Sierra Nevada de Santa Marta
+  origen: guia-oficial
+  pagina_guia: 71
+  verificada: true
+cul-vueltiao-origen:
+  archivo: g012-ddf378d9b8e1.jpg
+  muestra: sombrero vueltiao zenú
+  origen: guia-oficial
+  pagina_guia: 12
+  verificada: true
+geo-afrocolombianos-donde:
+  archivo: g112-70189581c459.jpg
+  muestra: grabado de esclavos africanos en la Colonia
+  origen: guia-oficial
+  pagina_guia: 112
+  verificada: true
+geo-amazonica-aves:
+  archivo: g059-584d1574093f.jpg
+  muestra: tucán
+  origen: guia-oficial
+  pagina_guia: 59
+  verificada: true
+geo-amazonica-clima:
+  archivo: g061-70454c87ec8c.jpg
+  muestra: selva amazónica con victorias regias
+  origen: guia-oficial
+  pagina_guia: 61
+  verificada: true
+geo-amazonica-deptos:
+  archivo: g057-08c6e2d8a838.jpg
+  muestra: río Amazonas
+  origen: guia-oficial
+  pagina_guia: 57
+  verificada: true
+geo-amazonica-flora:
+  archivo: g060-69d9e332e0b3.jpg
+  muestra: ceiba, árbol de la Amazonía
+  origen: guia-oficial
+  pagina_guia: 60
+  verificada: true
+geo-amazonica-mamiferos:
+  archivo: g058-065016b903d3.jpg
+  muestra: jaguar
+  origen: guia-oficial
+  pagina_guia: 58
+  verificada: true
+geo-amazonica-rios:
+  archivo: g057-08c6e2d8a838.jpg
+  muestra: río Amazonas
+  origen: guia-oficial
+  pagina_guia: 57
+  verificada: true
+geo-amazonica-serrania:
+  archivo: g083-71f21a36c989.jpg
+  muestra: Caño Cristales, serranía de La Macarena
+  origen: guia-oficial
+  pagina_guia: 83
+  verificada: true
+geo-andina-aves:
+  archivo: g066-32e7be78a816.jpg
+  muestra: cóndor de los Andes
+  origen: guia-oficial
+  pagina_guia: 66
+  verificada: true
+geo-andina-deptos:
+  archivo: mapa-departamentos.png
+  autor: Wikimedia
+  licencia: CC BY-SA 4.0
+  muestra: mapa político con los departamentos
+  origen: commons
+  verificada: true
+geo-andina-mamiferos:
+  archivo: g066-2564aacb95a6.jpg
+  muestra: oso de anteojos
+  origen: guia-oficial
+  pagina_guia: 66
+  verificada: true
+geo-archipielago-islas:
+  archivo: g093-1f9fa1fc509e.jpg
+  muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
+  origen: guia-oficial
+  pagina_guia: 93
+  verificada: true
+geo-archipielago-sin-continente:
+  archivo: g093-1f9fa1fc509e.jpg
+  muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
+  origen: guia-oficial
+  pagina_guia: 93
+  verificada: true
+geo-cano-cristales:
+  archivo: g083-71f21a36c989.jpg
+  muestra: Caño Cristales, serranía de La Macarena
+  origen: guia-oficial
+  pagina_guia: 83
+  verificada: true
+geo-cap-amazonas:
+  archivo: g057-08c6e2d8a838.jpg
+  muestra: río Amazonas
+  origen: guia-oficial
+  pagina_guia: 57
+  verificada: true
+geo-capibara:
+  archivo: g084-2ee3989fe5e9.jpg
+  muestra: capibaras, el roedor más grande del mundo
+  origen: guia-oficial
+  pagina_guia: 84
+  verificada: true
+geo-caribe-archipielago:
+  archivo: g093-1f9fa1fc509e.jpg
+  muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
+  origen: guia-oficial
+  pagina_guia: 93
+  verificada: true
+geo-caribe-aves:
+  archivo: g072-0e87c66e2a61.jpg
+  muestra: flamenco rosado
+  origen: guia-oficial
+  pagina_guia: 72
+  verificada: true
+geo-caribe-relieve-oficial:
+  archivo: g071-289ef2ecd6db.jpg
+  muestra: picos nevados de la Sierra Nevada de Santa Marta
+  origen: guia-oficial
+  pagina_guia: 71
+  verificada: true
+geo-caribe-rios:
+  archivo: g064-05cfca84c7a1.jpg
+  muestra: río Magdalena
+  origen: guia-oficial
+  pagina_guia: 64
+  verificada: true
+geo-economia-rural:
+  archivo: g103-bc735d123eae.jpg
+  muestra: tractor en zona rural, agricultura
+  origen: guia-oficial
+  pagina_guia: 103
+  verificada: true
+geo-gorgona-ubicacion-oficial:
+  archivo: g094-f1cb620394c1.jpg
+  muestra: isla Gorgona
+  origen: guia-oficial
+  pagina_guia: 94
+  verificada: true
+geo-grupos-etnicos-humana:
+  archivo: g100-b57f18843b54.jpg
+  muestra: indígenas arhuacos de la Sierra Nevada
+  origen: guia-oficial
+  pagina_guia: 100
+  verificada: true
+geo-indigenas-mas-numerosos:
+  archivo: g100-b57f18843b54.jpg
+  muestra: indígenas arhuacos de la Sierra Nevada
+  origen: guia-oficial
+  pagina_guia: 100
+  verificada: true
+geo-isla-gorgona:
+  archivo: g094-f1cb620394c1.jpg
+  muestra: isla Gorgona
+  origen: guia-oficial
+  pagina_guia: 94
+  verificada: true
+geo-isla-malpelo:
+  archivo: g094-742d611e01f5.jpg
+  muestra: isla de Malpelo
+  origen: guia-oficial
+  pagina_guia: 94
+  verificada: true
+geo-islas-rosario:
+  archivo: g094-534c9e6d5804.jpg
+  muestra: Islas del Rosario
+  origen: guia-oficial
+  pagina_guia: 94
+  verificada: true
+geo-llanuras-cuenta:
+  archivo: g082-2f5bb297efa8.jpg
+  muestra: llanero a caballo en los Llanos Orientales
+  origen: guia-oficial
+  pagina_guia: 82
+  verificada: true
+geo-malpelo-departamento:
+  archivo: g094-742d611e01f5.jpg
+  muestra: isla de Malpelo
+  origen: guia-oficial
+  pagina_guia: 94
+  verificada: true
+geo-malpelo-tiburones:
+  archivo: g094-742d611e01f5.jpg
+  muestra: isla de Malpelo
+  origen: guia-oficial
+  pagina_guia: 94
+  verificada: true
+geo-orinoquia-aves-reptiles:
+  archivo: g078-41bc6d6accc3.jpg
+  muestra: rana venenosa
+  origen: guia-oficial
+  pagina_guia: 78
+  verificada: true
+geo-orinoquia-relieve:
+  archivo: g082-2f5bb297efa8.jpg
+  muestra: llanero a caballo en los Llanos Orientales
+  origen: guia-oficial
+  pagina_guia: 82
+  verificada: true
+geo-orinoquia-relieve-oficial:
+  archivo: g082-2f5bb297efa8.jpg
+  muestra: llanero a caballo en los Llanos Orientales
+  origen: guia-oficial
+  pagina_guia: 82
+  verificada: true
+geo-orinoquia-serranias:
+  archivo: g083-71f21a36c989.jpg
+  muestra: Caño Cristales, serranía de La Macarena
+  origen: guia-oficial
+  pagina_guia: 83
+  verificada: true
+geo-pacifica-aves:
+  archivo: g066-32e7be78a816.jpg
+  muestra: cóndor de los Andes
+  origen: guia-oficial
+  pagina_guia: 66
+  verificada: true
+geo-pacifica-fauna:
+  archivo: g058-065016b903d3.jpg
+  muestra: jaguar
+  origen: guia-oficial
+  pagina_guia: 58
+  verificada: true
+geo-palenqueros-definicion:
+  archivo: g087-a986c782d9de.jpg
+  muestra: palenqueras de San Basilio de Palenque
+  origen: guia-oficial
+  pagina_guia: 87
+  verificada: true
+geo-palenqueros-origen:
+  archivo: g087-a986c782d9de.jpg
+  muestra: palenqueras de San Basilio de Palenque
+  origen: guia-oficial
+  pagina_guia: 87
+  verificada: true
+geo-pico-cristobal-colon:
+  archivo: g071-289ef2ecd6db.jpg
+  muestra: picos nevados de la Sierra Nevada de Santa Marta
+  origen: guia-oficial
+  pagina_guia: 71
+  verificada: true
+geo-raizales-definicion:
+  archivo: g093-1f9fa1fc509e.jpg
+  muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
+  origen: guia-oficial
+  pagina_guia: 93
+  verificada: true
+geo-recursos-hidricos:
+  archivo: g064-05cfca84c7a1.jpg
+  muestra: río Magdalena
+  origen: guia-oficial
+  pagina_guia: 64
+  verificada: true
+geo-regiones-cuantas:
+  archivo: mapa-regiones-naturales.png
+  autor: Wikimedia
+  licencia: CC BY-SA
+  muestra: mapa de las regiones naturales
+  origen: commons
+  verificada: true
+geo-rio-mas-largo:
+  archivo: g064-05cfca84c7a1.jpg
+  muestra: río Magdalena
+  origen: guia-oficial
+  pagina_guia: 64
+  verificada: true
+geo-serrania-baudo:
+  archivo: g090-59c0749f4e52.jpg
+  muestra: serranía del Baudó
+  origen: guia-oficial
+  pagina_guia: 90
+  verificada: true
+geo-sierra-nevada-altura:
+  archivo: g071-289ef2ecd6db.jpg
+  muestra: picos nevados de la Sierra Nevada de Santa Marta
+  origen: guia-oficial
+  pagina_guia: 71
+  verificada: true
+geo-valles-interandinos:
+  archivo: g091-0c733baa32ee.jpg
+  muestra: valle de Aburrá, Medellín
+  origen: guia-oficial
+  pagina_guia: 91
+  verificada: true
+his-bomba-das:
+  archivo: g133-97ad9e3e11ab.jpg
+  muestra: atentado con carro bomba, narcotráfico
+  origen: guia-oficial
+  pagina_guia: 133
+  verificada: true
+his-ciudades-coloniales:
+  archivo: g027-c8c9a68ddd15.jpg
+  muestra: Hay Festival de Cartagena de Indias
+  origen: guia-oficial
+  pagina_guia: 27
+  verificada: true
+his-comuneros-resultado:
+  archivo: g115-b3cf35c8d951.jpg
+  muestra: revuelta de los comuneros
+  origen: guia-oficial
+  pagina_guia: 115
+  verificada: true
+his-comunidades-indigenas:
+  archivo: g107-2bdcbdd03079.jpg
+  muestra: estatuas de San Agustín
+  origen: guia-oficial
+  pagina_guia: 107
+  verificada: true
+his-constitucion-1886:
+  archivo: g120-9076f56af73a.jpg
+  muestra: retrato del presidente Rafael Núñez
+  origen: guia-oficial
+  pagina_guia: 120
+  verificada: true
+his-farc-partido:
+  archivo: g134-5b44a3c888c1.jpg
+  muestra: las FARC convertidas en partido político
+  origen: guia-oficial
+  pagina_guia: 134
+  verificada: true
+his-gaitan-bogotazo:
+  archivo: g131-6b59c996fdf3.jpg
+  muestra: asesinato de Jorge Eliécer Gaitán, el Bogotazo
+  origen: guia-oficial
+  pagina_guia: 131
+  verificada: true
+his-gran-colombia-disolucion:
+  archivo: g119-3815b12bbd3e.jpg
+  muestra: mapa de la Gran Colombia
+  origen: guia-oficial
+  pagina_guia: 119
+  verificada: true
+his-gran-colombia-paises:
+  archivo: g119-3815b12bbd3e.jpg
+  muestra: mapa de la Gran Colombia
+  origen: guia-oficial
+  pagina_guia: 119
+  verificada: true
+his-gustavo-petro:
+  archivo: g128-a488ebb6c40b.jpg
+  muestra: Colombia, Potencia Mundial de la Vida
+  origen: guia-oficial
+  pagina_guia: 128
+  verificada: true
+his-jep:
+  archivo: g134-a15378af94ba.jpg
+  muestra: sala de la Jurisdicción Especial para la Paz
+  origen: guia-oficial
+  pagina_guia: 134
+  verificada: true
+his-modernizacion-presidente:
+  archivo: g120-214a8fbeafec.jpg
+  muestra: retrato del presidente Rafael Reyes
+  origen: guia-oficial
+  pagina_guia: 120
+  verificada: true
+his-periodos-historia:
+  archivo: g111-7ead87ad7750.jpg
+  muestra: llegada de los españoles, conquista
+  origen: guia-oficial
+  pagina_guia: 111
+  verificada: true
+his-poblamiento-inicial:
+  archivo: g111-7ead87ad7750.jpg
+  muestra: llegada de los españoles, conquista
+  origen: guia-oficial
+  pagina_guia: 111
+  verificada: true
+his-postconflicto-inicio:
+  archivo: g130-3e1077b6e37d.jpg
+  muestra: firma del acuerdo de paz de 2016
+  origen: guia-oficial
+  pagina_guia: 130
+  verificada: true
+his-primer-presidente:
+  archivo: g119-3815b12bbd3e.jpg
+  muestra: mapa de la Gran Colombia
+  origen: guia-oficial
+  pagina_guia: 119
+  verificada: true
+his-regeneracion-representantes:
+  archivo: g120-9076f56af73a.jpg
+  muestra: retrato del presidente Rafael Núñez
+  origen: guia-oficial
+  pagina_guia: 120
+  verificada: true

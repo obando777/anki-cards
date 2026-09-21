@@ -57,7 +57,7 @@ cards:
   # ─── 1.2 Bandera ─────────────────────────────────────────────────────
   - id: cul-bandera-franjas
     front: ¿Cómo está conformada la bandera de Colombia?
-    back: "Por 3 franjas horizontales: amarillo, azul y rojo. <br><img src=\"bandera-colombia.png\">"
+    back: "Por 3 franjas horizontales: amarillo, azul y rojo."
     notes: 'Fuente: Módulo 1, p. 1 (§1.2)'
     tags: [simbolos-patrios]
 
@@ -88,7 +88,7 @@ cards:
   # ─── 1.3 Escudo ──────────────────────────────────────────────────────
   - id: cul-escudo-anio-autor
     front: ¿En qué año y por quién fue diseñado el escudo nacional?
-    back: En 1834, por Francisco de Paula Santander. <br><img src="escudo-colombia.png">
+    back: En 1834, por Francisco de Paula Santander.
     notes: 'Fuente: Módulo 1, p. 1 (§1.3)'
     tags: [simbolos-patrios]
 

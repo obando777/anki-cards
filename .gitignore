@@ -5,6 +5,9 @@ build/
 # Generated TTS clips — derived, regenerable, ~25 MB
 .audio-cache/
 
+# Fetched/generated card images — derived; the manifest is what's versioned
+.image-cache/
+
 # Local credentials — never commit
 .env
 .env.*

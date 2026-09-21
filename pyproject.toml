@@ -13,6 +13,8 @@ dependencies = [
 extract = ["pymupdf>=1.24"]
 # Solo para generar el audio de las tarjetas con --audio.
 audio = ["openai>=1.40"]
+# Solo para recuperar/generar y redimensionar las imágenes de las tarjetas.
+images = ["pillow>=10.0"]
 
 [build-system]
 requires = ["hatchling"]

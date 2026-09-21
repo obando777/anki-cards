@@ -65,7 +65,7 @@ cards:
   # ─── 1.2 Regiones biogeográficas ─────────────────────────────────────
   - id: geo-regiones-cuantas
     front: ¿Cuántas regiones biogeográficas tiene Colombia y cuáles son?
-    back: 5 regiones - Caribe, Andina, Pacífica, Orinoquía y Amazónica. <br><img src="mapa-regiones-naturales.png">
+    back: 5 regiones - Caribe, Andina, Pacífica, Orinoquía y Amazónica.
     notes: 'OJO - la guía oficial se contradice: su módulo de Geografía dice "cinco regiones principales" sin la Insular (p. 56), pero su módulo de Cultura trata la Región Insular como región propia, con su gastronomía y sus festivales (pp. 16 y 28). La clasificación corriente habla de 6 incluyéndola. La tarjeta sigue al módulo de Geografía, que es el que evalúan aquí. Fuente: Guía oficial "Colombia, nuestra casa" (Cancillería), p. 56'
     tags: [regiones, error-fuente-oficial]
 
@@ -230,7 +230,7 @@ cards:
   - id: geo-andina-deptos
     model: cloze
     text: 'Departamentos de la región Andina: {{c1::Antioquia}}, {{c1::Norte de Santander}}, {{c1::Quindío}}, {{c1::Caldas}}, {{c1::Risaralda}}, {{c1::Tolima}}, {{c1::Boyacá}}, {{c1::Santander}}, {{c1::Cundinamarca}} y {{c1::Huila}}.'
-    notes: 'Fuente: Módulo 2, p. 9 (§1.5.4) <br><img src="mapa-departamentos.png">'
+    notes: 'Fuente: Módulo 2, p. 9 (§1.5.4)'
     tags: [andina]
 
   - id: geo-cap-antioquia

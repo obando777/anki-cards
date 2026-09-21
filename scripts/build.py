@@ -89,6 +89,11 @@ def main() -> int:
     )
     parser.add_argument("--voice", default="coral", help="TTS voice (default: coral)")
     parser.add_argument(
+        "--images",
+        action="store_true",
+        help="embed reference images from decks/colombia/imagenes.yaml",
+    )
+    parser.add_argument(
         "--drop",
         type=Path,
         help="also copy the built .apkg here after a successful build "
@@ -110,6 +115,24 @@ def main() -> int:
             print(f"  - {problem}", file=sys.stderr)
         return 1
 
+    images_by_card = {}
+    if args.images:
+        import yaml  # noqa: PLC0415
+
+        from ankicards.images import CACHE_DIR, MANIFEST  # noqa: PLC0415
+        from ankicards.loader import MEDIA_DIR  # noqa: PLC0415
+
+        if MANIFEST.is_file():
+            for card_id, entry in (yaml.safe_load(MANIFEST.read_text("utf-8")) or {}).items():
+                ruta = CACHE_DIR / entry["archivo"]
+                if not ruta.is_file():          # las curadas a mano viven en media/
+                    ruta = MEDIA_DIR / entry["archivo"]
+                if ruta.is_file():
+                    images_by_card[card_id] = {**entry, "ruta": ruta}
+            print(f"  {len(images_by_card)} card(s) with a reference image")
+        else:
+            print(f"  warning: no image manifest at {MANIFEST}", file=sys.stderr)
+
     audio_by_deck = {}
     if args.audio:
         from ankicards import tts  # noqa: PLC0415 — optional `audio` dependency group
@@ -126,7 +149,9 @@ def main() -> int:
     built = []
     total = 0
     for deck in decks:
-        out_path = build_deck(deck, args.out, audio_by_deck.get(deck.name))
+        out_path = build_deck(
+            deck, args.out, audio_by_deck.get(deck.name), images_by_card
+        )
         count = len(deck.cards)
         total += count
         built.append(out_path)

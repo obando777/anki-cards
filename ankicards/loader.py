@@ -252,6 +252,15 @@ def _rel(path: Path) -> str:
         return str(path)
 
 
+def _es_mazo(path: Path) -> bool:
+    """Los .yaml que empiezan por _ son datos auxiliares, no mazos.
+
+    Sin esto, un manifiesto guardado junto a los mazos se intenta cargar como
+    uno de ellos y la validación falla pidiéndole un `deck:`.
+    """
+    return not path.name.startswith("_")
+
+
 def deck_files(paths: list[Path] | None = None) -> list[Path]:
     """Deck files to process: the given paths, or every .yaml under decks/."""
     if paths:
@@ -259,11 +268,15 @@ def deck_files(paths: list[Path] | None = None) -> list[Path]:
         for p in paths:
             p = Path(p)
             if p.is_dir():
-                resolved.extend(sorted(p.rglob("*.yaml")) + sorted(p.rglob("*.yml")))
+                resolved.extend(
+                    sorted(f for f in list(p.rglob("*.yaml")) + list(p.rglob("*.yml"))
+                           if _es_mazo(f))
+                )
             else:
                 resolved.append(p)
         return resolved
-    return sorted(DECKS_DIR.rglob("*.yaml")) + sorted(DECKS_DIR.rglob("*.yml"))
+    todos = list(DECKS_DIR.rglob("*.yaml")) + list(DECKS_DIR.rglob("*.yml"))
+    return sorted(f for f in todos if _es_mazo(f))
 
 
 def load_all_decks(paths: list[Path] | None = None) -> list[Deck]:
