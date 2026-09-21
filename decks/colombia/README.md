@@ -234,6 +234,7 @@ La asignación sigue una cascada, de lo específico a lo general:
 | Regla | Mapa |
 |---|---|
 | Cordilleras y macizo | Mapa orográfico con las tres cordilleras rotuladas |
+| Pisos térmicos | Infografía de la guía con altitudes y temperaturas |
 | Par departamento↔capital | Localizador: Colombia con ese departamento en rojo |
 | Etiqueta de región | Infografía-resumen de la región, de la guía oficial |
 | Insular o regiones | Mapa de las regiones naturales |
@@ -246,6 +247,14 @@ Wikimedia se marcaron los tres ramales. No se colocaron a ojo — se detectaron 
 color buscando la latitud donde los tres se separan (y=370: x=147, 189, 255,
 oeste→este), y entre ellos se ven los valles del Cauca y del Magdalena, con el
 del Magdalena más ancho, como es. Su atribución lo dice: «rótulos añadidos».
+
+**21 tarjetas siguen con un mapa general de Colombia, y está bien así:** las 10
+de fronteras y ubicación, porque el mapa político rotula a Panamá, Venezuela,
+Brasil, Perú y Ecuador junto a los dos océanos y responde exactamente lo que
+preguntan; las 5 de regiones, porque el mapa de regiones naturales es el suyo; y
+las 6 de clima, porque el relieve explica el clima colombiano mejor que un mapa
+de Köppen, cuya leyenda (Af, Am, Cfb…) no casa con las cuatro categorías de la
+guía y confundiría más de lo que aclara.
 
 El localizador **pisa** cualquier imagen previa en los pares departamento↔capital:
 saber dónde queda es la mitad de la pregunta, y una foto del paisaje no la

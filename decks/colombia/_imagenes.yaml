@@ -875,10 +875,11 @@ geo-afrocolombianos-donde:
   origen: guia-oficial
   pagina_guia: 112
   verificada: true
-geo-afrocolombianos-pct: &id004
-  archivo: mapa-departamentos.png
-  muestra: mapa político de Colombia
-  origen: commons-mapa
+geo-afrocolombianos-pct:
+  archivo: g087-a986c782d9de.jpg
+  muestra: palenqueras de San Basilio de Palenque
+  origen: guia-oficial
+  pagina_guia: 87
   verificada: true
 geo-amazonica-aves:
   archivo: g059-584d1574093f.jpg
@@ -945,11 +946,10 @@ geo-andina-ciudades: &id002
 geo-andina-clima: *id002
 geo-andina-cultivos: *id002
 geo-andina-deptos:
-  archivo: mapa-departamentos.png
-  autor: Wikimedia
-  licencia: CC BY-SA 4.0
-  muestra: mapa político con los departamentos
-  origen: commons
+  archivo: mapa-region-andina.jpg
+  muestra: mapa de la región Andina con sus 10 departamentos numerados
+  origen: guia-mapa
+  pagina_guia: 69
   verificada: true
 geo-andina-hidrografia: *id002
 geo-andina-mamiferos:
@@ -1189,22 +1189,27 @@ geo-caribe-rios:
   pagina_guia: 64
   verificada: true
 geo-caribe-ubicacion: *id003
-geo-centros-urbanos: *id004
-geo-choco-lluvias: &id006
+geo-centros-urbanos:
+  archivo: foto-bogota.jpg
+  muestra: panorámica de Bogotá
+  origen: guia-oficial
+  pagina_guia: 101
+  verificada: true
+geo-choco-lluvias: &id005
   archivo: mapa-region-pacifica.jpg
   muestra: mapa de la región pacifica
   origen: guia-mapa
   pagina_guia: 81
   verificada: true
-geo-clima-alta-montana: &id005
+geo-clima-alta-montana: &id004
   archivo: mapa-relieve.jpg
   muestra: mapa de relieve de Colombia
   origen: commons-mapa
   verificada: true
-geo-clima-ecuatorial: *id005
-geo-clima-subecuatorial: *id005
-geo-clima-templado: *id005
-geo-climas-cuatro: *id005
+geo-clima-ecuatorial: *id004
+geo-clima-subecuatorial: *id004
+geo-clima-templado: *id004
+geo-climas-cuatro: *id004
 geo-cordillera-central:
   archivo: mapa-cordilleras.jpg
   autor: Milenioscuro
@@ -1233,7 +1238,12 @@ geo-cordilleras-nombre:
   muestra: mapa orográfico con las tres cordilleras rotuladas
   origen: commons-mapa-rotulado
   verificada: true
-geo-cultura-rural: *id004
+geo-cultura-rural:
+  archivo: foto-tractor.jpg
+  muestra: maquinaria agrícola en zona rural
+  origen: guia-oficial
+  pagina_guia: 103
+  verificada: true
 geo-delfin-rio: &id007
   archivo: mapa-region-orinoquia.jpg
   muestra: mapa de la región orinoquia
@@ -1246,28 +1256,37 @@ geo-economia-rural:
   origen: guia-oficial
   pagina_guia: 103
   verificada: true
-geo-embalse-guatape: *id004
+geo-embalse-guatape:
+  archivo: foto-embalse.jpg
+  muestra: embalse hidroeléctrico
+  origen: guia-oficial
+  pagina_guia: 98
+  verificada: true
 geo-extension-andina: *id002
 geo-extension-caribe: *id003
-geo-extension-pacifica: *id006
+geo-extension-pacifica: *id005
 geo-extensiones-comparadas: &id008
   archivo: mapa-regiones-naturales.png
   muestra: mapa de las regiones naturales
   origen: commons-mapa
   verificada: true
-geo-frontera-norte: *id004
-geo-frontera-occidente: *id004
-geo-frontera-oriente: *id004
-geo-frontera-sur: *id004
-geo-fronteras: *id004
+geo-frontera-norte: &id006
+  archivo: mapa-departamentos.png
+  muestra: mapa político de Colombia
+  origen: commons-mapa
+  verificada: true
+geo-frontera-occidente: *id006
+geo-frontera-oriente: *id006
+geo-frontera-sur: *id006
+geo-fronteras: *id006
 geo-gorgona-ubicacion-oficial:
   archivo: g094-f1cb620394c1.jpg
   muestra: isla Gorgona
   origen: guia-oficial
   pagina_guia: 94
   verificada: true
-geo-grupos-etnicos-cifras: *id004
-geo-grupos-etnicos-cinco: *id004
+geo-grupos-etnicos-cifras: *id006
+geo-grupos-etnicos-cinco: *id006
 geo-grupos-etnicos-humana:
   archivo: g100-b57f18843b54.jpg
   muestra: indígenas arhuacos de la Sierra Nevada
@@ -1280,7 +1299,12 @@ geo-indigenas-mas-numerosos:
   origen: guia-oficial
   pagina_guia: 100
   verificada: true
-geo-indigenas-pct: *id004
+geo-indigenas-pct:
+  archivo: foto-arhuacos.jpg
+  muestra: indígenas arhuacos de la Sierra Nevada
+  origen: guia-oficial
+  pagina_guia: 100
+  verificada: true
 geo-isla-gorgona:
   archivo: g094-f1cb620394c1.jpg
   muestra: isla Gorgona
@@ -1305,7 +1329,7 @@ geo-llanuras-cuenta:
   origen: guia-oficial
   pagina_guia: 82
   verificada: true
-geo-llanuras-tres: *id005
+geo-llanuras-tres: *id004
 geo-macizo-colombiano:
   archivo: mapa-cordilleras.jpg
   autor: Milenioscuro
@@ -1369,24 +1393,24 @@ geo-pacifica-aves:
   origen: guia-oficial
   pagina_guia: 66
   verificada: true
-geo-pacifica-ciudades: *id006
-geo-pacifica-clima: *id006
-geo-pacifica-deptos: *id006
-geo-pacifica-extension: *id006
+geo-pacifica-ciudades: *id005
+geo-pacifica-clima: *id005
+geo-pacifica-deptos: *id005
+geo-pacifica-extension: *id005
 geo-pacifica-fauna:
   archivo: g058-065016b903d3.jpg
   muestra: jaguar
   origen: guia-oficial
   pagina_guia: 58
   verificada: true
-geo-pacifica-flora: *id006
-geo-pacifica-medicinales: *id006
-geo-pacifica-poblacion: *id006
-geo-pacifica-relieve: *id006
-geo-pacifica-relieve-oficial: *id006
-geo-pacifica-rios: *id006
-geo-pacifica-rios-oficial: *id006
-geo-pacifica-ubicacion: *id006
+geo-pacifica-flora: *id005
+geo-pacifica-medicinales: *id005
+geo-pacifica-poblacion: *id005
+geo-pacifica-relieve: *id005
+geo-pacifica-relieve-oficial: *id005
+geo-pacifica-rios: *id005
+geo-pacifica-rios-oficial: *id005
+geo-pacifica-ubicacion: *id005
 geo-palenqueros-definicion:
   archivo: g087-a986c782d9de.jpg
   muestra: palenqueras de San Basilio de Palenque
@@ -1399,29 +1423,49 @@ geo-palenqueros-origen:
   origen: guia-oficial
   pagina_guia: 87
   verificada: true
-geo-paramo-altitud: *id005
+geo-paramo-altitud:
+  archivo: mapa-pisos-termicos.jpg
+  muestra: infografía de los pisos térmicos con altitudes y temperaturas
+  origen: guia-mapa
+  pagina_guia: 96
+  verificada: true
 geo-pico-cristobal-colon:
   archivo: g071-289ef2ecd6db.jpg
   muestra: picos nevados de la Sierra Nevada de Santa Marta
   origen: guia-oficial
   pagina_guia: 71
   verificada: true
-geo-pisos-termicos-cuatro: *id005
-geo-poblacion-total: *id004
+geo-pisos-termicos-cuatro:
+  archivo: mapa-pisos-termicos.jpg
+  muestra: infografía de los pisos térmicos con altitudes y temperaturas
+  origen: guia-mapa
+  pagina_guia: 96
+  verificada: true
+geo-poblacion-total: *id006
 geo-raizales-definicion:
   archivo: g093-1f9fa1fc509e.jpg
   muestra: mapa del archipiélago de San Andrés, Providencia y Santa Catalina
-  origen: guia-oficial
+  origen: guia-mapa
   pagina_guia: 93
   verificada: true
-geo-recursos-energeticos: *id004
+geo-recursos-energeticos:
+  archivo: foto-petroleo.jpg
+  muestra: pozo petrolero
+  origen: guia-oficial
+  pagina_guia: 97
+  verificada: true
 geo-recursos-hidricos:
   archivo: g064-05cfca84c7a1.jpg
   muestra: río Magdalena
   origen: guia-oficial
   pagina_guia: 64
   verificada: true
-geo-recursos-minerales: *id004
+geo-recursos-minerales:
+  archivo: foto-esmeralda.jpg
+  muestra: esmeralda colombiana en bruto
+  origen: guia-oficial
+  pagina_guia: 97
+  verificada: true
 geo-regiones-cloze: *id008
 geo-regiones-cuantas:
   archivo: mapa-regiones-naturales.png
@@ -1437,7 +1481,7 @@ geo-rio-mas-largo:
   origen: guia-oficial
   pagina_guia: 64
   verificada: true
-geo-rom-gitanos: *id004
+geo-rom-gitanos: *id006
 geo-serrania-baudo:
   archivo: g090-59c0749f4e52.jpg
   muestra: serranía del Baudó
@@ -1451,17 +1495,37 @@ geo-sierra-nevada-altura:
   pagina_guia: 71
   verificada: true
 geo-territorio-insular: *id008
-geo-tierra-caliente-altitud: *id005
-geo-tierra-fria-altitud: *id005
-geo-tierra-templada-altitud: *id005
-geo-ubicacion: *id004
+geo-tierra-caliente-altitud:
+  archivo: mapa-pisos-termicos.jpg
+  muestra: infografía de los pisos térmicos con altitudes y temperaturas
+  origen: guia-mapa
+  pagina_guia: 96
+  verificada: true
+geo-tierra-fria-altitud:
+  archivo: mapa-pisos-termicos.jpg
+  muestra: infografía de los pisos térmicos con altitudes y temperaturas
+  origen: guia-mapa
+  pagina_guia: 96
+  verificada: true
+geo-tierra-templada-altitud:
+  archivo: mapa-pisos-termicos.jpg
+  muestra: infografía de los pisos térmicos con altitudes y temperaturas
+  origen: guia-mapa
+  pagina_guia: 96
+  verificada: true
+geo-ubicacion: *id006
 geo-valles-interandinos:
   archivo: g091-0c733baa32ee.jpg
   muestra: valle de Aburrá, Medellín
   origen: guia-oficial
   pagina_guia: 91
   verificada: true
-geo-zonas-rurales: *id004
+geo-zonas-rurales:
+  archivo: foto-tractor.jpg
+  muestra: maquinaria agrícola en zona rural
+  origen: guia-oficial
+  pagina_guia: 103
+  verificada: true
 his-bomba-das:
   archivo: g133-97ad9e3e11ab.jpg
   muestra: atentado con carro bomba, narcotráfico
